@@ -1,0 +1,1567 @@
+Descriptions,Value,Function Name
+Press PATA in order to switch ESP off,45,SC_pata_set
+Increase vehicle speed to > VALUE kmh,38,SC_goto_target_speed
+Press brake pedal VALUE % to reach emergency braking and ABS intervention,51,SC_set_brake
+During ABS intervention set steering wheel + NETLC VALUE ° to reach NETLC changes,58,SC_set_SteeringAngle
+Set battery voltage = VALUE V,59,SC_set_Ubatt
+"Ignition on , fault free system",43,SC_ignition_on
+ESP full system is available,36,SC_ecu_on
+Set road surface to high µ,57,SC_set_mue
+No slope,56,SC_set_label
+Drive straight on on a flat road . Vehicle speed = VALUE kmh,38,SC_goto_target_speed
+Press brake pedal VALUE %,51,SC_set_brake
+Disconnect signal NETLC and NETLC,44,SC_interrupt_lines
+Check failure words,2,DCOM_read_and_eval_fcm_rb
+Accelerate vehicle up to VALUE kmh,48,SC_set_accelerator
+Release accelerator pedal,48,SC_set_accelerator
+press brake NETLC to VALUE % in VALUE ms,51,SC_set_brake
+Wait until vehicle is in standstill,70,SC_wait_ms
+Release brake pedal,51,SC_set_brake
+Check signals NETLC and NETLC,27,SC_CA_read_can_signal
+Set road surface to low µ,57,SC_set_mue
+Function switch NETLC = ON,56,SC_set_label
+Set µ split : left side µ = VALUE and right side µ = VALUE,56,SC_set_label
+Set gear position to R,55,SC_set_gear
+Press accelerator pedal until max . speed is reached,48,SC_set_accelerator
+press brake pedal to get ABS active,51,SC_set_brake
+Brake until standstill,54,SC_set_brake_and_wait
+During ABS intervention turn steering wheel from left to right so that a change in the yaw rate sensor value is recognized,62,SC_start_maneuver
+Check signal NETLC,27,SC_CA_read_can_signal
+Set gear position to D,55,SC_set_gear
+Press accelerator pedal until VALUE kmh is reached,50,SC_set_accelerator_and_wait
+Set low µ,57,SC_set_mue
+Set a road slope = VALUE %,64,SC_stimuli_signal_constant
+Accelerate until vehicle speed = VALUE kmh,50,SC_set_accelerator_and_wait
+Set µ = VALUE,57,SC_set_mue
+Accelerate vehicle until VALUE kmh,50,SC_set_accelerator_and_wait
+Press brake pedal to reach ABS activity until standstill,54,SC_set_brake_and_wait
+During ABS intervention disconnect VALUE WSS,44,SC_interrupt_lines
+Check failure word,2,DCOM_read_and_eval_fcm_rb
+Check target state ABS and EBD,46,SC_read_label
+Check NETLC and NETLC,46,SC_read_label
+Vehicle is in standstill,38,SC_goto_target_speed
+apply brake pedal to get ABS active,51,SC_set_brake
+Check pump strategy,46,SC_read_label
+Check valve strategy ,46,SC_read_label
+Drive straight on with vehicle speed = VALUE kmh,38,SC_goto_target_speed
+Set NETLC = VALUE mm,46,SC_read_label
+Set accelerator pedal = VALUE %,48,SC_set_accelerator
+Press brake pedal = VALUE %,51,SC_set_brake
+Wait VALUE s,70,SC_wait_ms
+Set low µ on left side ,57,SC_set_mue
+Set high µ on right side,57,SC_set_mue
+Press brake pedal to VALUE % for VALUE s,51,SC_set_brake
+Check ABS_active,46,SC_read_label
+"Check signals PARAMETER , PARAMETER",46,SC_read_label
+Check Bosch failure words,2,DCOM_read_and_eval_fcm_rb
+Function switch NETLC = NETLC,56,SC_set_label
+Set road surface to homogeneous low µ,57,SC_set_mue
+Apply brake pedal = VALUE %,51,SC_set_brake
+Set road surface to µ split . Left side VALUE and right side = VALUE,56,SC_set_label
+Set road surface to homogeneous high µ,57,SC_set_mue
+Set road surface to µ split,57,SC_set_mue
+Set vehicle speed = VALUE kmh,38,SC_goto_target_speed
+Set brake pedal = VALUE %,51,SC_set_brake
+Check NETLC,46,SC_read_label
+Fault free system,36,SC_ecu_on
+UBatt = VALUE V,59,SC_set_Ubatt
+Ignition On,43,SC_ignition_on
+SCM coded ON,56,SC_set_label
+Vehicle speed = VALUE kph,38,SC_goto_target_speed
+SCM counter varies periodically ,46,SC_read_label
+Start MM6 Measurement,31,SC_EA_trace_start
+Set CAN/Flexray signal for SCM request to Not Initialized state ,29,SC_CA_write_can_signal
+Wait PARAMETER Verification Phase + VALUE ms,70,SC_wait_ms
+Stop MM6 Measurement,33,SC_EA_trace_stop
+Read RB and CU failure memory,3,DCOM_read_and_eval_fcm_rb_cu
+Reset the CAN/Flexray signals,29,SC_CA_write_can_signal
+Set CAN/Flexray signal for SCM request to Front crash ,29,SC_CA_write_can_signal
+Set vehicle speed = VALUE ph,38,SC_goto_target_speed
+Read RB and CU memory,3,DCOM_read_and_eval_fcm_rb_cu
+Set vehicle speed = VALUE kph,38,SC_goto_target_speed
+NETLC = VALUE,56,SC_set_label
+Create engine stall,8,GDCOM_set_Engine_speed
+Wait VALUE ms,70,SC_wait_ms
+Reset Engine stall condition ,7,GDCOM_reset_Engine_speed
+Vehicle speed = xx m/s < NETLC m/s,38,SC_goto_target_speed
+Apply brake pedal VALUE %,51,SC_set_brake
+Apply accelerator pedal,48,SC_set_accelerator
+Create ESP failure,16,GV_Create_failure
+Reset vehicle speed to VALUE kph,38,SC_goto_target_speed
+Reset ESP failure,20,GV_UNDO_failure
+Create inlet valve line failure ,16,GV_Create_failure
+Reset inlet valve line failure ,20,GV_UNDO_failure
+CAN / Flexray signal - SCM counter varies periodically ,29,SC_CA_write_can_signal
+Set CAN/Flexray signal - NETLC = None,29,SC_CA_write_can_signal
+Create accelerator network message timeout failure,24,SC_CA_disable_messages
+Reset accelerator network message timeout failure,25,SC_CA_enable_messages
+SCM is available,23,Printing
+Start MM6 and CAN/FLEXRAY Measurement,32,SC_EA_trace_start_and_net
+Reset the checksum failure,20,GV_UNDO_failure
+reset the SCM request NET signal,29,SC_CA_write_can_signal
+Reset alive counter failure,20,GV_UNDO_failure
+Set the DLC of SCM message from Airbag ecu = Current value - VALUE,46,SC_read_label
+Reset Data corrupt failure,20,GV_UNDO_failure
+Stop MM6 and CAN/FLEXRAY Measurement,34,SC_EA_trace_stop_and_net
+Read RB and CU fault memory,3,DCOM_read_and_eval_fcm_rb_cu
+Set the checksum of SCM message from Airbag ecu = VALUE during the verification phase,29,SC_CA_write_can_signal
+Reset checksum failure,20,GV_UNDO_failure
+Set Alive counter of SCM message from Airbag ecu = VALUE during the verification phase,46,SC_read_label
+Reset alivecounter failure,20,GV_UNDO_failure
+Disable the CAN/Flexray message from Airbag ECU during the verification phase,24,SC_CA_disable_messages
+Enable the CAN/Flexray message from Airbag ECU,25,SC_CA_enable_messages
+Reset the CAN/FLEXRAY signal,29,SC_CA_write_can_signal
+ECU ON,36,SC_ecu_on
+Set the DLC of SCM message from Airbag ecu = during the verification phase,46,SC_read_label
+Enable the Node - Airbag ECU,25,SC_CA_enable_messages
+Set CAN/Flexray signal for SCM request to Not Initialized state during the verification phase,29,SC_CA_write_can_signal
+Wait for time NETLC,70,SC_wait_ms
+Set CAN/Flexray signal for SCM request to Not Initialized state,29,SC_CA_write_can_signal
+Set SCM counter = VALUE,56,SC_set_label
+The above test step is to achieve SCM counter varies periodically ,29,SC_CA_write_can_signal
+Create inlet valve line failure,16,GV_Create_failure
+Set Vehicle speed to VALUE kph,38,SC_goto_target_speed
+Apply brake pedal VALUE % within SCM maximal activation time - PARAMETER,51,SC_set_brake
+Set CAN/Flexray signal for SCM request to NONE,29,SC_CA_write_can_signal
+Wait until SCM is deactivated after reaching the SCM deactivation speed threshold,70,SC_wait_ms
+Apply accelerator pedal more than the threshold,48,SC_set_accelerator
+Set CAN/Flexray signal for SCM request to NONE ,29,SC_CA_write_can_signal
+Ignition Off,41,SC_ignition_off
+Wait until postrun time,70,SC_wait_ms
+Wait VALUE s . Start MM6 Measurement,70,SC_wait_ms
+Set the vehicle speed to VALUE kph,38,SC_goto_target_speed
+"Reset the CAN/Flexray signals "" Set Ubatt = VALUE V """,29,SC_CA_write_can_signal
+Read the DEFAULT value for the Tire Tolerance Compensation factor in the EEPROM,0,DCOM_GetEeprom
+Set the Tire Tolerance Compensation factor in the EEPROM to VALUE ,5,DCOM_SetEeprom
+Set Ubatt = VALUE V,59,SC_set_Ubatt
+Perform DTC regulation ,56,SC_set_label
+Wait till postrun,70,SC_wait_ms
+Wait till ECU ready time,70,SC_wait_ms
+Set the Tire Tolerance Compensation factor in the EEPROM to DEFAULT value ,5,DCOM_SetEeprom
+Read RB and CU memory ,3,DCOM_read_and_eval_fcm_rb_cu
+Set the NET signal for gear shift down to TRUE ,29,SC_CA_write_can_signal
+Set the NET signal for gear shift down to FALSE ,29,SC_CA_write_can_signal
+Make Gearbox qualifier invalid,56,SC_set_label
+Set the NET signal for gear shift down to TRUE,29,SC_CA_write_can_signal
+Set the NET signal for gear shift down to FALSE,29,SC_CA_write_can_signal
+Enable NET message / Frame carrying the shutdown information . Background : When Gearbox pdu is not available then gearbox type will change to Manual estimation state,25,SC_CA_enable_messages
+so we cannot view the gear box qualifier invalid . Hence to make gear box qualifier invalid WSS or ABS emergency brake is required ,51,SC_set_brake
+Set mue = VALUE,57,SC_set_mue
+Remove acceleration,48,SC_set_accelerator
+Create negative mue jump,57,SC_set_mue
+Release the brake pedal,51,SC_set_brake
+Accelerate upto VALUE kph with mue = VALUE,49,SC_set_accelerator_and_mue
+Create positive mue jump,57,SC_set_mue
+Apply brake pedal to VALUE %,51,SC_set_brake
+Perform regenerative braking ,51,SC_set_brake
+Set all wheel speed = VALUE m/s,57,SC_set_wheel speeds_kmh
+Set Wheel FL = VALUE m/s,56,SC_set_label
+Release the stimuli,47,SC_release_stimuli_signal
+Create Ax sensor range failure,16,GV_Create_failure
+Perform VDC intervention,21,GV_VDC_maneuver
+Create WSS FL line failure,16,GV_Create_failure
+Reset WSS FL line failure,20,GV_UNDO_failure
+Set Ignition OFF,41,SC_ignition_off
+Wait VALUE ms + VALUE s,70,SC_wait_ms
+Wait for VALUE s,70,SC_wait_ms
+Set Ignition ON,43,SC_ignition_on
+Wait Ecu ready time + VALUE s,70,SC_wait_ms
+Create an Engine pdu Failure which makes NETLC to OFF state,16,GV_Create_failure
+Reset the Engine failure,20,GV_UNDO_failure
+NETLC = ON,56,SC_set_label
+System = FullSystem,36,SC_ecu_on
+Engine on,56,SC_set_label
+Gear Type = Manual,55,SC_set_gear
+Speed = VALUE km/h,38,SC_goto_target_speed
+Start the measurement,31,SC_EA_trace_start
+Accelerator pedal to VALUE %,48,SC_set_accelerator
+Change the gear value to VALUE,55,SC_set_gear
+Change the gear to VALUE,55,SC_set_gear
+Stop the measurement,33,SC_EA_trace_stop
+Disable the NET message / frame for the current gear status information,24,SC_CA_disable_messages
+Enable the NET message / frame for the current gear status information,25,SC_CA_enable_messages
+Perform ABS intervention,39,SC_goto_target_speed_and_mue
+Reset the mue = VALUE,57,SC_set_mue
+Create GMA intervention,64,SC_stimuli_signal_constant
+Reset the environment to default mue,57,SC_set_mue
+Set Vehicle speed = VALUE kph with manual gear VALUE,38,SC_goto_target_speed
+Release the accelerator and Steer the vehicle to VALUE deg,48,SC_set_accelerator
+Set Vehicle speed = VALUE kph with mue = VALUE,39,SC_goto_target_speed_and_mue
+Steering the vehicle linearly upto VALUE degrees,58,SC_set_SteeringAngle
+Release throttle position suddenly to VALUE %,48,SC_set_accelerator
+Set the mue to VALUE,57,SC_set_mue
+apply VALUE percent brake,51,SC_set_brake
+Gear Type = Manual or automatic,55,SC_set_gear
+Apply brake VALUE %,51,SC_set_brake
+Wait till standstill,70,SC_wait_ms
+Set accelerator = VALUE %,48,SC_set_accelerator
+Set the Engine state to stall in the corresponding NET signal,29,SC_CA_write_can_signal
+Full system availability,36,SC_ecu_on
+Ign ON with Ubatt VALUE V,43,SC_ignition_on
+Turn On the HDC function by pressing HDC button set the NET signal,17,GV_HDC_Button_ON
+Drive off straight ahead with speed less than PARAMETER,38,SC_goto_target_speed
+Release the throttle pedal completely ,48,SC_set_accelerator
+Start measurement,31,SC_EA_trace_start
+Set the slope greater than the value of PARAMETER ,64,SC_stimuli_signal_constant
+Wait for VALUE sec,70,SC_wait_ms
+Stop measurement,33,SC_EA_trace_stop
+Set the steering angle sensor failure,58,SC_set_SteeringAngle
+Set the Wheel speed sensor FL failure,58,SC_set_SteeringAngle
+Turn the Ignition to OFF condition,41,SC_ignition_off
+Turn the Ignition to ON condition,43,SC_ignition_on
+Turn Ignition to Off condition ,41,SC_ignition_off
+Press the HDC button,17,GV_HDC_Button_ON
+Set the throttle position less than the parameter PARAMETER,48,SC_set_accelerator
+Set the slope greater than the value of PARAMETER,64,SC_stimuli_signal_constant
+Press Brake Pedal,51,SC_set_brake
+HDC button pressed,17,GV_HDC_Button_ON
+Set EEPROM value disc : HEX_VALUE,5,DCOM_SetEeprom
+Set the steep slope greater than the value of PARAMETER,64,SC_stimuli_signal_constant
+Wait till the brake temperature exceeds the parameter value,70,SC_wait_ms
+Set EEPROM value of disc : HEX_VALUE,5,DCOM_SetEeprom
+Press the brake pedal such that Vehicle speed comes to standstill ,54,SC_set_brake_and_wait
+Release the brake pedal ,51,SC_set_brake
+Full system,36,SC_ecu_on
+"Drive off straight ahead above speed PARAMETER m/s + VALUE s , where x range from VALUE to VALUE corresponding to the warning level set",38,SC_goto_target_speed
+Drive off straight ahead above speed PARAMETER m/s,38,SC_goto_target_speed
+Set NET NETLC to Zero,29,SC_CA_write_can_signal
+Set NET NETLC to Active,29,SC_CA_write_can_signal
+Create Bls failure,16,GV_Create_failure
+Read Bosch and CU Failure memory,3,DCOM_read_and_eval_fcm_rb_cu
+Create pressure sensor Line Failure,16,GV_Create_failure
+Create Ay Failure ,16,GV_Create_failure
+Set Brake pedal to VALUE %,51,SC_set_brake
+wait VALUE sec,70,SC_wait_ms
+velocity : VALUE km/h,38,SC_goto_target_speed
+Force Bls to be always VALUE and Bs to be always VALUE . Reason for manipulation : poor > VALUE bar without brake light switch,51,SC_set_brake
+Apply Brake pressure of VALUE % ,51,SC_set_brake
+After approx . VALUE s stop braking,51,SC_set_brake
+Set Pressure sensor MC1 offset = VALUE bar using signal manipulation,64,SC_stimuli_signal_constant
+Drive off with VALUE kph untill offset compensation is completed,40,SC_goto_target_speed_and_wait
+After that add MC1 offset = VALUE bar using signal manipulation,64,SC_stimuli_signal_constant
+drive off untill fault is detected,38,SC_goto_target_speed
+Set Pressure sensor BC1 FR offset = VALUE bar using signal manipulation,64,SC_stimuli_signal_constant
+After that Set BC1 offset = VALUE bar using signal manipulation,64,SC_stimuli_signal_constant
+Set Pressure sensor BC2 FL offset = VALUE bar using signal manipulation,64,SC_stimuli_signal_constant
+After that Set BC2 offset = VALUE bar using signal manipulation,64,SC_stimuli_signal_constant
+Set Pressure sensor BC2 RL offset = VALUE bar using signal manipulation,64,SC_stimuli_signal_constant
+plug off NETLC from manipulation box,64,SC_stimuli_signal_constant
+drive off with VALUE kph until NETLC > = VALUE and fault is detected,38,SC_goto_target_speed
+Make the vehicle to standstill,38,SC_goto_target_speed
+Vehicle standstill,38,SC_goto_target_speed
+CRB available and Full system,36,SC_ecu_on
+Mue - default,57,SC_set_mue
+Set Vehicle speed - VALUE kph,38,SC_goto_target_speed
+Set Accelerator pedal - VALUE %,48,SC_set_accelerator
+Set brake - VALUE %,51,SC_set_brake
+Set Mue - VALUE,57,SC_set_mue
+Wait till vehicle reaches to standstill,70,SC_wait_ms
+Release brake pedal and reset mue to default,53,SC_set_brake_and_mue
+"Set Split Mue FA - VALUE , RA - VALUE",57,SC_set_mue
+Ubatt = default,59,SC_set_Ubatt
+Stand still,38,SC_goto_target_speed
+CRB should be available and Full system,36,SC_ecu_on
+SteeringAngle = VALUE degree,58,SC_set_SteeringAngle
+Make sure Slope = VALUE % ,64,SC_stimuli_signal_constant
+Mue = VALUE,57,SC_set_mue
+Start ECU Trace,31,SC_EA_trace_start
+Set Gear to Drive mode,55,SC_set_gear
+Set Steering angle to VALUE deg the steering wheel angle,58,SC_set_SteeringAngle
+Wait till vehicle reaches to standstill Stop ECU Trace Read RB,70,SC_wait_ms
+Remove all manipulations,67,SC_undo_manipulation
+Wait till vehicle speed reaches to VALUE kph,70,SC_wait_ms
+"Set Accelerator pedal = VALUE % , SteeringAngle = VALUE degree",48,SC_set_accelerator
+Wait VALUE second Stop ECU Trace SteeringAngle = VALUE degree Read RB,70,SC_wait_ms
+Set Steering angle in direction max gradient is VALUE deg/s,58,SC_set_SteeringAngle
+"Release brake pedal and reset mue to default , Steering angle",51,SC_set_brake
+SW parameter NETLC should be true,56,SC_set_label
+"Set the signal NETLC = VALUE , VALUE * NETLC",56,SC_set_label
+Activate AEB with deceleration target VALUE m/s2,29,SC_CA_write_can_signal
+Reset the AEB activation,29,SC_CA_write_can_signal
+Set Accelerator pedal = VALUE % and NETLC = VALUE NM,48,SC_set_accelerator
+Wait VALUE second,70,SC_wait_ms
+Set NETLC = VALUE Nm,56,SC_set_label
+Set Accelerator pedal = VALUE % and Regen potential = VALUE NM,48,SC_set_accelerator
+Set AVH request,14,GV_AVH_activation
+Set NETLC = True,56,SC_set_label
+Stop ECU Trace,33,SC_EA_trace_stop
+Remove all manipulations and speed to VALUE kph,68,SC_undo_manipulation_and_speed
+Set corr - VALUE,56,SC_set_label
+Set Gear = Neutral,55,SC_set_gear
+Reset the manipulation including corr,67,SC_undo_manipulation
+Perform NETLC,56,SC_set_label
+Reset NETLC,56,SC_set_label
+Set parameter - NETLC = true,56,SC_set_label
+Set Gear = N,55,SC_set_gear
+Wait less than NETLC - VALUE s,70,SC_wait_ms
+Set Gear = D,55,SC_set_gear
+Set Mue - default,57,SC_set_mue
+Remove all manipulations and mue to default,68,SC_undo_manipulation_and_speed
+Wait,70,SC_wait_ms
+Regen potential = VALUE NM before time NETLC,56,SC_set_label
+Set the rear axle pressure greater than pMC,56,SC_set_label
+Set CRB failure,16,GV_Create_failure
+This test is applicable for ESPHevX with iBooster only,23,Printing
+Activate CDP by pressing APB button to apply,11,GV_apb_apply
+Activate AEB with high pressure request,11,GV_apb_apply
+Reset the simulation of APB button and EBR,13,GV_apb_release
+"Set brake - VALUE % , Accelerator - VALUE %",52,SC_set_brake_and_acc
+Release the brake,51,SC_set_brake
+Set the parameter NETLC - VALUE N,56,SC_set_label
+Set the parameter corr - VALUE,56,SC_set_label
+Ramp the brake from VALUE - VALUE %,51,SC_set_brake
+Vehicle speed - VALUE kph,38,SC_goto_target_speed
+Set Slope ax = VALUE %,64,SC_stimuli_signal_constant
+Activate AVH,15,GV_AVH_switch_Request
+Set Voltage - Undervoltage V,59,SC_set_Ubatt
+Release brake,51,SC_set_brake
+Release brake pedal and reset voltage to normal,51,SC_set_brake
+Create PTS failure,16,GV_Create_failure
+Release brake pedal and reset PTS failure,51,SC_set_brake
+NETLC = VALUE Kph,38,SC_goto_target_speed
+Brake with NETLC Target = VALUE Nm,51,SC_set_brake
+Set the signal NETLC = VALUE Nm,56,SC_set_label
+"release brake , Do not reset NETLC signal",51,SC_set_brake
+Ignition OFF and ECU Sleep,35,SC_ecu_off
+Accelerate to VALUE km/h,48,SC_set_accelerator
+"release brake , Reset NETLC signal",51,SC_set_brake
+Do not Brake,51,SC_set_brake
+"Read CU and RB failure memory , NVM data of EPM counter",3,DCOM_read_and_eval_fcm_rb_cu
+Brake with NETLC = VALUE Nm,51,SC_set_brake
+Set the signal netlc wheel FA = VALUE Nm,56,SC_set_label
+"release brake , Reset netlc wheel FA signal",51,SC_set_brake
+Read CU failure,1,DCOM_read_and_eval_fcm_cu
+"RB failure memory with debug data , NVM data of EPM counter",2,DCOM_read_and_eval_fcm_rb
+Stop Measurement ,33,SC_EA_trace_stop
+"Read CU failure , RB failure memory",3,DCOM_read_and_eval_fcm_rb_cu
+Set the signal NETLC Wheel RA = VALUE Nm,56,SC_set_label
+"release brake , Reset NETLC Wheel RA signal",51,SC_set_brake
+"Brake with NETLC , NETLC = VALUE Nm",51,SC_set_brake
+"Set the signal netlc wheel FA = VALUE Nm , netlc wheel ra = VALUE Nm",56,SC_set_label
+"release brake , Reset netlc wheel FA , netlc wheel ra signal",51,SC_set_brake
+"Brake with NETLC = VALUE Nm , NETLC = VALUE Nm",51,SC_set_brake
+"Set NETLC = VALUE Nm , NETLC = VALUE Nm",56,SC_set_label
+Accelerate speed above PARAMETER m/s Reached,48,SC_set_accelerator
+Set Accelerator Pedal Pos to VALUE %,48,SC_set_accelerator
+Activate Lower Pressure Profile VAF,64,SC_stimuli_signal_constant
+Stop Measurement NOTE : - ABP Activation ,33,SC_EA_trace_stop
+speed should be above PARAMETER m/s,38,SC_goto_target_speed
+Set NET signal ABP Prefill Request to Active,29,SC_CA_write_can_signal
+Enable EBP Function,22,LC_ABP_SET
+Activate Higher Pressure Profile VAF,56,SC_set_label
+Create Ays Failure,16,GV_Create_failure
+Set the MOT Pedal Message Cycle Time VALUE ms,56,SC_set_label
+Test Procedure for CAN ,29,SC_CA_write_can_signal
+Test Procedure for FLEXRAY ,37,SC_FR_write_flxr_signal
+Disable MOT Pedal Message PDU,24,SC_CA_disable_messages
+purpose : Message Counter Incrementation Check Every VALUE ms task time,46,SC_read_label
+Stop Measurement Test Procedure for FLEXRAY ,33,SC_EA_trace_stop
+Set Ubatt VALUE V,59,SC_set_Ubatt
+HFC available,23,Printing
+Set Brake Pad calibration value as VALUE for FL wheel,51,SC_set_brake
+Drive with vehicle speed greater than PARAMETER m/s,38,SC_goto_target_speed
+Release the accelerator,48,SC_set_accelerator
+Apply brake pressure greater than PARAMETER bar to trigger HFC function,51,SC_set_brake
+Set Brake Pad calibration value as VALUE for FR wheel,56,SC_set_label
+Set Brake Pad calibration value as VALUE for RL wheel,56,SC_set_label
+Set Brake Pad calibration value as VALUE for RR wheel,56,SC_set_label
+Brake Pad calibration value = VALUE in all wheels,56,SC_set_label
+Keep the brake pedal pressed until vehicle comes to standstill,51,SC_set_brake
+Start measurement ,31,SC_EA_trace_start
+HRB available,23,Printing
+Create Ay sensor Failure ,16,GV_Create_failure
+Vehicle in Standstill,38,SC_goto_target_speed
+Start NET measurement ,18,GV_NET_trace_start
+Stop NET measurement ,19,GV_NET_trace_stop
+"Full system , Vehicle in Standstill",36,SC_ecu_on
+Start ECU measurement,31,SC_EA_trace_start
+Stop ECU measurement,33,SC_EA_trace_stop
+Set Net receive signal to a fixed value,29,SC_CA_write_can_signal
+Start NET & ECU measurement,32,SC_EA_trace_start_and_net
+Change Net receive signal value,29,SC_CA_write_can_signal
+Stop NET & ECU measurement,29,SC_CA_write_can_signal
+Configure LC_INFO frames,26,SC_CA_get_can_signal_info
+wait untill ECU ready time + VALUE s,70,SC_wait_ms
+Stop NET measurement,19,GV_NET_trace_stop
+Disable all RX frames,24,SC_CA_disable_messages
+Start NET measurement,18,GV_NET_trace_start
+Disable all CAN frame from the model,24,SC_CA_disable_messages
+Enable the anyone Can message in bus ,25,SC_CA_enable_messages
+Enable the configured Can message in bus ,28,SC_CA_read_configure
+Send a not configured Can message in bus ,28,SC_CA_read_configure
+Enable the configured Can message with right payload in bus ,29,SC_CA_write_can_signal
+Enable the configured Can message with wrong payload in bus ,29,SC_CA_write_can_signal
+Enable the non configured Can message with right payload in bus ,29,SC_CA_write_can_signal
+Interrupt the CAN line,44,SC_interrupt_lines
+Reset the CAN interrupt,66,SC_undo_interrupt_lines
+read the faults,2,DCOM_read_and_eval_fcm_rb
+Create CAN time out failure,24,SC_CA_disable_messages
+Send a VALUE byte Can message in ID HEX_VALUE O in bus ,29,SC_CA_write_can_signal
+Reset the CAN message,29,SC_CA_write_can_signal
+Send a VALUE byte Can message in ID HEX_VALUE in bus ,29,SC_CA_write_can_signal
+Short CAN-H line and CAN-L line,61,SC_short_lines
+Wait VALUE s and undo the short line,70,SC_wait_ms
+Short CAN-H line and GRND,61,SC_short_lines
+Short CAN-L and UBATT,61,SC_short_lines
+Short CAN-H line and UBATT,61,SC_short_lines
+Short CAN-L line and GRND,61,SC_short_lines
+Set Net static receive signal to a fixed value,29,SC_CA_write_can_signal
+Change Net static receive signal value,29,SC_CA_write_can_signal
+Reset the Net receive signal,29,SC_CA_write_can_signal
+Send a dynamic frame with a specified value,29,SC_CA_write_can_signal
+change the value in the dynamic frame,29,SC_CA_write_can_signal
+Reset the dynamic frame signal value,29,SC_CA_write_can_signal
+Full system with Vehicle in Standstill,36,SC_ecu_on
+"Ign ON , Ubatt VALUE V",36,SC_ecu_on
+"Switch ignition ON , Ubatt default VALUE V",36,SC_ecu_on
+wait until ECU ready time + VALUE s,70,SC_wait_ms
+Full system and vehicle in Standstill,36,SC_ecu_on
+Switch ignition off,43,SC_ignition_on
+Enable Flexray communication from the test bench,25,SC_CA_enable_messages
+Wait till ECU ready time + VALUE s,70,SC_wait_ms
+interrupt Flexray line,44,SC_interrupt_lines
+Reset the Fault simulation,69,SC_undo_short_lines
+Setup Flexray engine with correct baudrate,56,SC_set_label
+Create LIN time out failure,24,SC_CA_disable_messages
+Switch ignition ON,43,SC_ignition_on
+Send a Wakeup over KL15,56,SC_set_label
+Wait till Repeat message time configured in the project,70,SC_wait_ms
+Remove the Wake up trigger KL15,56,SC_set_label
+Enable the configured Can message in bus,29,SC_CA_write_can_signal
+Remove the Wake up trigger,56,SC_set_label
+Remove the KL15 and all Wakeup requests,56,SC_set_label
+Wait till NM Timeout timer configured in the project,70,SC_wait_ms
+Wait till Bus sleep timer configured in the project ,70,SC_wait_ms
+Wait till NM Timeout timer,70,SC_wait_ms
+Set KL15 before Bus Sleep Timer expired ,56,SC_set_label
+Wait till Repeat message time / VALUE,70,SC_wait_ms
+Set CAN Wakeup before Bus Sleep Timer expired ,56,SC_set_label
+Set Repeat Message Bit,29,SC_CA_write_can_signal
+Wait till FR synchronize,70,SC_wait_ms
+Send a Wakeup over by Flexray signal,29,SC_CA_write_can_signal
+Block the synchronized of the FR - Shortcut the flexray line,61,SC_short_lines
+Create Flexray time out failure,24,SC_CA_disable_messages
+Shortcut Flexray line,61,SC_short_lines
+Read the RB and CU failure memory,3,DCOM_read_and_eval_fcm_rb_cu
+Set Battery voltage > VALUE v,59,SC_set_Ubatt
+Create a timeout failure,24,SC_CA_disable_messages
+Wait until Failure detection time + VALUE cycle time is reached,70,SC_wait_ms
+Reset the timeout failure,25,SC_CA_enable_messages
+Set the voltage to default value ,59,SC_set_Ubatt
+Wait until Failure Recovery time + VALUE s,70,SC_wait_ms
+Create the same timeout failure,24,SC_CA_disable_messages
+Set Battery voltage < VALUE v,59,SC_set_Ubatt
+Set the voltage to default value,59,SC_set_Ubatt
+Reset the Battery voltage,59,SC_set_Ubatt
+NETLC is on,56,SC_set_label
+Create a Bus failure,24,SC_CA_disable_messages
+Remove the bus failure,25,SC_CA_enable_messages
+Stimulate an ignition cycle,64,SC_stimuli_signal_constant
+Create a timeout failure which has the undervoltage as storage condition,24,SC_CA_disable_messages
+Wait until Failure Recovery time + VALUE s and delete the fault memory,70,SC_wait_ms
+Read the RB and CU failure memory ,3,DCOM_read_and_eval_fcm_rb_cu
+Create the same timeout failure with storage condition,24,SC_CA_disable_messages
+Set a net failure,29,SC_CA_write_can_signal
+Wait until Failure detection time + VALUE cycle time ,70,SC_wait_ms
+Remove the failure manipulation,67,SC_undo_manipulation
+Set the same net failure,29,SC_CA_write_can_signal
+Reset the failure,20,GV_UNDO_failure
+Wait till software initialization,70,SC_wait_ms
+Create NETLC failure,16,GV_Create_failure
+Enable ABP Function,22,LC_ABP_SET
+Make sure Speed is above PARAMETER m/s,38,SC_goto_target_speed
+Set NET ABP Prefill Request to Active,29,SC_CA_write_can_signal
+Activate Higher Pressure Profile VAF ,56,SC_set_label
+Create Ay Range Failure ,16,GV_Create_failure
+Drive straight,38,SC_goto_target_speed
+Drive the vehicle on a flat track with constant vehicle speed VALUE km/h,38,SC_goto_target_speed
+Start the NETLC,31,SC_EA_trace_start
+Release acceleration pedal,48,SC_set_accelerator
+set gear type to N,55,SC_set_gear
+Wait for VALUE ms,70,SC_wait_ms
+Stop NETLC,33,SC_EA_trace_stop
+Drive the vehicle on a rising slope track of VALUE % with constant vehicle speed VALUE km/h,38,SC_goto_target_speed
+Brake till VALUE km/h,51,SC_set_brake
+Brake till VALUE km/h with a higher brake force but no ABS is active,51,SC_set_brake
+Set gear box to manual transmission,55,SC_set_gear
+Drive the vehicle on a flat track with constant vehicle speed VALUE km/h in 2nd gear level,38,SC_goto_target_speed
+Accelerate till VALUE km/h with a low acceleration and without gear level change,48,SC_set_accelerator
+Accelerate till VALUE km/h with a higher acceleration,48,SC_set_accelerator
+without gear level change and without VDC interventions,55,SC_set_gear
+Accelerate till VALUE km/h with a high acceleration,48,SC_set_accelerator
+Check wheel drive torque of all wheels,46,SC_read_label
+apply brake pedal to VALUE % to set NETLC to active,51,SC_set_brake
+Check wheel drive torque of all wheels between VALUE ms and VALUE ms after NETLC is active,46,SC_read_label
+Drive the vehicle on a flat high mue track with constant vehicle speed VALUE km/h,38,SC_goto_target_speed
+"Applying the brake till master cylinder pressure is VALUE bar till vehicle stops but without activation of HBA , function or HFC",51,SC_set_brake
+Set model variable PARAMETER from VALUE to constant VALUE,64,SC_stimuli_signal_constant
+Applying a HBA maneuver as follows ,62,SC_start_maneuver
+t = VALUE s : NETLC VALUE N,23,Printing
+"t = VALUE , VALUE s : NETLC VALUE N",23,Printing
+Set model variable PARAMETER from VALUE to constant PARAMETER,56,SC_set_label
+Applying a HBA maneuver as follows,62,SC_start_maneuver
+"Set model variables PARAMETER , PARAMETER , PARAMETER and PARAMETER to constant VALUE",64,SC_stimuli_signal_constant
+Drive the vehicle on flat high mue track with constant vehicle speed VALUE km/h,39,SC_goto_target_speed_and_mue
+set gear level to VALUE,55,SC_set_gear
+Applying a function maneuver as follows,62,SC_start_maneuver
+T = VALUE s : NETLC = VALUE bar ; NETLC = VALUE mbar,23,Printing
+"T = VALUE , VALUE s : NETLC = VALUE bar ; NETLC = VALUE mbar",23,Printing
+Set model variables PARAMETER to constant VALUE ,64,SC_stimuli_signal_constant
+PARAMETER to constant VALUE ,64,SC_stimuli_signal_constant
+PARAMETER to constant VALUE and,64,SC_stimuli_signal_constant
+PARAMETER to constant VALUE,64,SC_stimuli_signal_constant
+set target gear to VALUE,55,SC_set_gear
+Applying a HFC as follows,62,SC_start_maneuver
+t = VALUE s : NETLC VALUE bar ,23,Printing
+"t = VALUE , VALUE s : NETLC VALUE bar",23,Printing
+t = VALUE : NETLC VALUE bar ,23,Printing
+Drive straight on,38,SC_goto_target_speed
+accelerate vehicle speed to VALUE kmh,48,SC_set_accelerator
+Drive in a right curve . Turn steering wheel to the right,38,SC_goto_target_speed
+Check sorting order of wheel speeds,46,SC_read_label
+Drive in a left curve . Turn steering wheel to the left,58,SC_set_SteeringAngle
+Disconnect WSS RR signal,44,SC_interrupt_lines
+Stimulate the ABS target state to off,64,SC_stimuli_signal_constant
+keep EBD on,56,SC_set_label
+Drive on flat track with vehicle speed > VALUE kmh,38,SC_goto_target_speed
+Stimulate additionally the EBD target state to off,64,SC_stimuli_signal_constant
+Drive on flat track,38,SC_goto_target_speed
+Stimulate the ABS target state to off . Disconnect VALUE wheel speed sensors,44,SC_interrupt_lines
+Disconnect all WSS,44,SC_interrupt_lines
+Check which ABS mode is implemented . This is project specific,46,SC_read_label
+Set VALUE wheel speeds as follows : FL = VALUE m/s ; FR = VALUE m/s ; RL = VALUE m/s ; RR = VALUE m/s,57,SC_set_wheel speeds_kmh
+Detecting a NETLC situation set the project specific signal to a NETLC value,56,SC_set_label
+Check reference speed before crash situation,46,SC_read_label
+Detecting a crash situation set the project specific signal to a crash value,46,SC_read_label
+Check reference speed after crash situation,46,SC_read_label
+Drive on a flat track with VALUE km/h,38,SC_goto_target_speed
+Drive in a tight curve,38,SC_goto_target_speed
+Interrupt lateral sensor signal,44,SC_interrupt_lines
+Drive on a flat track,38,SC_goto_target_speed
+Apply brake pedal softly,51,SC_set_brake
+Make a shortcut between Master Cylinder Pressure Sensor signal and battery ground,61,SC_short_lines
+Make sure that software is flashed for HEV system,23,Printing
+Set road surface µ = VALUE,57,SC_set_mue
+Accelerate vehicle to VALUE kmh,48,SC_set_accelerator
+Apply sudden hard brake until vehicle speed = VALUE kmh,51,SC_set_brake
+Road surface µ = VALUE,57,SC_set_mue
+Set steering angle from VALUE % to VALUE % to the right in VALUE s,58,SC_set_SteeringAngle
+Set steering angle from VALUE % right to VALUE % left in VALUE s,58,SC_set_SteeringAngle
+Set steering angle from VALUE % left to VALUE % in VALUE s,58,SC_set_SteeringAngle
+Set accelerator pedal to VALUE %,48,SC_set_accelerator
+Press accelerator pedal to VALUE %,48,SC_set_accelerator
+Set road surface to high_mue,57,SC_set_mue
+Set the road slope to VALUE % downhill,64,SC_stimuli_signal_constant
+check for fault free system,2,DCOM_read_and_eval_fcm_rb
+Drive straight away with speed within LSA range,38,SC_goto_target_speed
+Apply HDC Button,17,GV_HDC_Button_ON
+release acceleration or brake pedal,48,SC_set_accelerator
+Set friction coefficient from VALUE to VALUE to provoke LSA intervention,57,SC_set_mue
+Set friction coefficient back to VALUE,57,SC_set_mue
+Test is possible if function switches NETLC and NETLC are set to PCA available . Appropriate SW has to be flashed,56,SC_set_label
+Master Cylinder Pressure Sensor pMC is available,23,Printing
+Check PCA availability,46,SC_read_label
+Disconnect pMC sensor signal line,44,SC_interrupt_lines
+Drive slowly off . Accelerator pedal = VALUE %,38,SC_goto_target_speed
+Check ABS intervention,39,SC_goto_target_speed_and_mue
+Check signals NETLC,46,SC_read_label
+Turn the steering wheel in VALUE s to the right VALUE %,58,SC_set_SteeringAngle
+Turn the steering wheel in VALUE s to the left VALUE %,58,SC_set_SteeringAngle
+Check VDC intervention,46,SC_read_label
+Drive on a flat road with high speed . Vehicle speed > = VALUE kmh,39,SC_goto_target_speed_and_mue
+Turn steering wheel from left to right,58,SC_set_SteeringAngle
+back until VDC is active for VALUE s,58,SC_set_SteeringAngle
+ESP hev variant is coded,23,Printing
+Check signal NETLC before the leakage,46,SC_read_label
+Check signal NETLC after the leakage,46,SC_read_label
+Set µ = VALUE ,57,SC_set_mue
+Set Ubatt = VALUE V ,59,SC_set_Ubatt
+Full System ,36,SC_ecu_on
+Start Mesurement,31,SC_EA_trace_start
+Set NETLC condition of about VALUE kmph,56,SC_set_label
+Interrupt NETLC line during NETLC,44,SC_interrupt_lines
+Evaluate MM6 signal and Failure memory after setting speed VALUE,3,DCOM_read_and_eval_fcm_rb_cu
+Undo NETLC line interrupt failure,66,SC_undo_interrupt_lines
+Drive off about VALUE kmph for VALUE sec,38,SC_goto_target_speed
+Create FL signal Lost failure and Evaluate NETLC signal,64,SC_stimuli_signal_constant
+Undo Signal lost failure,47,SC_release_stimuli_signal
+Set speed to VALUE ,38,SC_goto_target_speed
+Do ignition Off,41,SC_ignition_off
+wait for post run time and turn Ignition On,70,SC_wait_ms
+Perform NETLC for about VALUE sec at VALUE kmph,64,SC_stimuli_signal_constant
+set speed to VALUE,38,SC_goto_target_speed
+Create FR signal Lost failure and Evaluate NETLC signal,64,SC_stimuli_signal_constant
+Create RL signal Lost failure and Evaluate NETLC signal,47,SC_release_stimuli_signal
+Create RR signal Lost failure and Evaluate NETLC signal,64,SC_stimuli_signal_constant
+Simulate NETLC > vmax,64,SC_stimuli_signal_constant
+Bring vehicle to standstill,38,SC_goto_target_speed
+Evaluate the failure memory,2,DCOM_read_and_eval_fcm_rb
+Undo NETLC simulation,47,SC_release_stimuli_signal
+Power cycle toggle,42,SC_ignition_off_on
+NETLC up to VALUE kmph,56,SC_set_label
+"To create diff generic failure , Manipulate NETLC = NETLC + VALUE kmph and NETLC = NETLC + VALUE kmph",16,GV_Create_failure
+Wait untill the NETLC counter should count up until VALUE,70,SC_wait_ms
+"Undo manipulation for only one wheel after fault entry in failure memory . ie , make either NETLC = NETLC + VALUE kmph & NETLC = NETLC",67,SC_undo_manipulation
+Stop measurement Power cycle toggle Step VALUE Fault Presence ,33,SC_EA_trace_stop
+NETLC Vehicle of about VALUE kmph for VALUE sec,38,SC_goto_target_speed
+Evaluate failure memory,2,DCOM_read_and_eval_fcm_rb
+"Manipulate NETLC = NETLC + VALUE , to create diff FL failure",64,SC_stimuli_signal_constant
+"Wait untill the NETLC counter should count up until half of its maximum value ie , half the NETLC and evaluate NETLC",70,SC_wait_ms
+After NETLC,70,SC_wait_ms
+Set speed VALUE,38,SC_goto_target_speed
+Read Failure memory,3,DCOM_read_and_eval_fcm_rb_cu
+"Manipulate NETLC = NETLC + VALUE , to create diff FR failure",64,SC_stimuli_signal_constant
+"Manipulate NETLC = NETLC + VALUE , to create diff RL failure",64,SC_stimuli_signal_constant
+"Manipulate NETLC = NETLC + VALUE , to create diff RR failure",64,SC_stimuli_signal_constant
+"Software should be OBD enabled ie , NETLC parameter NETLC",23,Printing
+Stop measurement Power cycle toggle Step VALUE Additional Fault Presence ,33,SC_EA_trace_stop
+NETLC Vehicle of about VALUE kmph,38,SC_goto_target_speed
+Manipulate NETLC diff failure by making NETLC = NETLC + VALUE kmph,64,SC_stimuli_signal_constant
+Set Ubatt default,59,SC_set_Ubatt
+Apply Brake to standstill,54,SC_set_brake_and_wait
+Set accelerations offset greater than VALUE m/s2,48,SC_set_accelerator
+wait post run time to ECU become sleep,70,SC_wait_ms
+manipulate NETLC in NETLC with NETLC Box,64,SC_stimuli_signal_constant
+add every VALUE ms VALUE to the current NETLC > NETLC = NETLC + VALUE,65,SC_stimuli_signal_offset
+turn ignition on,43,SC_ignition_on
+manipulate NETLC in NETLC with NETLC Box add every VALUE ms VALUE to the current NETLC > NETLC = NETLC + VALUE,65,SC_stimuli_signal_offset
+Read RB and CU failure memory General Information : - Test needed for NETLC NETLC,3,DCOM_read_and_eval_fcm_rb_cu
+Drive off with VALUE kmph,38,SC_goto_target_speed
+Set mue to VALUE,57,SC_set_mue
+Apply Hard braking for ABS intervention,57,SC_set_mue
+Set Yrs offset gradient VALUE deg/s,63,SC_start_manipulation
+Set Yrs offset Linearly to VALUE deg/s,63,SC_start_manipulation
+Set Yrs offset Linearly VALUE deg/s,63,SC_start_manipulation
+Set NET AY signal Status information to Invalid,29,SC_CA_write_can_signal
+Set Ay offset value VALUE m/s2,65,SC_stimuli_signal_offset
+Set NET AYS signal Status information to Invalid,29,SC_CA_write_can_signal
+Remove Ay Signal Offset manipulation,47,SC_release_stimuli_signal
+wait for Post run time,70,SC_wait_ms
+Set NET AYS signal Status information to Normal,29,SC_CA_write_can_signal
+Step A Fault Detection ,23,Printing
+Set Ays + = VALUE m/s2 with signal manipulator at standstill,65,SC_stimuli_signal_offset
+Drive off straight-ahead as long as possible until the failure is detected,38,SC_goto_target_speed
+Step A Fault Detection : Manipulation Steps ,23,Printing
+ignition off - > on,42,SC_ignition_off_on
+check,23,Printing
+if no fault is in error memory,3,DCOM_read_and_eval_fcm_rb_cu
+manipulate Ay Signal with constant offset VALUE m/s2,65,SC_stimuli_signal_offset
+drive a distance > 10km,40,SC_goto_target_speed_and_wait
+check error entry in fault memory additional,3,DCOM_read_and_eval_fcm_rb_cu
+Ignition On with Ubatt default,36,SC_ecu_on
+Apply brake vehicle to become standstill,51,SC_set_brake
+Create Axs Sensor Message Time out fault,64,SC_stimuli_signal_constant
+Do inertial Calibration Routine,23,Printing
+Read RB,2,DCOM_read_and_eval_fcm_rb
+CU failure memory Fault Absence Behavior ,23,Printing
+Manipulate Ax signal to VALUE m/s2,64,SC_stimuli_signal_constant
+Manipulate Ay Signal to VALUE m/s2,64,SC_stimuli_signal_constant
+ECU Off,35,SC_ecu_off
+Corrupt PDM Label NETLC label,56,SC_set_label
+Set Axs Signal to VALUE m/s2,64,SC_stimuli_signal_constant
+Set Ays NET Signal to VALUE m/s2,64,SC_stimuli_signal_constant
+write in EEprom a value of VALUE m/s2 at the adress for NETLC and 20km for the number of integrated acceleration values,5,DCOM_SetEeprom
+manipulate the NETLC Value with + VALUE m/s² ,64,SC_stimuli_signal_constant
+drive off on flat surface till failure is detected ; NETLC increases up to failure threshold of PARAMETER,38,SC_goto_target_speed
+manipulate AXS signal constant = VALUE m/s²,64,SC_stimuli_signal_constant
+Drive of w/o any controller intervention to VALUE km/h,38,SC_goto_target_speed
+Drive until failure is detected,40,SC_goto_target_speed_and_wait
+Drive at constant velocity - no longitudinal acceleration,38,SC_goto_target_speed
+Set Axs + = VALUE m/s² with signal manipulator,64,SC_stimuli_signal_constant
+manipulate AXS signal offset > VALUE m/s²,64,SC_stimuli_signal_constant
+Drive of w/o controller intervention to VALUE km/h to avoid NETLC failure entry,38,SC_goto_target_speed
+drive only straight-ahead for at least VALUE s,38,SC_goto_target_speed
+Set NET AY signal Status information to Not Init,29,SC_CA_write_can_signal
+Set NET AYS signal Status information to Not Init,29,SC_CA_write_can_signal
+Remove NET AYS signal Status information to Not Init,29,SC_CA_write_can_signal
+Set NET AXS signal Status information to Invalid,29,SC_CA_write_can_signal
+Set Ax offset value VALUE m/s2,65,SC_stimuli_signal_offset
+Remove Ax Signal Offset manipulation,47,SC_release_stimuli_signal
+Set NET AXS signal Status information to Normal,29,SC_CA_write_can_signal
+Set NET AXS signal Status information to Not Init,29,SC_CA_write_can_signal
+Change INS sensor ID in PDM Label to different value,56,SC_set_label
+Perform Power cycle,42,SC_ignition_off_on
+Corrupt PDM Label NETLC,56,SC_set_label
+create NET INS Timeout failure,24,SC_CA_disable_messages
+Vehicle speed = VALUE km/h,38,SC_goto_target_speed
+"Start a new ignition cycle , switch the engine on",42,SC_ignition_off_on
+wait at least for VALUE seconds,70,SC_wait_ms
+Ensure that ,23,Printing
+A fault-free system is present,3,DCOM_read_and_eval_fcm_rb_cu
+RB fault memory is empty,3,DCOM_read_and_eval_fcm_rb_cu
+All relevant components are available,23,Printing
+Check the current misstate via the NETLC signal PARAMETER,46,SC_read_label
+"Cockpit signals NETLC , NETLC and NETLC",46,SC_read_label
+Failure provocation : BLS to VALUE,56,SC_set_label
+Wait at least for VALUE second,70,SC_wait_ms
+Read RB failure memory content,3,DCOM_read_and_eval_fcm_rb_cu
+Failure healing : set BLS to VALUE,56,SC_set_label
+Switch battery off and on again,59,SC_set_Ubatt
+Set vehicle speed = VALUE km/h,38,SC_goto_target_speed
+Failure provocation : In the Wheel Speed window set the wheel to VALUE m/s,16,GV_Create_failure
+Disable the manipulation of the wheel speed sensor signal,63,SC_start_manipulation
+Failure provocation : Interrupt the signal line of the NETLC for the wheel FL,44,SC_interrupt_lines
+the wheel FR and the wheel RL,64,SC_stimuli_signal_constant
+"Cockpit-signals NETLC , NETLC and NETLC",56,SC_set_label
+Re-Connect the signal line of the NETLC for the wheel FL,66,SC_undo_interrupt_lines
+Failure provocation : Cust_Diag : Switch to Extended Diagnostic Session,4,DCOM_send_request
+Failure PARAMETER : Cust_Diag : Switch to Default Session,4,DCOM_send_request
+Failure provocation : RB_Diag : Switch to HU Plant Mode,4,DCOM_send_request
+Failure PARAMETER : RB Diag : Leave HU Plant Mode,4,DCOM_send_request
+"Failure provocation : Drive a short steering manoeuvre : steering to right VALUE degrees for VALUE ms , steering to left VALUE degrees also for VALUE ms",62,SC_start_maneuver
+Check the lamp misstate during step VALUE via the,46,SC_read_label
+Switch to ESP passive mode,56,SC_set_label
+Create an situation where NETLC there is a VDC intervention,21,GV_VDC_maneuver
+During this ESP intervention switch back to ESP active,21,GV_VDC_maneuver
+First Failure provocation : In the Wheel Speed window set the wheel to VALUE m/s,64,SC_stimuli_signal_constant
+Second Failure provocation : Interrupt the signal line of the NETLC for the wheel FL,44,SC_interrupt_lines
+UBatt Voltage = VALUE V,59,SC_set_Ubatt
+Ignition On and Engine On,43,SC_ignition_on
+BTM enabled via EEPROM,5,DCOM_SetEeprom
+Ambient temperature from dashboard ECU = Available,56,SC_set_label
+Standstill Time from dashboard ECU = Available,38,SC_goto_target_speed
+NETLC = NETLC Available Normal,56,SC_set_label
+Set the brake disc startup temperature value which is VALUE ° C lower than the value in EEPROM,56,SC_set_label
+Drive the vehicle by applying full accelerator pedal,38,SC_goto_target_speed
+UBatt Off and then UBatt On,59,SC_set_Ubatt
+Apply the brake with VALUE bars,51,SC_set_brake
+Wait till the brake disc temperature of NETLC reaches to value,70,SC_wait_ms
+While the brake disc temperature of NETLC reaches to value,70,SC_wait_ms
+Set Brake Pad calibration value as VALUE for RL and RR wheels and VALUE for FL and FR,51,SC_set_brake
+Drive off vehicle speed greater than PARAMETER,38,SC_goto_target_speed
+Apply brake pressure greater than PARAMETER bar to trigger HRB function,51,SC_set_brake
+Apply brake until vehicle comes to standstill,54,SC_set_brake_and_wait
+Set Brake Pad calibration value as VALUE for RL and RR and VALUE for FL and FR,56,SC_set_label
+Ignition ON ,43,SC_ignition_on
+TargetStateCDP = ON,56,SC_set_label
+Const steering VALUE °,58,SC_set_SteeringAngle
+Gear D,55,SC_set_gear
+APB_System_State = Park Released or press APB button,11,GV_apb_apply
+Set Brake pedal to VALUE,51,SC_set_brake
+Reset the APB direction to Neutral,13,GV_apb_release
+Drive the vehicle with vehicle speed more than the PARAMETER . Set vehicle speed = VALUE kmph,38,SC_goto_target_speed
+Set the accelerator Pedal to VALUE,48,SC_set_accelerator
+Set the Brake Pedal to VALUE,51,SC_set_brake
+Switch APB in direction Apply or press APB button or set NETLC Net Signal to Active,11,GV_apb_apply
+Switch APB in direction Neutral or press APB button or set NETLC Net Signal to InActive,12,GV_apb_neutral
+Wait VALUE s ,70,SC_wait_ms
+Switch APB in direction lock or press APB button or set NETLC Net Signal to Active,11,GV_apb_apply
+Reset Manipulation of Pressure sensor failure,67,SC_undo_manipulation
+Set vehicle speed = VALUE kmph ,38,SC_goto_target_speed
+Create wheel speed FL line failure,44,SC_interrupt_lines
+Reset Manipulation of wheel speed failure,66,SC_undo_interrupt_lines
+Set vehicle speed = VALUE kmph,38,SC_goto_target_speed
+Reset Manipulation of WSS sensor failure,66,SC_undo_interrupt_lines
+CurrentStateAEB = OFF,56,SC_set_label
+VDC by PATA = ON,56,SC_set_label
+AebActive = OFF,56,SC_set_label
+Drive the vehicle with vehicle speed more than the PARAMETER,38,SC_goto_target_speed
+Release the acceleration pedal,48,SC_set_accelerator
+apply the brake such that the applied brake pressure is slightly more than the PARAMETER,51,SC_set_brake
+Activate AEB-BA by setting AEB Activation NET signal from Driver Assistance to True,29,SC_CA_write_can_signal
+AEB BA activation NET signal to True and AEB Target deceleration NET signal from DA to VALUE m/s2 together at the same time,29,SC_CA_write_can_signal
+Wait for PARAMETER + VALUE s,70,SC_wait_ms
+Release the accelerator pedal,48,SC_set_accelerator
+activate AEB IB by setting AEB Activation NET signal from Driver Assistance to True,29,SC_CA_write_can_signal
+AEB Target deceleration NET signal from DA to VALUE m/s2 together at the same time,29,SC_CA_write_can_signal
+AEB IB Active = OFF,56,SC_set_label
+Create engine pdu timeout failure,24,SC_CA_disable_messages
+activate AEB-IB by setting AEB Activation NET signal from Driver Assistance to True,29,SC_CA_write_can_signal
+Wait for PARAMETER,70,SC_wait_ms
+Reset the manipulation of engine pdu timeout failure,25,SC_CA_enable_messages
+Deactivate the VDC to ON by PATA switch,45,SC_pata_set
+Reset the manipulation : Activate the VDC to ON by PATA switch,45,SC_pata_set
+Standstill,38,SC_goto_target_speed
+Brake pedal = VALUE %,51,SC_set_brake
+Wait VALUE msec,70,SC_wait_ms
+Interrupt Pressure Signal Line,44,SC_interrupt_lines
+Interrupt WSS Front Left Signal Line,44,SC_interrupt_lines
+Velocity VALUE km/h,38,SC_goto_target_speed
+Interrupt UB_MR Supply Line,44,SC_interrupt_lines
+Interrupt Valve NETLC,44,SC_interrupt_lines
+Interrupt Vacuum Signal Line,44,SC_interrupt_lines
+Interrupt CAN Bus,44,SC_interrupt_lines
+vac = VALUE mbar,56,SC_set_label
+NETLC = Available,56,SC_set_label
+Set velocity that NETLC > = NETLC + PARAMETER,56,SC_set_label
+Retain BLS,51,SC_set_brake
+Set brake pedal that NETLC > - PARAMETER,51,SC_set_brake
+Set no gear ; N position,55,SC_set_gear
+Disrupt BLS,51,SC_set_brake
+NETLC = False,56,SC_set_label
+NETLC = Normal,56,SC_set_label
+NETLC ! = ABS AND wheeler ! = ABS,56,SC_set_label
+Set brake pedal that NETLC > PARAMETER - PARAMETER,51,SC_set_brake
+"Fault NETLC , observe detection time > VALUE sec",70,SC_wait_ms
+BLS = Yes,56,SC_set_label
+Error state from iBooster,23,Printing
+Set brake pedal that NETLC > VALUE bar,51,SC_set_brake
+NETLC = True,56,SC_set_label
+NETLC Request = iBok,56,SC_set_label
+Create Ibooster Timeout Failure,16,GV_Create_failure
+NETLC Request = Boost Requested,56,SC_set_label
+Set brake pedal that NETLC > PARAMETER - PARAMETER VALUE Set NETLC Request = Boost requested,51,SC_set_brake
+Set NETLC Request = iBok,56,SC_set_label
+ECU On with Ubatt VALUE V,36,SC_ecu_on
+Ignition On with Ubatt VALUE V,36,SC_ecu_on
+Start ECU trace measurement,31,SC_EA_trace_start
+Create a Fault which leads to All controller to be off,16,GV_Create_failure
+Stop ECU trace measurement,33,SC_EA_trace_stop
+Create Failure which leads to all controller to be Shutdown,16,GV_Create_failure
+Create Failure word which is configured as VIRTUAL Node ,16,GV_Create_failure
+Undo Virtual Node Failure STIMULATION,20,GV_UNDO_failure
+Perform Test complete maneuver for Virtual node failure word,62,SC_start_maneuver
+Apply brake vehicle to become standstill,54,SC_set_brake_and_wait
+Fault STIMULATION ,23,Printing
+Create NET time out fault,24,SC_CA_disable_messages
+Read RB and CU failure memory Fault Presence ,3,DCOM_read_and_eval_fcm_rb_cu
+Clear CU memory,30,SC_clear_all_fcm
+Read RB and CU failure memory Fault Reset ,3,DCOM_read_and_eval_fcm_rb_cu
+Undo NET time out fault manipulation,25,SC_CA_enable_messages
+ECU off with Post Run,35,SC_ecu_off
+Read RB and CU failure memory Fault STIMULATION ,3,DCOM_read_and_eval_fcm_rb_cu
+undo NET time out fault at the same time,25,SC_CA_enable_messages
+ECU On with Ubatt = VALUE V,36,SC_ecu_on
+Clear RB and CU Failure Memory,30,SC_clear_all_fcm
+Start Measurement : VALUE,31,SC_EA_trace_start
+ECU On with Ubatt = VALUE V at T0,36,SC_ecu_on
+Set Speed = VALUE kph,38,SC_goto_target_speed
+Interrupt WSS FL Line at T1,44,SC_interrupt_lines
+Undo Interrupt WSS FL Line at T2,66,SC_undo_interrupt_lines
+Read RB and CU fault,3,DCOM_read_and_eval_fcm_rb_cu
+ECU Off Start Measurement : VALUE,41,SC_ignition_off
+ECU On with Ubatt = VALUE V at T3,36,SC_ecu_on
+Interrupt WSS FR Line at T4,44,SC_interrupt_lines
+Perform Operation cycle with Ubatt = VALUE at T5,59,SC_set_Ubatt
+Undo Interrupt WSS FR Line at T6,66,SC_undo_interrupt_lines
+No Failure entry in Failure memory,3,DCOM_read_and_eval_fcm_rb_cu
+Set all wheel speed = VALUE m/s,60,SC_set_wheel_speeds_kmh
+Set Wheel FL = VALUE m/s,56,SC_set_label
+Brake with NETLC Target = VALUE Nm,51,SC_set_brake
+Set the signal net wheel fa = VALUE Nm,56,SC_set_label
+"release brake , Reset net wheel fa signal",51,SC_set_brake
+Set the signal netlc wheel = VALUE Nm,56,SC_set_label
+"release brake , Reset netlc wheel signal",51,SC_set_brake
+"Set the signal net wheel fa = VALUE Nm , netlc wheel = VALUE Nm",56,SC_set_label
+"release brake , Reset NETLC Wheel , netlc wheel signal",51,SC_set_brake
+Set VALUE wheel speeds as follows : FL = VALUE m/s ; FR = VALUE m/s ; RL = VALUE m/s ; RR = VALUE m/s,60,SC_set_wheel_speeds_kmh
+NETLC = Available Normal,56,SC_set_label
+VDC NETLC Flag Check ,46,SC_read_label
+Create VDC Intervention,21,GV_VDC_maneuver
+Interrupt WSS FL Line,44,SC_interrupt_lines
+Read RB Fault,2,DCOM_read_and_eval_fcm_rb
+Undo WSS FL Line,20,GV_UNDO_failure
+ABS NETLC Flag Check ,46,SC_read_label
+Create ABS Intervention,39,SC_goto_target_speed_and_mue
+Interrupt WSS FR Line,44,SC_interrupt_lines
+Undo Interrupt WSS FR Line,66,SC_undo_interrupt_lines
+TCS NETLC Flag Check ,46,SC_read_label
+Create TCS Intervention,62,SC_start_maneuver
+Interrupt WSS RL Line,44,SC_interrupt_lines
+Undo Interrupt WSS RL Line,66,SC_undo_interrupt_lines
+EBD NETLC Flag Check ,46,SC_read_label
+Create EBD intervention,62,SC_start_maneuver
+Interrupt WSS RR Line,44,SC_interrupt_lines
+Undo Interrupt WSS RR Line,66,SC_undo_interrupt_lines
+Check Hydraulic Activation ,46,SC_read_label
+Interrupt NETLC Line,44,SC_interrupt_lines
+Undo Interrupt NETLC Line,66,SC_undo_interrupt_lines
+create NETLC fault at T1,16,GV_Create_failure
+Undo NETLC fault at T2,20,GV_UNDO_failure
+create NETLC fault at T4,16,GV_Create_failure
+Undo NETLC fault at T6,20,GV_UNDO_failure
+Clear RB and CU fault memory,30,SC_clear_all_fcm
+Create recoverable fault with Monitoring to be configured as Failure Filter and PARAMETER Method Monitoring can be configured ,16,GV_Create_failure
+Wait NETLC,70,SC_wait_ms
+Stop Measurement Fault Reset Phase ,66,SC_undo_interrupt_lines
+Undo Failure,24,SC_CA_disable_messages
+Create Curable fault with Monitoring to be configured as Failure Filter and PARAMETER Method Monitoring can be configured ,24,SC_CA_disable_messages
+Stop Measurement Fault Present Phase ,33,SC_EA_trace_stop
+Perform Operation Cycle,42,SC_ignition_off_on
+Perform Test NETLC maneuver,62,SC_start_maneuver
+Undo Manipulation,67,SC_undo_manipulation
+Perform Test complete maneuver,67,SC_undo_manipulation
+Create Drive cycle fault with Monitoring to be configured as Failure Filter and PARAMETER Method Monitoring can be configured A36,16,GV_Create_failure
+Undo Drive cycle Failure,20,GV_UNDO_failure
+Create drive cycle fault on same ignition cycle with Monitoring to be configured as Failure Filter and PARAMETER Method Monitoring can be configured  ,16,GV_Create_failure
+Perform operation cycle change,42,SC_ignition_off_on
+Ign Off,41,SC_ignition_off
+Ign On,43,SC_ignition_on
+create Drive cycle fault with Monitoring to be configured as Failure Filter and PARAMETER Method Monitoring can be configured ,41,SC_ignition_off
+Perform Test complete maneuver for the fault word,20,GV_UNDO_failure
+Create recoverable fault with Monitoring to be configured as Error Ratio,16,GV_Create_failure
+Stop Measurement Fault Present ,33,SC_EA_trace_stop
+Do Operation cycle change,42,SC_ignition_off_on
+Undo Failure manipulation,67,SC_undo_manipulation
+Create Drive cycle fault with Monitoring to be configured as Error Ratio,16,GV_Create_failure
+Create drive cycle fault with Monitoring to be configured as Error Ratio Monitoring can be configured ,16,GV_Create_failure
+Brake pedal released,51,SC_set_brake
+OBD failure should be cleared,23,Printing
+Write NET signal from Engine ECU for Drive Cycle Cycle to be true,29,SC_CA_write_can_signal
+Write NET signal from Engine ECU for Warmup Cycle Cycle to be set,29,SC_CA_write_can_signal
+Perform a drive cycle with general denominator by enabling PFC cycle,42,SC_ignition_off_on
+Start diagnosis communication,18,GDCOM_start_communication
+Send the diagnostic request to read software installed Calibration ID Info Type of ECU . Req : HEX_VALUE,4,DCOM_send_request
+Stop diagnosis communication,29,GDCOM_stop_communication
+Stop communication,29,GDCOM_stop_communication
+Stop com,29,GDCOM_stop_communication
+Send the diagnostic request to read integrity of software installed Calibration Verification ID Info Type of ECU ,4,DCOM_send_request
+Req : HEX_VALUE,4,DCOM_send_request
+Send the diagnostic request to read integrity of software installed Calibration Verification ID Info Type of ECU . Req : HEX_VALUE,4,DCOM_send_request
+Create 1trip fault word,16,GV_Create_failure
+Perform Drive cycle,42,SC_ignition_off_on
+Create 2trip fault word,16,GV_Create_failure
+Delete RB & CU failure memory,30,SC_clear_all_fcm
+State Measurement,31,SC_EA_trace_start
+Create failure which is having debug data for the evaluation,16,GV_Create_failure
+Read RB and CU fault word,3,DCOM_read_and_eval_fcm_rb_cu
+Create Failure Class VALUE,16,GV_Create_failure
+drive cycle fault word and remove failure manipulation,67,SC_undo_manipulation
+Clear RB fault word,30,SC_clear_all_fcm
+Clear CU fault word,30,SC_clear_all_fcm
+Enter Base OS mode,23,Printing
+Clear failure memory,30,SC_clear_all_fcm
+Create drive cycle fault word with dynamic testcomplete maneuver condition,16,GV_Create_failure
+Perform Power loss condition ,46,SC_read_label
+Check EVENT logger feature is enabled for the monitoring,46,SC_read_label
+Create drive cycle fault word with dynamic testcomplete maneuver condition and EVENT Logger is enabled,16,GV_Create_failure
+Flash different BL software,23,Printing
+Create drive cycle fault word with dynamic testcomplete maneuver condition and failure class VALUE with feature enabled as Component Goodcheck,16,GV_Create_failure
+CGC : check with DSM resp which monitoring is configured as CGC,46,SC_read_label
+Create drive cycle fault word with dynamic testcomplete maneuver condition with feature enabled as Component Goodcheck,16,GV_Create_failure
+Generate new AVC learning values by performing following steps,16,GV_Create_failure
+Partial brake into vehicle standstill,54,SC_set_brake_and_wait
+Brake pedal apply and slow release in vehicle standstill,54,SC_set_brake_and_wait
+Ignition Off . Wait system to fall asleep,41,SC_ignition_off
+Undo all manipulations,67,SC_undo_manipulation
+PARAMETER with Ubatt = VALUE V,59,SC_set_Ubatt
+Make EBD braking without pumpkin to standstill,51,SC_set_brake
+NETLC available,56,SC_set_label
+No LTM failure word connection exists,23,Printing
+Set NETLC of ECU Runtime pdm label to VALUE,56,SC_set_label
+Read faults and Lamps,2,DCOM_read_and_eval_fcm_rb
+Set NETLC of ECU Mileage pdm label to VALUE,5,DCOM_SetEeprom
+Set vehicle speed = VALUE m/s,38,SC_goto_target_speed
+NETLC with VAF monitoring enabled,56,SC_set_label
+Gear in Drive mode,55,SC_set_gear
+LTM failure word connection exists,16,GV_Create_failure
+Set NETLC of intial counter value for Monitored runtime pdm label to VALUE ,5,DCOM_SetEeprom
+Set NETLC of Threshold for Monitored runtime pdm label to Maximum value ,5,DCOM_SetEeprom
+Perform VAF maneuver and make VAF active for VALUE ms,62,SC_start_maneuver
+Deactivate VAF,56,SC_set_label
+"Read faults and Lamps % % In platform NETLC make the VAF pdm to VALUE , Pack means VALUE HEX_VALUE",2,DCOM_read_and_eval_fcm_rb
+NETLC with partial brake monitoring enabled,56,SC_set_label
+Perform a VAF maneuver,62,SC_start_maneuver
+Release the VAF maneuver,53,SC_undo_maneuver
+Read Pdm label ,0,DCOM_GetEeprom
+NETLC with Total NETLC monitoring enabled,56,SC_set_label
+Set NETLC of Threshold for Monitored runtime pdm label to Maximum value,5,DCOM_SetEeprom
+Set NETLC of intial counter value for Monitored Maneuver pdm label to VALUE ,5,DCOM_SetEeprom
+Set NETLC of Threshold for Monitored Maneuver pdm label to Maximum value ,5,DCOM_SetEeprom
+Perform VAF maneuver and activate the VAF,62,SC_start_maneuver
+Set NETLC of intial counter value for Monitored pdm label to VALUE ,5,DCOM_SetEeprom
+Set NETLC of Threshold for Monitored pdm label to VALUE ,5,DCOM_SetEeprom
+Perform VAF,62,SC_start_maneuver
+"Read faults and Lamps % % In platform NETLC make the first pack of pdm to VALUE ,",2,DCOM_read_and_eval_fcm_rb
+Perform VAF maneuver and bring the vehicle to standstill,62,SC_start_maneuver
+Set NETLC of Threshold for Monitored pdm label to VALUE,5,DCOM_SetEeprom
+Set NETLC of Threshold for Monitored runtime pdm label to value VALUE ,5,DCOM_SetEeprom
+Set NETLC of intial counter value for Monitored runtime pdm label to VALUE or threshold minus VALUE value ,5,DCOM_SetEeprom
+Perform VAF maneuver and make VAF active for VALUE s,62,SC_start_maneuver
+Set NETLC of intial counter value for Monitored runtime pdm label to VALUE or threshold minus VALUE value,5,DCOM_SetEeprom
+Set NETLC of Threshold for Monitored Maneuver pdm label to value VALUE ,5,DCOM_SetEeprom
+Set NETLC of intial counter value for Monitored Maneuver pdm label to VALUE or threshold minus VALUE value ,5,DCOM_SetEeprom
+Wait VALUE s and deactivate the VAF,70,SC_wait_ms
+HBA available,21,GV_VDC_maneuver
+Applicable for ESP HevX with iBooster Project,23,Printing
+Ubatt Default,59,SC_set_Ubatt
+AEB available,56,SC_set_label
+ABA available,56,SC_set_label
+Set vehicle speed above VALUE kph,38,SC_goto_target_speed
+Set NETLC to VALUE and NETLC Signal to VALUE in NET Signal,56,SC_set_label
+Apply brake in positive gradient,51,SC_set_brake
+Vehicle shall be in st,38,SC_goto_target_speed
+still and APB should be in released state,13,GV_apb_release
+Insert resistor of VALUE ohm between jumpers NETLC and NETLC in the NETLC complex harness or Disconnect APB left motor and connect blocking device,23,Printing
+wait till ECU is Ready,70,SC_wait_ms
+Set APB button to apply position for VALUE second,11,GV_apb_apply
+Set APB button to neutral position,12,GV_apb_neutral
+Wait till failure to good check,70,SC_wait_ms
+Wait VALUE second Stop ECU Trace Read RB,70,SC_wait_ms
+wait for post run time and Remove all manipulations,70,SC_wait_ms
+Set Brake = VALUE %,51,SC_set_brake
+Set APB button to release position,13,GV_apb_release
+Wait VALUE second Stop ECU Trace Read RB and CU failure Memory,70,SC_wait_ms
+Insert resistor of VALUE ohm between jumpers NETLC and NETLC in the NETLC complex harness or Disconnect APB right motor and connect blocking device,23,Printing
+still and APB should be in locked state,11,GV_apb_apply
+Set APB button to release position for VALUE second,13,GV_apb_release
+Set APB button to apply position,11,GV_apb_apply
+Remove jumper NETLC during actuation,23,Printing
+Wait VALUE seconds,70,SC_wait_ms
+Wait for postern time and Reset all the manipulations,70,SC_wait_ms
+Set Brake = VALUE % Stop ECU Trace Read RB and CU failure Memory,51,SC_set_brake
+still and APB should be in applied state,11,GV_apb_apply
+Full system and standstill,36,SC_ecu_on
+Start ECU Trace NETLC ,31,SC_EA_trace_start
+Start diagnosis NETLC ,53,GDCOM_start_communication
+Delete any one of PDM item of PARAMETER,6,DIAG_del_EEPROM
+Switch off the battery,59,SC_set_Ubatt
+Switch on the battery,59,SC_set_Ubatt
+Wait rerun time Read RB and CU failure Memory PARAMETER ,70,SC_wait_ms
+Wait rerun time Read RB and CU failure Memory NETLC ,70,SC_wait_ms
+Press APB button in release direction,11,GV_apb_apply
+set it in neutral position,12,GV_apb_neutral
+Switch Off the Ignition,41,SC_ignition_off
+Wait postern time,70,SC_wait_ms
+Wait rerun time Stop ECU Trace Read RB and CU failure Memory,70,SC_wait_ms
+still and APB in released state,13,GV_apb_release
+Remove jumper UB_VR,23,Printing
+Insert resistor of VALUE ohm between jumpers NETLC and NETLC in the NETLC complex harness,23,Printing
+Wait rerun time,70,SC_wait_ms
+still and APB in locked state,23,Printing
+Set APB button in apply direction,11,GV_apb_apply
+Wait > PARAMETER,70,SC_wait_ms
+Set APB button in release direction,13,GV_apb_release
+Set APB button in apply direction again,11,GV_apb_apply
+Keep the manipulation on,63,SC_start_manipulation
+Turn ignition Off,41,SC_ignition_off
+Set APB button in apply direction again Read RB and CU failure Memory NETLC ,11,GV_apb_apply
+Set APB button in Neutral position,12,GV_apb_neutral
+Set APB button in Neutral position Read RB,12,GV_apb_neutral
+Full system and Stand still,36,SC_ecu_on
+Set APB button in release direction again Read RB and CU failure Memory PARAMETER ,13,GV_apb_release
+Wait postrun time,70,SC_wait_ms
+Set APB button in release direction again Read RB and CU failure Memory NETLC ,13,GV_apb_release
+set low mue,57,SC_set_mue
+Set APB button in apply direction till vehicle reaches to standstill,11,GV_apb_apply
+Set APB button to neutral state,12,GV_apb_neutral
+"IGN ON with Ubatt = VALUE V , Full system",36,SC_ecu_on
+Vehicle in Standstill . APB system is released,38,SC_goto_target_speed
+Start MM6 & NET Measurement,32,SC_EA_trace_start_and_net
+IGN OFF wait for Postrun,41,SC_ignition_off
+Stop MM6 & NET Measurement,34,SC_EA_trace_stop_and_net
+Set vehicle speed > NETLC AND vehicle signal is valid,38,SC_goto_target_speed
+Set NETLC to Lock,56,SC_set_label
+Apply APB button in apply direction,11,GV_apb_apply
+set in neutral direction,12,GV_apb_neutral
+Switch Off the ignition and switch it ON,42,SC_ignition_off_on
+Switch Ignition Off and On,42,SC_ignition_off_on
+Reset all manipulations,47,SC_release_stimuli_signal
+Set vehicle speed < NETLC AND vehicle signal is valid,38,SC_goto_target_speed
+Set NETLC to Release,56,SC_set_label
+Apply APB button in release direction,11,GV_apb_apply
+HHC should be available,56,SC_set_label
+Set road slope = VALUE,64,SC_stimuli_signal_constant
+Drive off straight ahead with speed more than VALUE km/hr in forward direction,38,SC_goto_target_speed
+Set a positive road slope ,64,SC_stimuli_signal_constant
+Apply brake,51,SC_set_brake
+bring the vehicle to Standstill with gear position not changed,38,SC_goto_target_speed
+Wait for HHC hold time ,70,SC_wait_ms
+ For Manual gear box use parameter PARAMETER,56,SC_set_label
+For Automatic gear box use parameter PARAMETER,56,SC_set_label
+Set a negative road slope,64,SC_stimuli_signal_constant
+Apply brake and bring the vehicle to Standstill,54,SC_set_brake_and_wait
+Then change the gear position to Reverse,55,SC_set_gear
+Set brake pedal VALUE %,51,SC_set_brake
+set slope = VALUE %,64,SC_stimuli_signal_constant
+Drive the vehicle with vehicle speed VALUE kmph,38,SC_goto_target_speed
+Set NETLC Net Signal to Active and NETLC signal to VALUE m/s2,29,SC_CA_write_can_signal
+set the slope = VALUE %,64,SC_stimuli_signal_constant
+Set NETLC Net Signal to NotActive and NETLC signal to VALUE m/s2,29,SC_CA_write_can_signal
+Set the NET signal for standstill request with brake torque less than VALUE,29,SC_CA_write_can_signal
+Undo the manipulation,47,SC_release_stimuli_signal
+Speed = VALUE kph,38,SC_goto_target_speed
+NETLC = > VALUE,56,SC_set_label
+wait until standstill + VALUE s,70,SC_wait_ms
+Enable AVH Function,56,SC_set_label
+Make sure that driver is present,56,SC_set_label
+engine should be ON with Full system,56,SC_set_label
+Apply full brake,51,SC_set_brake
+Drive off straight ahead with speed more than VALUE kmph in forward direction,38,SC_goto_target_speed
+Set the road slope > PARAMETER,64,SC_stimuli_signal_constant
+release AVH button once,56,SC_set_label
+Apply full brake till vehicle reaches to standstill,51,SC_set_brake
+Set the road slope = PARAMETER + VALUE,64,SC_stimuli_signal_constant
+Set the road slope,64,SC_stimuli_signal_constant
+Set DriveTrain = Not available,56,SC_set_label
+Apply Park brake,51,SC_set_brake
+Wait for HHC hold time,70,SC_wait_ms
+Drive off straight ahead with speed more than VALUE km/hr in forward direction and pMc failure is set,38,SC_goto_target_speed
+Drive off straight ahead with speed more than VALUE km/hr in forward direction and Bls failure is set,38,SC_goto_target_speed
+create Pump Hydraulic failure ,16,GV_Create_failure
+Drive off straight ahead with speed more than VALUE km/hr in forward direction and Valve failure is set,38,SC_goto_target_speed
+Drive off straight with speed more than VALUE km/hr in forward direction,38,SC_goto_target_speed
+gear N,55,SC_set_gear
+Wait for PARAMETER + PARAMETER + PARAMETER ,70,SC_wait_ms
+Wait for PARAMETER + PARAMETER + PARAMETER,70,SC_wait_ms
+Set Driverpresence = VALUE,56,SC_set_label
+Wait for HHC hold time + VALUE s,70,SC_wait_ms
+Drive off with VALUE % Throttle pedal,38,SC_goto_target_speed
+Drive off by Setting Throttle pedal equal to NETLC,38,SC_goto_target_speed
+engine torque value is not sufficient ,64,SC_stimuli_signal_constant
+Wait for PARAMETER + PARAMETER + VALUE s,70,SC_wait_ms
+wait for sometime,70,SC_wait_ms
+"Set Driver brake request ON , with brake pressure > VALUE bar",51,SC_set_brake
+Wait for VALUE secs,70,SC_wait_ms
+Set the slope lesser than PARAMETER,64,SC_stimuli_signal_constant
+Set Ax sensor failure,20,GV_UNDO_failure
+HHC and EBR should be available,23,Printing
+Set the road slope > VALUE,64,SC_stimuli_signal_constant
+ESP Full System available,23,Printing
+Mue value = VALUE,57,SC_set_mue
+Drive off straight ahead with speed of VALUE kmph,38,SC_goto_target_speed
+Set the gear position to VALUE,55,SC_set_gear
+Set mue value to VALUE,57,SC_set_mue
+Drive ahead by increasing speed linearly upto VALUE kmph,38,SC_goto_target_speed
+by steering the vehicle linearly upto VALUE degrees simultaneously ,58,SC_set_SteeringAngle
+Simulate the VDC maneuver such that the VDC controller sends the Engine Torque increase request,21,GV_VDC_maneuver
+Set the mue value < VALUE,63,SC_start_manipulation
+Drive off straight ahead above velocity VALUE kmph,38,SC_goto_target_speed
+Set brake pedal to make vehicle standstill,54,SC_set_brake_and_wait
+Perform SLALOM maneuver for the VDC intervention,21,GV_VDC_maneuver
+Simulate the LDM Torque decrease request maneuver ,63,SC_start_manipulation
+Simulate the LDM Torque increase request maneuver ,63,SC_start_manipulation
+Disable Engine and GearBox PDUs,24,SC_CA_disable_messages
+Enable Engine and GearBox PDUs,25,SC_CA_enable_messages
+NETLC = NETLC,56,SC_set_label
+Simulate the ABS centre coupling torque request ,63,SC_start_manipulation
+Simulate the VDC centre coupling torque request ,63,SC_start_manipulation
+Simulate the any one WSS centre coupling torque request ,63,SC_start_manipulation
+Simulate the TCS centre coupling torque request ,63,SC_start_manipulation
+Simulate the CRB torque request to CCC element ,63,SC_start_manipulation
+Disable the CAN / FLEXRAY message transmitting the output rod information ,24,SC_CA_disable_messages
+Reset the CAN/FLEXRAY message,25,SC_CA_enable_messages
+Set the CAN/FLEXRAY signal for Master Cylinder pressure to VALUE bar ,29,SC_CA_write_can_signal
+Brake pedal apply slow,51,SC_set_brake
+Create a Soft pedal failure,20,GV_UNDO_failure
+Set Gear D or semi automatic,55,SC_set_gear
+Set Accelerator to VALUE percent,48,SC_set_accelerator
+Apply brake pedal,51,SC_set_brake
+Set gear N and without slope,55,SC_set_gear
+Apply Fast brake pedal,51,SC_set_brake
+Release the Brake pedal fast,51,SC_set_brake
+Set vehicle speed = VALUE,38,SC_goto_target_speed
+Apply VALUE % brake,51,SC_set_brake
+wait till vehicle reaches standstill,70,SC_wait_ms
+Release brake pedal and increase the accelerator,52,SC_set_brake_and_acc
+Release the accelerator and bring vehicle to standstill,48,SC_set_accelerator
+Gear in neutral,55,SC_set_gear
+Apply brake pedal very slowly to VALUE %,51,SC_set_brake
+Accelerate to Vehicle speed = VALUE km/h,48,SC_set_accelerator
+Apply brake pedal such that stroke value is VALUE mm,51,SC_set_brake
+Brake pedal apply VALUE %,51,SC_set_brake
+Activate External brake request,56,SC_set_label
+Set brake pedal = VALUE bar,51,SC_set_brake
+Create a stroke sensor failure,16,GV_Create_failure
+Set vehicle speed to VALUE,38,SC_goto_target_speed
+Apply brake pedal such that > = threshold is reached,51,SC_set_brake
+Apply brake pedal such that < threshold is reached,51,SC_set_brake
+Set EEPROM value to HEX_VALUE,5,DCOM_SetEeprom
+Wait for the Postrun time,70,SC_wait_ms
+Set the brake pedal such that input rod = VALUE mm very slowly,51,SC_set_brake
+Read the fault memory,3,DCOM_read_and_eval_fcm_rb_cu
+Set the brake pedal such that pressure build up is < VALUE bar,51,SC_set_brake
+Set the brake pedal such that pressure build up is > VALUE bar,51,SC_set_brake
+Set stiffness EEPROM value to Max plausible value,5,DCOM_SetEeprom
+Set the brake pedal input rod = VALUE mm slowly or in case of vacuum booster VALUE % brake,51,SC_set_brake
+Set pressure sensor value constant to be VALUE bar in the model,64,SC_stimuli_signal_constant
+Apply CDP/HHC such that brake pressure is greater than threshold,51,SC_set_brake
+Disable CDP/HHC,56,SC_set_label
+Set EEPROM value to Max value HEX_VALUE,5,DCOM_SetEeprom
+Set EEPROM value to Min value HEX_VALUE,5,DCOM_SetEeprom
+Current state BSM should be ON,56,SC_set_label
+Gear in neutral position N,55,SC_set_gear
+Start PTS calibration Diagnosis sequence : HEX_VALUE,4,DCOM_send_request
+Ignition Toggle,42,SC_ignition_off_on
+Stop the measurement ,33,SC_EA_trace_stop
+Start system,59,SC_set_Ubatt
+Constant vehicle velocity,64,SC_stimuli_signal_constant
+No brake pedal application,51,SC_set_brake
+Manipulate pedal travel sensor VALUE & VALUE signals to fixed / frozen signals of VALUE mm,63,SC_start_manipulation
+Slow brake pedal application from VALUE mm to maximum push rod stroke,51,SC_set_brake
+Stop Mesurement,33,SC_EA_trace_stop
+Shutdown system,35,SC_ecu_off
+Restart system,42,SC_ignition_off_on
+Fault absence behavior,23,Printing
+Brake pedal application from VALUE mm to maximum push rod stroke,51,SC_set_brake
+Manipulate pedal travel sensor VALUE signals to fixed / frozen signals of VALUE mm,63,SC_start_manipulation
+Release brake to VALUE %,51,SC_set_brake
+Apply VALUE % of brake pedal,51,SC_set_brake
+Release brake pedal to VALUE %,51,SC_set_brake
+ESP HEV with iBooster Fault free system Ignition on Current state BSM should be ON,43,SC_ignition_on
+Gear in neutral position N Description ,55,SC_set_gear
+Drive straight on and not in a strong curve,38,SC_goto_target_speed
+Accelerator position > VALUE %,48,SC_set_accelerator
+Pressure at the front wheels < VALUE bar,51,SC_set_brake
+Set NETLC = { VALUE 14 },56,SC_set_label
+Wait until wetness > VALUE %,70,SC_wait_ms
+Set ABS_active_120ms = True,56,SC_set_label
+Check brake light,46,SC_read_label
+Check Bosch fault entry,2,DCOM_read_and_eval_fcm_rb
+Check Customer fault entry,1,DCOM_read_and_eval_fcm_cu
+Set ABS_active_120ms = False,51,SC_set_brake
+Set NETLC = VALUE,56,SC_set_label
+Press Driver Brake,51,SC_set_brake
+Check brake light during Driver brake,51,SC_set_brake
+Reset brake pedal = VALUE %,51,SC_set_brake
+Check NETLC at time : NETLC = NETLC + VALUE s,46,SC_read_label
+Set pressure sensor fault,64,SC_stimuli_signal_constant
+Reset pressure sensor fault,47,SC_release_stimuli_signal
+Set ESP failure,64,SC_stimuli_signal_constant
+Set NETLC = failure,64,SC_stimuli_signal_constant
+set NETLC = no failure,64,SC_stimuli_signal_constant
+Set a Bls failure,51,SC_set_brake
+"Wait VALUE s , reset Bls failure",70,SC_wait_ms
+Enable AVH Function and Full system,56,SC_set_label
+Make sure Slope = VALUE % and SteeringAngle = VALUE degree,64,SC_stimuli_signal_constant
+Set Driver Present = True,56,SC_set_label
+APB should be in released state Start ECU Trace,56,SC_set_label
+Set AVH button to apply and Reset to release value,56,SC_set_label
+Wait VALUE seconds Stop ECU Trace Read RB,70,SC_wait_ms
+APB should be in released state Start Mesurement,13,GV_apb_release
+Interrupt APB left motor pins to Create APB failure,44,SC_interrupt_lines
+Wait VALUE sec Stop Mesurement Read RB,70,SC_wait_ms
+APB should be in released state,13,GV_apb_release
+Gear = Drive mode,55,SC_set_gear
+Create Hydraulic valve failure,16,GV_Create_failure
+Wait seconds Stop ECU Trace Read RB,70,SC_wait_ms
+Interrupt APB right motor pins to Create APB failure,44,SC_interrupt_lines
+Wait till vehicle reaches to VALUE kph,70,SC_wait_ms
+Start ECU Trace Set Accelerator pedal = VALUE %,48,SC_set_accelerator
+Wait till vehicle speed reaches to VALUE kph Set Accelerator pedal = VALUE %,70,SC_wait_ms
+Set Accelerator pedal = { > NETLC },48,SC_set_accelerator
+Wait VALUE seconds Stop ECU Trace Remove all manipulations,70,SC_wait_ms
+Set vehicle speed to Zero Read RB and CU failure Memory,38,SC_goto_target_speed
+"Gear = Neutral , eSet Accelerator pedal = VALUE %",55,SC_set_gear
+Set Gear = Forward,55,SC_set_gear
+Gear = Neutral,55,SC_set_gear
+Set Gear = Reverse,55,SC_set_gear
+Set Ax = VALUE,64,SC_stimuli_signal_constant
+Set All wss speed sensor values to VALUE m/s for VALUE ms,64,SC_stimuli_signal_constant
+Set Vehicle Speed to VALUE kmph,38,SC_goto_target_speed
+Make sure Slope = VALUE %,64,SC_stimuli_signal_constant
+Gear = Drive and SteeringAngle = VALUE degree,58,SC_set_SteeringAngle
+wait for Postrun Stop ECU Trace,70,SC_wait_ms
+wait Prerun Start ECU Trace,70,SC_wait_ms
+Select a NETLC for which historic values are acceptable as replacement values ,0,DCOM_GetEeprom
+Write a value to the NETLC with the help of TKWinX,5,DCOM_SetEeprom
+wait till the ECU sleeps,70,SC_wait_ms
+Read the NETLC again,46,SC_read_label
+Write a new value to NETLC ,56,SC_set_label
+Take the dump by using NVM to File option in the Tkwinx,5,DCOM_SetEeprom
+Corrupt the Data Item by manipulating the data/Metadata of this Data item ,5,DCOM_SetEeprom
+Write the dump to Dflash/EEPROM using Tkwinx function file to NvM,5,DCOM_SetEeprom
+Now read the Data Item XX,0,DCOM_GetEeprom
+Write back the Dump in from PRECONDITION,5,DCOM_SetEeprom
+Select a Data Item which is never written by application ,0,DCOM_GetEeprom
+Read all the Data items by taking the NVM Dump using NVM to File,0,DCOM_GetEeprom
+create a sequence file which writes continuously to NETLC other than NETLC XX with the help of TKWinX,4,DCOM_send_request
+Read again all the Data items by taking the NVM Dump using NVM to File,0,DCOM_GetEeprom
+Select a NETLC XX for which Data loss by Data Corruption is not acceptable . Data Item should have two copies,0,DCOM_GetEeprom
+Write a value to the NETLC XX by using TkWinx ,5,DCOM_SetEeprom
+wait till ECU sleeps,70,SC_wait_ms
+Read the NETLC XX by using Tkwinx,0,DCOM_GetEeprom
+Write a New value to the data item XX by using TkWinx,5,DCOM_SetEeprom
+Take NVM Dump by using NVM to FILE . Corrupt the Data or checksum in one copy of NETLC XX,0,DCOM_GetEeprom
+Now Read the NETLC,46,SC_read_label
+Select a NETLC XX for which fallback to an older value is acceptable in case of loss of the latest written value,0,DCOM_GetEeprom
+Write a New value to the data item XX by using TkWinx ,5,DCOM_SetEeprom
+Take NVM Dump by using NVM to FILE . Corrupt the Data or checksum of NETLC XX,0,DCOM_GetEeprom
+Write the dump to Dflash/EEPROM using Tkwinx function file to NvM ,5,DCOM_SetEeprom
+Now Read the NETLC XX,46,SC_read_label
+Select a NETLC XX for which fallback to an older value is not acceptable in case of loss of the latest written value,0,DCOM_GetEeprom
+Take NVM Dump by using NVM to FILE ,0,DCOM_GetEeprom
+Erase the Data of NETLC XX,5,DCOM_SetEeprom
+Select a NETLC XX for which Data loss by Power interruption is not acceptable ,0,DCOM_GetEeprom
+Corrupt the Meta Data of NETLC XX,5,DCOM_SetEeprom
+Write a Data item by triggering the TSI command HEX_VALUE XX XX NETLC,5,DCOM_SetEeprom
+Read theta item by triggering the TSI command HEX_VALUE XX XX XX XX = PDM NETLC,0,DCOM_GetEeprom
+Take a dump as the backup,0,DCOM_GetEeprom
+Take a NETLC by NVM to FILE ,0,DCOM_GetEeprom
+Overwrite the data items of the Medium bytes by using the option FILE to NVM in the TkWinx,5,DCOM_SetEeprom
+Take a NETLC by NVM to FILE,0,DCOM_GetEeprom
+Load a NVM NETLC file to DFLASH/EEPROM by using option FILE to NVM,0,DCOM_GetEeprom
+Start complete medium erase by triggering the TSI command HEX_VALUE,5,DCOM_SetEeprom
+Read a data item NETLC,0,DCOM_GetEeprom
+Toggle power button,42,SC_ignition_off_on
+Do ignition ON,43,SC_ignition_on
+Read the value of same block,33,SC_EA_trace_stop
+Switch ignition on ,43,SC_ignition_on
+Wait till PARAMETER is over ,70,SC_wait_ms
+Take Dump as backup,0,DCOM_GetEeprom
+Trigger NvM write for survival and non survival block,5,DCOM_SetEeprom
+Take a dump via NETLC,0,DCOM_GetEeprom
+Do power reset,42,SC_ignition_off_on
+Trigger force NETLC via Tkwinx,5,DCOM_SetEeprom
+Read back the written blocks at step VALUE,0,DCOM_GetEeprom
+Set Gear position to Drive,55,SC_set_gear
+Set split mue surface,57,SC_set_mue
+Connect WSS FL line to GND,44,SC_interrupt_lines
+Reset the WSS FL line,66,SC_undo_interrupt_lines
+Check RB Failure memory,3,DCOM_read_and_eval_fcm_rb_cu
+Check customer Failure memory,1,DCOM_read_and_eval_fcm_cu
+. Check customer Failure memory,1,DCOM_read_and_eval_fcm_cu
+Wait PARAMETER S,70,SC_wait_ms
+Set NET ABP Prefill Request to NotActive * PARAMETER = PARAMETER + PARAMETER + PARAMETER * NETLC,29,SC_CA_write_can_signal
+Drive off straight ahead with speed less than PARAMETER m/s,38,SC_goto_target_speed
+Set NET ABP Prefill Request to NotActive,29,SC_CA_write_can_signal
+Drive off straight ahead above speed PARAMETER m/s change steering to Make Lateral acceleration Ay above PARAMETER,38,SC_goto_target_speed
+Wait S,70,SC_wait_ms
+Set NET ABP Prefill Request to Not Active,56,SC_set_label
+Stop Measurement * PARAMETER = PARAMETER + PARAMETER + PARAMETER * NETLC,33,SC_EA_trace_stop
+Wait ms,70,SC_wait_ms
+Manipulate single wheel speed to Model * Constant to create wheel slip equal to or greater than PARAMETER,58,SC_set_SteeringAngle
+Reset the manipulation of wheel speed,67,SC_undo_manipulation
+Set NET ABP Prefill Request to Not Active Maximum Activation Time = * PARAMETER = PARAMETER + PARAMETER + PARAMETER * NETLC Sample calculation ,29,SC_CA_write_can_signal
+PARAMETER = VALUE . Manipulate single wheel speed to Model * Constant PARAMETER = VALUE . Manipulate single wheel speed to Model * Constant,64,SC_stimuli_signal_constant
+Drive off above speed PARAMETER m/s ,38,SC_goto_target_speed
+Apply Brake to reach pressure greater,51,SC_set_brake
+Set NET ABP Prefill Request to Not Active Maximum Activation Time = * PARAMETER = PARAMETER + PARAMETER + PARAMETER * NETLC,29,SC_CA_write_can_signal
+change steering to Make Lateral acceleration Ay above PARAMETER,58,SC_set_SteeringAngle
+Manipulate all wheel speed to Model * Constant,64,SC_stimuli_signal_constant
+Drive off straight ahead with speed above PARAMETER m/s,38,SC_goto_target_speed
+Set NET ABP Prefill Request to Not Active * PARAMETER = PARAMETER + PARAMETER + PARAMETER * NETLC Default Value is VALUE s,29,SC_CA_write_can_signal
+Activate Higher Pressure Profile VAF . Refer RB STIMULATION,56,SC_set_label
+Set NET ABP Prefill Request to Not Active * PARAMETER = PARAMETER + PARAMETER + PARAMETER * NETLC,29,SC_CA_write_can_signal
+Undo bls failure,51,SC_set_brake
+Deactivate ABP functionality Via EEPROM,4,DCOM_send_request
+Create pressure sensor line failure . Pressure Sensor failure should created before ABP is deactivated,16,GV_Create_failure
+Undo pressure sensor line failure,20,GV_UNDO_failure
+Wait PARAMETER + PARAMETER S,70,SC_wait_ms
+Set NET ABP Prefill Request to Not Active PARAMETER = PARAMETER + PARAMETER + PARAMETER * NETLC,29,SC_CA_write_can_signal
+Set NETLC to VALUE and then NETLC Signal to VALUE in NET Signal,64,SC_stimuli_signal_constant
+Wait VALUE sec ,70,SC_wait_ms
+Read RB and CU fault ,3,DCOM_read_and_eval_fcm_rb_cu
+Reset NETLC and NETLC Signal to VALUE,56,SC_set_label
+Release the accelerator ,48,SC_set_accelerator
+Set NETLC Signal to VALUE and NETLC to VALUE in NET Signal,56,SC_set_label
+Wait for PARAMETER + VALUE sec,70,SC_wait_ms
+Start NET & ECU measurement .,32,SC_EA_trace_start_and_net
+Stop NET & ECU measurement,33,SC_EA_trace_stop
+Configure LC_INFO frames,23,Printing
+Set All WSS speed to VALUE m/s,38,SC_goto_target_speed
+Start NET & XCP on CAN measurement ,18,GV_NET_trace_start
+Set WSS Front Left speed to VALUE m/s - Set Labcar signal NETLC = VALUE - Set Labcar signal NETLC = VALUE - Set Labcar signal NETLC = VALUE - Set Labcar signal NETLC = VALUE,56,SC_set_label
+Decrease the voltage slowly in VALUE V steps till,59,SC_set_Ubatt
+Decrease the voltage slowly in VALUE V steps till ECU shuts down,59,SC_set_Ubatt
+Increase the voltage slowly in VALUE V steps till,59,SC_set_Ubatt
+Increase the voltage slowly in VALUE V steps till ECU shuts down,59,SC_set_Ubatt
+Switch ignition OFF,41,SC_ignition_off
+Send a CAN frame trigger,29,SC_CA_write_can_signal
+wait less than VALUE ms,70,SC_wait_ms
+Send wakeup trigger via CAN,29,SC_CA_write_can_signal
+Send wakeup trigger via CAN shortly before the communication stops,29,SC_CA_write_can_signal
+Short CAN1-H line and CAN1-L line,61,SC_short_lines
+Short CAN2-H line and CAN2-L line,61,SC_short_lines
+Short CAN1-H line and GRND,61,SC_short_lines
+Short CAN2-H line and GRND,61,SC_short_lines
+Short CAN1-L and UBATT,61,SC_short_lines
+Short CAN2-L and UBATT,61,SC_short_lines
+Short CAN1-H line and UBATT,61,SC_short_lines
+Short CAN2-H line and UBATT,61,SC_short_lines
+Short CAN1-L line and GRND,61,SC_short_lines
+Short CAN2-L line and GRND,61,SC_short_lines
+wait till bus communication is off but ECU is not in sleep condition,70,SC_wait_ms
+wait till ECU sleep time + VALUE s,70,SC_wait_ms
+Enable the configured Can message with right payload in bus ,25,SC_CA_enable_messages
+Enable the configured Can message with wrong payload in bus ,25,SC_CA_enable_messages
+Enable the non configured Can message with right payload in bus ,25,SC_CA_enable_messages
+Disable LC_INFO frames,24,SC_CA_disable_messages
+Setup CAN engine with VALUE KBit baudrate,29,SC_CA_write_can_signal
+wait till VALUE ms,70,SC_wait_ms
+Reload the labcar model with correct model,23,Printing
+Setup CAN-FD engine with VALUE MBit baudrate,29,SC_CA_write_can_signal
+Start the test bench,23,Printing
+Reload the labcar model with correct CAN-FD engine,23,Printing
+Change Net receive signal value of specified signal from CAN as well as one from CAN - FD,29,SC_CA_write_can_signal
+Change Net receive signal value of same signal from CAN as well as from CAN - FD,29,SC_CA_write_can_signal
+Setup Flexray engine with correct baudrate,29,SC_CA_write_can_signal
+Setup Flexray engine with wrong baudrate,29,SC_CA_write_can_signal
+Switch off ignition,41,SC_ignition_off
+Send a wakeup trigger,29,SC_CA_write_can_signal
+wait till Bus communication stopped but ECU is not in sleep mode,70,SC_wait_ms
+Interrupt Flexray-H line,44,SC_interrupt_lines
+Short Flexray-H and Flexray-L line,29,SC_CA_write_can_signal
+Short Flexray-H and Ubatt,64,SC_stimuli_signal_constant
+Reset fault condition,20,GV_UNDO_failure
+Short Flexray-H and Ground,61,SC_short_lines
+Short Flexray-L and Ubatt,61,SC_short_lines
+Short Flexray-L and Ground,61,SC_short_lines
+Interrupt Flexray-L line,44,SC_interrupt_lines
+Disable the Flexray communication from the test bench,23,Printing
+Set Net receive signal from LIN to a fixed value,29,SC_CA_write_can_signal
+Send wakeup trigger,29,SC_CA_write_can_signal
+Send the wakeup trigger shortly before the communication stops,29,SC_CA_write_can_signal
+Disable the LIN communication from the test bench,4,DCOM_send_request
+Enable LIN communication,4,DCOM_send_request
+Enable LIN communication from the test bench,4,DCOM_send_request
+In Platform project - SCM function is always available,56,SC_set_label
+Set Alive counter of SCM NET message from Airbag ecu = VALUE,56,SC_set_label
+Read Lamps,56,SC_set_label
+Set the checksum of SCM NET message from Airbag ecu = VALUE,29,SC_CA_write_can_signal
+Disable the CAN/Flexray message from Airbag ECU ,24,SC_CA_disable_messages
+Disable the Node - Airbag ECU ,24,SC_CA_disable_messages
+Set the DLC of SCM NET message from Airbag ecu = Current value - VALUE,29,SC_CA_write_can_signal
+"Delete the EEPROM locations NETLC , NETLC , NETLC , NETLC and NETLC",6,DIAG_del_EEPROM
+SCM functionality can be turned ON or OFF based on the customer requirements . Hence the pre - condition SCM coded ON is provided,23,Printing
+Wait VALUE s Start MM6 and CAN/FLEXRAY Measurement,70,SC_wait_ms
+"Read EEPROM locations  NETLC , NETLC , NETLC , NETLC and NETLC",0,DCOM_GetEeprom
+Go to target speed VALUE kph,38,SC_goto_target_speed
+Create collision VALUE - Front collision : Platform specific : Set CAN/FLEXRAY signal - NETLC = VALUE,64,SC_stimuli_signal_constant
+Wait until vehicle speed = VALUE kph,70,SC_wait_ms
+Go to target speed VALUE kph Stop MM6 and CAN/FLEXRAY Measurement,38,SC_goto_target_speed
+Create collision VALUE - Non Front ,64,SC_stimuli_signal_constant
+Apply accelerator pedal > PARAMETER for time greater than PARAMETER - SCM deactivated,48,SC_set_accelerator
+Create collision VALUE - Front collision Platform specific : Set CAN/FLEXRAY signal - NETLC = VALUE VALUE Wait VALUE s,64,SC_stimuli_signal_constant
+Wait PARAMETER + VALUE s . Stop MM6 and CAN/FLEXRAY Measurement,70,SC_wait_ms
+Release brake pedal and Reset the CAN/Flexray signal,51,SC_set_brake
+Wait until ECU sleeps,70,SC_wait_ms
+"Read the EEPROM items - NETLC , NETLC , NETLC , NETLC and NETLC",0,DCOM_GetEeprom
+Create collision VALUE - Non Front : Platform specific,64,SC_stimuli_signal_constant
+Wait PARAMETER + VALUE s ,70,SC_wait_ms
+Set vehicle speed to VALUE kph Stop MM6 and CAN/FLEXRAY Measurement,38,SC_goto_target_speed
+Release brake pedal ,51,SC_set_brake
+Create collision VALUE - Non Front collision,64,SC_stimuli_signal_constant
+Create collision VALUE - Front : Platform specific : Set CAN/FLEXRAY signal - NETLC = VALUE,64,SC_stimuli_signal_constant
+Apply brake pedal VALUE % for time greater than PARAMETER - SCM deactivated,51,SC_set_brake
+Write the values to NETLC = HEX_VALUE HEX_VALUE,64,SC_stimuli_signal_constant
+Go to target speed VALUE kph and Reset CAN/FLEXRAY signal,38,SC_goto_target_speed
+Create collision VALUE - confront : Platform specific : Set CAN/FLEXRAY signal - NETLC = VALUE,64,SC_stimuli_signal_constant
+Set CAN/Flexray signal for SCM request to Non Front crash ,29,SC_CA_write_can_signal
+Set accelerator pedal invalid Failure ,48,SC_set_accelerator
+Wait PARAMETER + VALUE ms,70,SC_wait_ms
+Fault free system VALUE,36,SC_ecu_on
+Start diagnosis communication VALUE,40,GDCOM_start_communication
+ . Start MM6 measurement and Labcar cataloguer VALUE,32,SC_EA_trace_start_and_net
+Send the diagnostic request to start Dynamic test for VALUE actuators evil,4,DCOM_send_request
+Start diagnosis communication VALUE ,40,GDCOM_start_communication
+Create EV FL valve failure For Platform project,16,GV_Create_failure
+create evil valve failure,16,GV_Create_failure
+Send the diagnostic request to read results of Dynamic test Req,4,DCOM_send_request
+Reset the vehicle speed and failure,38,SC_goto_target_speed
+Start MM6 measurement and Labcar cataloguer,32,SC_EA_trace_start_and_net
+Send the diagnostic request to activate Extended diagnostic session . Req : HEX_VALUE,4,DCOM_send_request
+Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE,46,SC_read_label
+Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK,4,DCOM_send_request
+Send the diagnostic request to start Dynamic test for VALUE actuators speed limit without actuation time Req : HEX_VALUE,4,DCOM_send_request
+Set the wheel speed RR to VALUE kph,56,SC_set_label
+Send the diagnostic request to start Dynamic test for VALUE actuators evil ,4,DCOM_send_request
+Send the diagnostic request to read results of Dynamic test Req : HEX_VALUE,4,DCOM_send_request
+Create pump motor failure For Platform project,16,GV_Create_failure
+create pump motor failure,16,GV_Create_failure
+Stop MM6 measurement and Labcar Data Logger,33,SC_EA_trace_stop
+Wait till routine end time - VALUE s VALUE,70,SC_wait_ms
+Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE,4,DCOM_send_request
+create evil valve failure VALUE . Send the diagnostic request to read results of Dynamic test Req : HEX_VALUE,16,GV_Create_failure
+Send the diagnostic request to read DTC by status mask for test failed Req : HEX_VALUE,4,DCOM_send_request
+create pump motor failure VALUE ,16,GV_Create_failure
+Send the diagnostic request to stop Dynamic test Req : HEX_VALUE,4,DCOM_send_request
+Send the diagnostic request to start NETLC for test time VALUE s . Req : HEX_VALUE,4,DCOM_send_request
+"Set the wheel speed FL , FR , RL , RR to VALUE kph VALUE",58,SC_set_SteeringAngle
+Wait till routine end time - VALUE s VALUE . Send the diagnostic request to read results of Dynamic test Req : HEX_VALUE,70,SC_wait_ms
+"Set the wheel speed FL , FR , RL , RR to VALUE kph",56,SC_set_label
+Wait till routine end time - VALUE s,70,SC_wait_ms
+Reset the vehicle speed,38,SC_goto_target_speed
+ Stop diagnosis communication VALUE,23,GDCOM_stop_communication
+Stop MM6 measurement and Labcar Data Logger VALUE,33,SC_EA_trace_stop
+Disconnect all lines and network line from other ECU,44,SC_interrupt_lines
+Start communication with ECU,21,GDCOM_start_communication
+Send the diagnostic request to disable speed limit monitoring . Req : HEX_VALUE,4,DCOM_send_request
+Send the diagnostic request to read results of NETLC Req : HEX_VALUE,4,DCOM_send_request
+"Vary the wheel speed FL , FR , RL , RR from NETLC VALUE kph in VALUE s",63,SC_start_manipulation
+Wait till routine end time VALUE s,70,SC_wait_ms
+"Reset the wheel speed FL , FR , RL , RR to VALUE kph",56,SC_set_label
+"Set mue = VALUE , brake = VALUE %",57,SC_set_mue
+Disconnect VALUE WSS Sensors,44,SC_interrupt_lines
+Send the diagnostic request to start Static test . Req : HEX_VALUE,4,DCOM_send_request
+For IPB project : Send the diagnostic request to start comfort pulse calibration routine Req : HEX_VALUE,4,DCOM_send_request
+Reset the vehicle speed to VALUE kph and reset the failure,38,SC_goto_target_speed
+Wait NETLC routine end time,70,SC_wait_ms
+For ABS / NETLC project : Send the diagnostic request to read results of Static test . Req : HEX_VALUE ,4,DCOM_send_request
+Reset the vehicle speed to VALUE kph,38,SC_goto_target_speed
+Send the service to read the Active Diagnostic Session information Req : HEX_VALUE,4,DCOM_send_request
+NETLC VALUE . Start communication with ECU VALUE . Send the diagnostic request to activate Extended diagnostic session . Req : HEX_VALUE,53,GDCOM_start_communication
+Send the diagnostic request to disable speed limit monitoring . Req : HEX_VALUE VALUE,4,DCOM_send_request
+ . Set the vehicle speed to VALUE kph,38,SC_goto_target_speed
+For IPB project : Send the diagnostic request to read results of comfort pulse calibration routine . Req : HEX_VALUE,4,DCOM_send_request
+Create WSS Plausibility failure For Platform project,44,SC_interrupt_lines
+Send the diagnostic request to activate Default diagnostic session . Req : HEX_VALUE,4,DCOM_send_request
+Send the diagnostic request to read DTC by status mask for test failed . Req : HEX_VALUE VALUE ,4,DCOM_send_request
+. Stop diagnosis communication VALUE,18,GDCOM_stop_communication
+Send the diagnostic request to read DTC by status mask for test failed . Req : HEX_VALUE ,4,DCOM_send_request
+Start communication with ECU ,21,GDCOM_start_communication
+set vehicle speed to VALUE kph and then wait for VALUE s,38,SC_goto_target_speed
+Repeat step VALUE for VALUE times,23,Printing
+Send the diagnostic request to read DTC by status mask for test failed . Req : HEX_VALUE,4,DCOM_send_request
+Create PSS Plausibility failure For Platform project,16,GV_Create_failure
+set the wheel or system pressure sensor to VALUE bar,64,SC_stimuli_signal_constant
+Reset the failure Set the wheel or system pressure sensor to VALUE bar,47,SC_release_stimuli_signal
+. Send the diagnostic request to read results of Pump motor slow down time Test Req : HEX_VALUE,4,DCOM_send_request
+. Stop MM6 measurement VALUE,33,SC_EA_trace_stop
+ . Stop diagnosis communication,18,GDCOM_stop_communication
+create evil valve failure VALUE,16,GV_Create_failure
+Send the diagnostic request to read results of Pump motor slow down time Test,4,DCOM_send_request
+Send the diagnostic request to read results of Pump motor slow down time Test Req : HEX_VALUE ,4,DCOM_send_request
+"Send the diagnostic request to start Pump motor slow down time Test with delay time VALUE ms , actuation time VALUE ms Req : HEX_VALUE",4,DCOM_send_request
+Send the diagnostic request to read results of Pump motor slow down time Test Req : HEX_VALUE,4,DCOM_send_request
+Send the diagnostic request to stop Pump motor slow down time Test Req : HEX_VALUE,4,DCOM_send_request
+"Send the diagnostic request to start Evac and Fill routine with actuation time VALUE s , pump motor delay time VALUE s ",4,DCOM_send_request
+Wait for routine end time - VALUE s,70,SC_wait_ms
+ . Vehicle speed = VALUE kph,38,SC_goto_target_speed
+UBatt = VALUE ,59,SC_set_Ubatt
+create evil valve failure VALUE ,16,GV_Create_failure
+create RPS failure VALUE,16,GV_Create_failure
+ . Send the diagnostic request to read results of Rotor position sensor calibration Req : HEX_VALUE,4,DCOM_send_request
+Set the LIPS data in EEPROM to spare part delivery state,5,DCOM_SetEeprom
+Send the diagnostic request to read results of Rotor position sensor calibration Req : HEX_VALUE,4,DCOM_send_request
+Wait for routine end time - s VALUE,70,SC_wait_ms
+Send the diagnostic request to start Rotor position sensor calibration routine Req : HEX_VALUE ,4,DCOM_send_request
+. Send the diagnostic request to read results of Rotor position sensor calibration,4,DCOM_send_request
+ Send the diagnostic request to read results of Rotor position sensor calibration,4,DCOM_send_request
+Stop MM6 measurement VALUE . Stop,33,SC_EA_trace_stop
+Send the diagnostic request with subduction requested for Security Level EOL,4,DCOM_send_request
+For NETLC project : Send diagnostic request to actuate valve NETLC with control option short term adjustment for VALUE %,4,DCOM_send_request
+For NETLC project : Send diagnostic request to actuate valve SV with control option short term adjustment for VALUE % Req ,4,DCOM_send_request
+Send diagnostic request to stop the actuation with control option Reset to default,4,DCOM_send_request
+Send diagnostic request to stop the actuation with control option Reset to default Req,4,DCOM_send_request
+Send diagnostic request to stop the actuation with control option Reset to default Req : HEX_VALUE,4,DCOM_send_request
+Stop MM6 Measurement VALUE . Stop communication with ECU,33,SC_EA_trace_stop
+For Crossed Brake Circuit Req : HEX_VALUE,4,DCOM_send_request
+For Parallel Brake Circuit Req : HEX_VALUE,4,DCOM_send_request
+For Crossed – Inverted Brake Circuit Req : HEX_VALUE,4,DCOM_send_request
+ Send diagnostic request to actuate pump motor with control option short term adjustment for VALUE rpm Req : HEX_VALUE,4,DCOM_send_request
+Send diagnostic request to actuate valve PCR with control option short term adjustment for VALUE % Req : HEX_VALUE,4,DCOM_send_request
+NETLC Valves will be actuated based on the request specified by the Tester,56,SC_set_label
+ Create pump motor failure For Platform project,16,GV_Create_failure
+Send diagnostic request to actuate pump motor with control option short term adjustment for VALUE rpm Req,4,DCOM_send_request
+Reset the failure For Platform project,20,GV_UNDO_failure
+NETLC Set the pump relay NETLC NETLC to false,56,SC_set_label
+To verify that pump motor actuation will be stopped for pump motor failure during actuation,46,SC_read_label
+Delete the EEPROM data of INS sensor calibration,6,DIAG_del_EEPROM
+Set the calibrated Axs and Ays signals to VALUE m/s2,64,SC_stimuli_signal_constant
+Send the diagnostic request to read the integrated inertial sensor information . Req : HEX_VALUE,4,DCOM_send_request
+Set the calibrated Axs and Ays signals to + VALUE m/s2,64,SC_stimuli_signal_constant
+Send the diagnostic request to activate Extended diagnostic session Req : HEX_VALUE,4,DCOM_send_request
+Send the diagnostic request to start Inertial sensor calibration routine Req : HEX_VALUE,4,DCOM_send_request
+Send the diagnostic request to read results of Inertial sensor calibration Req : HEX_VALUE,4,DCOM_send_request
+Create INS sensor failure,16,GV_Create_failure
+Send diagnostic request to actuate valve SSV with control option short term adjustment for VALUE %,4,DCOM_send_request
+"Send diagnostic request to actuate valve NETLC , NETLC , NETLC ",4,DCOM_send_request
+Send diagnostic request to actuate all inlet valve EV,4,DCOM_send_request
+Send diagnostic request to actuate valve SSV with control option short term adjustment for VALUE % Req : HEX_VALUE,4,DCOM_send_request
+Send diagnostic request to actuate valve NETLC with control option short term adjustment for VALUE % ,4,DCOM_send_request
+To verify that valve actuation will be stopped for actuating valve failure,46,SC_read_label
+Send the diagnostic request to start comfort pulse calibration routine Req : HEX_VALUE,4,DCOM_send_request
+Send the diagnostic request to read results of comfort pulse Calibration Req : HEX_VALUE,4,DCOM_send_request
+Wait for routine end time - s,70,SC_wait_ms
+Create valve failure For Platform project,16,GV_Create_failure
+Create VALUE leaning failure For IPB Platform project,16,GV_Create_failure
+"create NETLC , NETLC , SSV valve failure",16,GV_Create_failure
+Wait till routine end time - s,70,SC_wait_ms
+Send the diagnostic request to stop comfort pulse Calibration Req : HEX_VALUE,4,DCOM_send_request
+Send the diagnostic request to activate Default diagnostic session Req : HEX_VALUE,4,DCOM_send_request
+Send the diagnostic request to read the speed limit monitoring status Req : HEX_VALUE,4,DCOM_send_request
+Send the diagnostic request to enable speed limit monitoring . Req : HEX_VALUE,4,DCOM_send_request
+Send the diagnostic request to read the active diagnostic session Req : HEX_VALUE,4,DCOM_send_request
+. Start MM6 measurement . VALUE,31,SC_EA_trace_start
+ . Send the diagnostic request to activate Extended diagnostic session . Req : HEX_VALUE,4,DCOM_send_request

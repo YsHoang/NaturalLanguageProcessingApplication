@@ -1,0 +1,2183 @@
+VDC NETLC Flag Check 
+Create VDC Intervention
+Interrupt WSS FL Line
+Read RB Fault
+Undo WSS FL Line
+ABS NETLC Flag Check 
+Create ABS Intervention
+Interrupt WSS FR Line
+Undo Interrupt WSS FR Line
+TCS NETLC Flag Check 
+Create TCS Intervention
+Interrupt WSS RL Line
+Undo Interrupt WSS RL Line
+EBD NETLC Flag Check 
+Create EBD intervention
+Interrupt WSS RR Line
+Undo Interrupt WSS RR Line
+Check Hydraulic Activation 
+Interrupt NETLC Line
+Undo Interrupt NETLC Line
+create NETLC fault at T1
+Undo NETLC fault at T2
+create NETLC fault at T4
+Undo NETLC fault at T6
+Clear RB and CU fault memory
+Create recoverable fault with Monitoring to be configured as Failure Filter and PARAMETER Method Monitoring can be configured 
+Wait NETLC
+Stop Measurement Fault Reset Phase 
+Undo Failure
+Create Curable fault with Monitoring to be configured as Failure Filter and PARAMETER Method Monitoring can be configured 
+Stop Measurement Fault Present Phase 
+Perform Operation Cycle
+Perform Test NETLC maneuver
+Undo Manipulation
+Perform Test complete maneuver
+Create Drive cycle fault with Monitoring to be configured as Failure Filter and PARAMETERMethod Monitoring can be configured A36
+Undo Drive cycle Failure
+Create drive cycle fault on same ignition cycle with Monitoring to be configured as Failure Filter and PARAMETER Method Monitoring can be configured  
+Perform operation cycle change
+Ign Off
+Ign On
+create Drive cycle fault with Monitoring to be configured as Failure Filter and PARAMETER Method Monitoring can be configured 
+Perform Test complete maneuver for the fault word
+Create recoverable fault with Monitoring to be configured as Error Ratio
+Stop Measurement Fault Present 
+Do Operation cycle change
+Undo Failure manipulation
+Create Drive cycle fault with Monitoring to be configured as Error Ratio
+Create drive cycle fault with Monitoring to be configured as Error Ratio Monitoring can be configured 
+Brake pedal released
+OBD failure should be cleared
+Write NET signal from Engine ECU for Drive Cycle Cycle to be true
+Write NET signal from Engine ECU for Warmup Cycle Cycle to be set
+Perform a drive cycle with general denominator by enabling PFC cycle
+Start diagnosis communication
+Send the diagnostic request to read software installed Calibration ID Info Type of ECU . Req : HEX_VALUE
+Stop diagnosis communication
+Test procedure 
+Send the diagnostic request to read integrity of software installed Calibration Verification ID Info Type of ECU 
+Req : HEX_VALUE
+Send the diagnostic request to read integrity of software installed Calibration Verification ID Info Type of ECU . Req : HEX_VALUE
+Create 1trip fault word
+Perform Drive cycle
+Create 2trip fault word
+Delete RB & CU failure memory
+State Measurement
+Create failure which is having debug data for the evaluation
+Read RB and CU fault word
+Create Failure Class VALUE
+drive cycle fault word and remove failure manipulation
+Clear RB fault word
+Clear CU fault word
+Enter Base OS mode
+Clear failure memory
+Create drive cycle fault word with dynamic testcomplete maneuver condition
+Perform Power loss condition 
+Check EVENT logger feature is enabled for the monitoring
+Create drive cycle fault word with dynamic testcomplete maneuver condition and EVENT Logger is enabled
+Flash different BL software
+Corrupt EVENT logger memory
+Create drive cycle fault word with dynamic testcomplete maneuver condition and failure class VALUE with feature enabled as Component Goodcheck
+CGC : check with DSM resp which monitoring is configured as CGC
+Create drive cycle fault word with dynamic testcomplete maneuver condition with feature enabled as Component Goodcheck
+"Corrupt Customer EVENT memory""PARAMETER with Ubatt = VALUE V"""
+Generate new AVC learning values by performing following steps
+Partial brake into vehicle standstill
+Brake pedal apply and slow release in vehicle standstill
+Ignition Off . Wait system to fall asleep
+Undo all manipulations
+PARAMETER with Ubatt = VALUE V
+Make EBD braking without pumpkin to standstill
+NETLC available
+No LTM failure word connection exists
+Set NETLC of ECU Runtime pdm label to VALUE
+Read faults and Lamps
+Set NETLC of ECU Mileage pdm label to VALUE
+Set vehicle speed = VALUE m/s
+NETLC with VAF monitoring enabled
+Gear in Drive mode
+LTM failure word connection exists
+Set NETLC of intial counter value for Monitored runtime pdm label to VALUE 
+Set NETLC of Threshold for Monitored runtime pdm label to Maximum value 
+Perform VAF maneuver and make VAF active for VALUE ms
+Deactivate VAF
+"Read faults and Lamps % % In platform NETLC make the VAF pdm to VALUE , Pack means VALUE HEX_VALUE"
+NETLC with partial brake monitoring enabled
+Perform a VAF maneuver
+Release the VAF maneuver
+Read Pdm label 
+NETLC with Total NETLC monitoring enabled
+Set NETLC of Threshold for Monitored runtime pdm label to Maximum value
+Set NETLC of intial counter value for Monitored Maneuver pdm label to VALUE 
+Set NETLC of Threshold for Monitored Maneuver pdm label to Maximum value 
+Perform VAF maneuver and activate the VAF
+Set NETLC of intial counter value for Monitored pdm label to VALUE 
+Set NETLC of Threshold for Monitored pdm label to VALUE 
+Perform VAF
+"Read faults and Lamps % % In platform NETLC make the first pack of pdm to VALUE , Pack means VALUE HEX_VALUE"
+Perform VAF maneuver and bring the vehicle to standstill
+Set NETLC of Threshold for Monitored pdm label to VALUE
+Set NETLC of Threshold for Monitored runtime pdm label to value VALUE 
+Set NETLC of intial counter value for Monitored runtime pdm label to VALUE or threshold minus VALUE value 
+Perform VAF maneuver and make VAF active for VALUE s
+Set NETLC of intial counter value for Monitored runtime pdm label to VALUE or threshold minus VALUE value
+Set NETLC of Threshold for Monitored Maneuver pdm label to value VALUE 
+Set NETLC of intial counter value for Monitored Maneuver pdm label to VALUE or threshold minus VALUE value 
+Wait VALUE s and deactivate the VAF
+HBA available
+Applicable for ESP HevX with iBooster Project
+Ubatt Default
+AEB available
+ABA available
+Set vehicle speed above VALUE kph
+Set NETLC to VALUE and NETLC Signal to VALUE in NET Signal
+Apply brake in positive gradient
+Vehicle shall be in st
+still and APB should be in released state
+Insert resistor of VALUE ohm between jumpers NETLC and NETLC in the NETLC complex harness or Disconnect APB left motor and connect blocking device
+wait till ECU is Ready
+Set APB button to apply position for VALUE second
+Set APB button to neutral position
+Wait till failure to good check
+Wait VALUE second Stop ECU Trace Read RB
+wait for post run time and Remove all manipulations
+Set Brake = VALUE %
+Set APB button to release position
+Wait VALUE second Stop ECU Trace Read RB and CU failure Memory
+Insert resistor of VALUE ohm between jumpers NETLC and NETLC in the NETLC complex harness or Disconnect APB right motor and connect blocking device
+still and APB should be in locked state
+Set APB button to release position for VALUE second
+Set APB button to apply position
+Remove jumper NETLC during actuation
+Wait VALUE seconds
+Wait for postern time and Reset all the manipulations
+Set Brake = VALUE % Stop ECU Trace Read RB and CU failure Memory
+still and APB should be in applied state
+Full system and standstill
+Start ECU Trace NETLC 
+Start diagnosis NETLC 
+Delete any one of PDM item of PARAMETER
+Switch off the battery
+Switch on the battery
+Wait rerun time Read RB and CU failure Memory PARAMETER 
+Wait rerun time Read RB and CU failure Memory NETLC 
+Press APB button in release direction
+set it in neutral position
+Switch Off the Ignition
+Wait postern time
+Wait rerun time Stop ECU Trace Read RB and CU failure Memory
+St
+still and APB in released state
+Remove jumper UB_VR
+Insert resistor of VALUE ohm between jumpers NETLC and NETLC in the NETLC complex harness
+Wait rerun time
+NETLC 
+PARAMETER 
+wait post run time
+still and APB in locked state
+Set APB button in apply direction
+Wait > PARAMETER
+Set APB button in release direction
+Set APB button in apply direction again Read RB and CU failure Memory PARAMETER 
+Keep the manipulation on
+Turn ignition Off
+Set APB button in apply direction again Read RB and CU failure Memory NETLC 
+Set APB button in Neutral position
+Set APB button in Neutral position Read RB
+CU failure Memory Stop ECU Trace Remove all manipulations
+Full system and Stand still
+Set APB button in release direction again Read RB and CU failure Memory PARAMETER 
+Wait postrun time
+Set APB button in release direction again Read RB and CU failure Memory NETLC 
+set low mue
+Set APB button in apply direction till vehicle reaches to standstill
+Set APB button to neutral state
+"IGN ON with Ubatt = VALUE V , Full system"
+Vehicle in Standstill . APB system is released
+Start MM6 & NET Measurement
+IGN OFF wait for Postrun
+Stop MM6 & NET Measurement
+Set vehicle speed > NETLC AND vehicle signal is valid
+Set NETLC to Lock
+Apply APB button in apply direction
+set in neutral direction
+Switch Off the ignition and switch it ON
+Remove the manipulation
+Switch Ignition Off and On
+Reset all manipulations
+Set vehicle speed < NETLC AND vehicle signal is valid
+Set NETLC to Release
+Apply APB button in release direction
+HHC should be available
+Set road slope = VALUE
+Drive off straight ahead with speed more than VALUE km/hr in forward direction
+Set a positive road slope 
+Apply brake
+bring the vehicle to Standstill with gear position not changed
+Wait for HHC hold time 
+ For Manual gear box use parameter PARAMETER
+For Automatic gear box use parameter PARAMETER
+Set a negative road slope
+Apply brake and bring the vehicle to Standstill
+Then change the gear position to Reverse
+Set brake pedal VALUE %
+set slope = VALUE %
+Drive the vehicle with vehicle speed VALUE kmph
+Set NETLC Net Signal to Active and NETLC signal to VALUE m/s2
+set the slope = VALUE %
+Set NETLC Net Signal to NotActive and NETLC signal to VALUE m/s2
+Set the NET signal for standstill request with brake torque less than VALUE
+Undo the manipulation
+Speed = VALUE kph
+NETLC = > VALUE
+wait until standstill + VALUE s
+Enable AVH Function
+Make sure that driver is present
+engine should be ON with Full system
+Apply full brake
+Drive off straight ahead with speed more than VALUE kmph in forward direction
+Set the road slope > PARAMETER
+Press
+release AVH button once
+Apply full brake till vehicle reaches to standstill
+Set the road slope = PARAMETER + VALUE
+Wait for PARAMETERic
+Set the road slope
+Set DriveTrain = Not available
+Apply Park brake
+Wait for HHC hold time
+Drive off straight ahead with speed more than VALUE km/hr in forward direction and pMc failure is set
+Drive off straight ahead with speed more than VALUE km/hr in forward direction and Bls failure is set
+create Pump Hydraulic failure 
+Drive off straight ahead with speed more than VALUE km/hr in forward direction and Valve failure is set
+Drive off straight with speed more than VALUE km/hr in forward direction
+gear N
+Wait for PARAMETER + PARAMETER + PARAMETER 
+Wait for PARAMETER + PARAMETER + PARAMETER
+Set Driverpresence = VALUE
+Wait for HHC hold time + VALUE s
+Drive off with VALUE % Throttle pedal
+Drive off by Setting Throttle pedal equal to NETLC
+engine torque value is not sufficient 
+Wait for PARAMETER + PARAMETER + VALUE s
+wait for sometime
+"Set Driver brake request ON , with brake pressure > VALUE bar"
+Wait for VALUE secs
+Set the slope lesser than PARAMETER
+Set Ax sensor failure
+HHC and EBR should be available
+Set the road slope > VALUE
+ESP Full System available
+Mue value = VALUE
+Drive off straight ahead with speed of VALUE kmph
+Set the gear position to VALUE
+Set mue value to VALUE
+Drive ahead by increasing speed linearly upto VALUE kmph
+by steering the vehicle linearly upto VALUE degrees simultaneously 
+Simulate the VDC maneuver such that the VDC controller sends the Engine Torque increase request
+Set the mue value < VALUE
+Drive off straight ahead above velocity VALUE kmph
+Set brake pedal to make vehicle standstill
+Perform SLALOM maneuver for the VDC intervention
+Simulate the LDM Torque decrease request maneuver 
+Simulate the LDM Torque increase request maneuver 
+Disable Engine and GearBox PDUs
+Enable Engine and GearBox PDUs
+NETLC = NETLC
+Simulate the ABS centre coupling torque request 
+Simulate the VDC centre coupling torque request 
+Simulate the any one WSS centre coupling torque request 
+Simulate the TCS centre coupling torque request 
+Simulate the CRB torque request to CCC element 
+Disable the CAN / FLEXRAY message transmitting the output rod information 
+Reset the CAN/FLEXRAY message
+Set the CAN/FLEXRAY signal for Master Cylinder pressure to VALUE bar 
+Brake pedal apply slow
+Create a Soft pedal failure
+Set Gear D or semi automatic
+Set Accelerator to VALUE percent
+Apply brake pedal
+Set gear N and without slope
+Apply Fast brake pedal
+Release the Brake pedal fast
+Set vehicle speed = VALUE
+Apply VALUE % brake
+wait till vehicle reaches standstill
+Release brake pedal and increase the accelerator
+Release the accelerator and bring vehicle to standstill
+Create a single edge in one wheel 
+Gear in neutral
+Apply brake pedal very slowly to VALUE %
+Accelerate to Vehicle speed = VALUE km/h
+Apply brake pedal such that stroke value is VALUE mm
+Brake pedal apply VALUE %
+Activate External brake request
+Set brake pedal = VALUE bar
+Create a stroke sensor failure
+Set vehicle speed to VALUE
+Apply brake pedal such that > = threshold is reached
+Apply brake pedal such that < threshold is reached
+Set EEPROM value to HEX_VALUE
+Wait for the Postrun time
+Set the brake pedal such that input rod = VALUE mm very slowly
+Read the fault memory
+Set the brake pedal such that pressure build up is < VALUE bar
+Set the brake pedal such that pressure build up is > VALUE bar
+Set stiffness EEPROM value to Max plausible value
+Set the brake pedal input rod = VALUE mm slowly or in case of vacuum booster VALUE % brake
+Set pressure sensor value constant to be VALUE bar in the model
+Apply CDP/HHC such that brake pressure is greater than threshold
+Disable CDP/HHC
+Set EEPROM value to Max value HEX_VALUE
+Set EEPROM value to Min value HEX_VALUE
+Current state BSM should be ON
+Gear in neutral position N
+Start PTS calibration Diagnosis sequence : HEX_VALUE
+Ignition Toggle
+Stop the measurement 
+Fault detection
+Start system
+Constant vehicle velocity
+No brake pedal application
+Manipulate pedal travel sensor VALUE & VALUE signals to fixed / frozen signals of VALUE mm
+Slow brake pedal application from VALUE mm to maximum push rod stroke
+Stop Mesurement
+Fault presence behavior
+Shutdown system
+Restart system
+Fault absence behavior
+Fault absence : Signal without manipulation or fault
+Brake pedal application from VALUE mm to maximum push rod stroke
+Manipulate pedal travel sensor VALUE signals to fixed / frozen signals of VALUE mm
+Release brake to VALUE %
+ESP HEV with iBooster
+Description 
+Apply VALUE % of brake pedal
+Release brake pedal to VALUE %
+ESP HEV with iBooster Fault free system Ignition on Current state BSM should be ON
+Gear in neutral position N Description 
+Drive straight on and not in a strong curve
+Accelerator position > VALUE %
+Pressure at the front wheels < VALUE bar
+Set NETLC = { VALUE 14 }
+Wait until wetness > VALUE %
+Set ABS_active_120ms = True
+Check brake light
+Check Bosch fault entry
+Check Customer fault entry
+Set ABS_active_120ms = False
+Set NETLC = VALUE
+Press Driver Brake
+Check brake light during Driver brake
+Reset brake pedal = VALUE %
+Check NETLC at time : NETLC = NETLC + VALUE s
+Set pressure sensor fault
+Reset pressure sensor fault
+Set ESP failure
+Set NETLC = failure
+set NETLC = no failure
+Set a Bls failure
+"Wait VALUE s , reset Bls failure"
+Enable AVH Function and Full system
+Make sure Slope = VALUE % and SteeringAngle = VALUE degree
+Set Driver Present = True
+APB should be in released state Start ECU Trace
+Set AVH button to apply and Reset to release value
+Wait VALUE seconds Stop ECU Trace Read RB
+APB should be in released state Start Mesurement
+Interrupt APB left motor pins to Create APB failure
+Wait VALUE sec Stop Mesurement Read RB
+APB should be in released state
+Gear = Drive mode
+Create Hydraulic valve failure
+Wait seconds Stop ECU Trace Read RB
+Interrupt APB right motor pins to Create APB failure
+Wait till vehicle reaches to VALUE kph
+Start ECU Trace Set Accelerator pedal = VALUE %
+Wait till vehicle speed reaches to VALUE kph Set Accelerator pedal = VALUE %
+Set Accelerator pedal = { > NETLC }
+Wait VALUE seconds Stop ECU Trace Remove all manipulations
+Set vehicle speed to Zero Read RB and CU failure Memory
+"Gear = Neutral , eSet Accelerator pedal = VALUE %"
+Set Gear = Forward
+Gear = Neutral
+Set Gear = Reverse
+Set Ax = VALUE
+Set All wss speed sensor values to VALUE m/s for VALUE ms
+Set Vehicle Speed to VALUE kmph
+Make sure Slope = VALUE %
+Gear = Drive and SteeringAngle = VALUE degree
+wait for Postrun Stop ECU Trace
+wait Prerun Start ECU Trace
+Select a NETLC for which historic values are acceptable as replacement values 
+Take a Dump as backup
+Write a value to the NETLC with the help of TKWinX
+wait till the ECU sleeps
+Read the NETLC again
+Write a new value to NETLC 
+Take the dump by using NVM to File option in the Tkwinx
+In the Dump
+Corrupt the Data Item by manipulating the data/Metadata of this Data item 
+Write the dump to Dflash/EEPROM using Tkwinx function file to NvM
+Now read the Data Item XX
+Write back the Dump in from PRECONDITION
+Select a NETLC XX for which historic values arent acceptable as replacement values 
+Select a Data Item which is never written by application 
+Read all the Data items by taking the NVM Dump using NVM to File
+create a sequence file which writes continuously to NETLC other than NETLC XX with the help of TKWinX
+Read again all the Data items by taking the NVM Dump using NVM to File
+Select a NETLC XX for which Data loss by Data Corruption is not acceptable . Data Item should have two copies
+Write a value to the NETLC XX by using TkWinx 
+wait till ECU sleeps
+Read the NETLC XX by using Tkwinx
+Write a New value to the data item XX by using TkWinx
+Take NVM Dump by using NVM to FILE . Corrupt the Data or checksum in one copy of NETLC XX
+Now Read the NETLC
+Select a NETLC XX for which fallback to an older value is acceptable in case of loss of the latest written value
+Write a New value to the data item XX by using TkWinx 
+Take NVM Dump by using NVM to FILE . Corrupt the Data or checksum of NETLC XX
+Write the dump to Dflash/EEPROM using Tkwinx function file to NvM 
+Now Read the NETLC XX
+Select a NETLC XX for which fallback to an older value is not acceptable in case of loss of the latest written value
+Take NVM Dump by using NVM to FILE 
+Erase the Data of NETLC XX
+Select a NETLC XX for which Data loss by Power interruption is not acceptable 
+Corrupt the Meta Data of NETLC XX
+Write a Data item by triggering the TSI command HEX_VALUE XX XX NETLC
+Read theta item by triggering the TSI command HEX_VALUE XX XX XX XX = PDM NETLC
+Take a dump as the backup
+Take a NETLC by NVM to FILE 
+Overwrite the data items of the Medium bytes by using the option FILE to NVM in the TkWinx
+Take a NETLC by NVM to FILE
+Load a NVM NETLC file to DFLASH/EEPROM by using option FILE to NVM
+Start complete medium erase by triggering the TSI command HEX_VALUE
+Read a data item NETLC
+Toggle power button
+Do ignition ON
+Read the value of same block
+Switch ignition on 
+Wait till PARAMETER is over 
+Take Dump as backup
+Trigger NvM write for survival and non survival block
+Take a dump via NETLC
+Do power reset
+Trigger force NETLC via Tkwinx
+Read back the written blocks at step VALUE
+Set Gear position to Drive
+Set split mue surface
+Connect WSS FL line to GND
+Reset the WSS FL line
+Check RB Failure memory
+Check customer Failure memory
+Wait PARAMETER S
+Set NET ABP Prefill Request to NotActive * PARAMETER = PARAMETER + PARAMETER + PARAMETER * NETLC
+Drive off straight ahead with speed less than PARAMETER m/s
+Set NET ABP Prefill Request to NotActive
+Drive off straight ahead above speed PARAMETER m/s change steering to Make Lateral acceleration Ay above PARAMETER
+Wait S
+Set NET ABP Prefill Request to Not Active
+Stop Measurement * PARAMETER = PARAMETER + PARAMETER + PARAMETER * NETLC
+Wait ms
+Manipulate single wheel speed to Model * Constant to create wheel slip equal to or greater than PARAMETER
+Reset the manipulation of wheel speed
+Set NET ABP Prefill Request to Not Active Maximum Activation Time = * PARAMETER = PARAMETER + PARAMETER + PARAMETER * NETLC Sample calculation 
+PARAMETER = VALUE . Manipulate single wheel speed to Model * Constant PARAMETER = VALUE . Manipulate single wheel speed to Model * Constant
+Drive off above speed PARAMETER m/s 
+Apply Brake to reach pressure greater
+Set NET ABP Prefill Request to Not Active Maximum Activation Time = * PARAMETER = PARAMETER + PARAMETER + PARAMETER * NETLC
+change steering to Make Lateral acceleration Ay above PARAMETER
+Manipulate all wheel speed to Model * Constant
+Drive off straight ahead with speed above PARAMETER m/s
+Set NET ABP Prefill Request to Not Active * PARAMETER = PARAMETER + PARAMETER + PARAMETER * NETLC Default Value is VALUE s
+Activate Higher Pressure Profile VAF . Refer RB STIMULATION
+Set NET ABP Prefill Request to Not Active * PARAMETER = PARAMETER + PARAMETER + PARAMETER * NETLC
+Undo bls failure
+Deactivate ABP functionality Via EEPROM
+Create pressure sensor line failure . Pressure Sensor failure should created before ABP is deactivated
+Undo pressure sensor line failure
+Wait PARAMETER + PARAMETER S
+Set NET ABP Prefill Request to Not Active PARAMETER = PARAMETER + PARAMETER + PARAMETER * NETLC
+Ignition ON
+Set NETLC to VALUE and then NETLC Signal to VALUE in NET Signal
+Wait VALUE sec 
+Read RB and CU fault 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Drive with vehicle speed greater than PARAMETER m/s
+Set NETLC to VALUE and NETLC Signal to VALUE in NET Signal
+Wait VALUE sec
+Reset NETLC and NETLC Signal to VALUE
+Release the accelerator 
+Apply brake in positive gradient
+Read RB and CU fault memory
+Read RB and CU fault
+Set NETLC Signal to VALUE and NETLC to VALUE in NET Signal
+Wait for PARAMETER + VALUE sec
+Vehicle in Standstill
+Set Net receive signal to a fixed value
+Start NET & ECU measurement
+Change Net receive signal value
+wait VALUE s
+Stop NET & ECU measurement
+Configure LC_INFO frames
+Set All WSS speed to VALUE m/s
+Start NET & XCP on CAN measurement 
+Set WSS Front Left speed to VALUE m/s - Set Labcar signal NETLC = VALUE - Set Labcar signal NETLC = VALUE - Set Labcar signal NETLC = VALUE - Set Labcar signal NETLC = VALUE
+Stop NET measurement
+Start NET measurement 
+Decrease the voltage slowly in VALUE V steps till
+Decrease the voltage slowly in VALUE V steps till ECU shuts down
+Increase the voltage slowly in VALUE V steps till
+Increase the voltage slowly in VALUE V steps till ECU shuts down
+"Full system , Vehicle in Standstill"
+Set Ignition OFF
+Wait VALUE ms + VALUE s
+Set Ignition ON
+wait untill ECU ready time + VALUE s
+Switch ignition OFF
+Send a CAN frame trigger
+wait until ECU ready time + VALUE s
+wait less than VALUE ms
+Send wakeup trigger via CAN
+Send wakeup trigger via CAN shortly before the communication stops
+Start NET measurement
+Short CAN1-H line and CAN1-L line
+Wait VALUE s and undo the short line
+Short CAN2-H line and CAN2-L line
+Short CAN1-H line and GRND
+Short CAN2-H line and GRND
+Short CAN1-L and UBATT
+Short CAN2-L and UBATT
+Short CAN1-H line and UBATT
+Short CAN2-H line and UBATT
+Short CAN1-L line and GRND
+Short CAN2-L line and GRND
+Send a VALUE byte Can message in ID HEX_VALUE O in bus 
+Reset the CAN message
+Send a VALUE byte Can message in ID HEX_VALUE in bus 
+Switch ignition ON
+Disable all RX frames
+wait till bus communication is off but ECU is not in sleep condition
+wait till ECU sleep time + VALUE s
+Disable all CAN frame from the model
+Enable the anyone Can message in bus 
+Enable the configured Can message with right payload in bus 
+Enable the configured Can message with wrong payload in bus 
+Enable the non configured Can message with right payload in bus 
+Disable LC_INFO frames
+Setup CAN engine with VALUE KBit baudrate
+wait till VALUE ms
+Wait till ECU ready time + VALUE s
+Reload the labcar model with correct model
+Setup CAN-FD engine with VALUE MBit baudrate
+Start the test bench
+Reload the labcar model with correct CAN-FD engine
+Change Net receive signal value of specified signal from CAN as well as one from CAN - FD
+Change Net receive signal value of same signal from CAN as well as from CAN - FD
+Setup Flexray engine with correct baudrate
+Setup Flexray engine with wrong baudrate
+Read failure memory
+Set Net static receive signal to a fixed value
+Change Net static receive signal value
+Reset the Net receive signal
+Send a dynamic frame with a specified value
+change the value in the dynamic frame
+Reset the dynamic frame signal value
+Switch off ignition
+wait till postrun
+Send a wakeup trigger
+wait till Bus communication stopped but ECU is not in sleep mode
+Enable Flexray communication from the test bench
+Interrupt Flexray-H line
+Short Flexray-H and Flexray-L line
+Short Flexray-H and Ubatt
+Reset fault condition
+Short Flexray-H and Ground
+Short Flexray-L and Ubatt
+Short Flexray-L and Ground
+Interrupt Flexray-L line
+Disable the Flexray communication from the test bench
+Set Net receive signal from LIN to a fixed value
+Send wakeup trigger
+Send the wakeup trigger shortly before the communication stops
+Disable the LIN communication from the test bench
+Enable LIN communication
+Enable LIN communication from the test bench
+Fault free system
+UBatt = VALUE V
+SCM coded ON
+In Platform project - SCM function is always available
+Start MM6 and CAN/FLEXRAY Measurement
+Set Alive counter of SCM NET message from Airbag ecu = VALUE
+Stop MM6 and CAN/FLEXRAY Measurement
+Read Lamps
+Reset the CAN/FLEXRAY signal
+Set the checksum of SCM NET message from Airbag ecu = VALUE
+Reset the CAN/FLEXRAY signals
+Disable the CAN/Flexray message from Airbag ECU 
+Enable the CAN/Flexray message from Airbag ECU
+Disable the Node - Airbag ECU 
+Enable the Node - Airbag ECU
+Set the DLC of SCM NET message from Airbag ecu = Current value - VALUE
+"Delete the EEPROM locations – NETLC , NETLC , NETLC , NETLC and NETLC"
+Ignition off
+wait until postrun time
+SCM functionality can be turned ON or OFF based on the customer requirements . Hence the pre - condition SCM coded ON is provided
+Wait VALUE s Start MM6 and CAN/FLEXRAY Measurement
+"Read EEPROM locations – NETLC , NETLC , NETLC , NETLC and NETLC"
+Go to target speed VALUE kph
+Create collision VALUE - Front collision : Platform specific : Set CAN/FLEXRAY signal - NETLC = VALUE
+Wait until vehicle speed = VALUE kph
+Go to target speed VALUE kph Stop MM6 and CAN/FLEXRAY Measurement
+Create collision VALUE - Non Front 
+Apply accelerator pedal > PARAMETER for time greater than PARAMETER - SCM deactivated
+Create collision VALUE - Front collision Platform specific : Set CAN/FLEXRAY signal - NETLC = VALUE VALUE Wait VALUE s
+Apply brake pedal VALUE %
+Wait PARAMETER + VALUE s . Stop MM6 and CAN/FLEXRAY Measurement
+Release brake pedal and Reset the CAN/Flexray signal
+Wait until ECU sleeps
+"Read the EEPROM items - NETLC , NETLC , NETLC , NETLC and NETLC"
+Create collision VALUE - Non Front : Platform specific : Set CAN/FLEXRAY signal - NETLC = VALUE
+Wait PARAMETER + VALUE s 
+Set vehicle speed to VALUE kph Stop MM6 and CAN/FLEXRAY Measurement
+Release brake pedal 
+Create collision VALUE - Non Front collision : Platform specific : Set CAN/FLEXRAY signal - NETLC = VALUE
+Create collision VALUE - Front : Platform specific : Set CAN/FLEXRAY signal - NETLC = VALUE
+Apply brake pedal VALUE % for time greater than PARAMETER - SCM deactivated
+Write the values to NETLC = HEX_VALUE HEX_VALUE
+Go to target speed VALUE kph and Reset CAN/FLEXRAY signal
+Create collision VALUE - confront : Platform specific : Set CAN/FLEXRAY signal - NETLC = VALUE
+Set vehicle speed = VALUE kph
+Vehicle speed = VALUE kph
+CAN / Flexray signal - SCM counter varies periodically 
+Set CAN/Flexray signal - NETLC = None
+Start MM6 Measurement
+Set CAN/Flexray signal for SCM request to Non Front crash 
+Set accelerator pedal invalid Failure 
+Stop MM6 Measurement
+Read RB and CU failure memory
+Set SCM counter = VALUE
+The above test step is to achieve SCM counter varies periodically 
+NETLC = VALUE
+Set CAN/Flexray signal for SCM request to Front crash 
+Wait PARAMETER + VALUE ms
+Fault free system VALUE . UBatt = VALUE V3 . Ignition NETLC . Brake pedal released . Vehicle speed = VALUE kph
+Start diagnosis communicationn VALUE . Start MM6 measurement and Labcar cataloguer VALUE . Send the diagnostic request to start Dynamic test for VALUE actuators evil
+ever with actuation minimum time Req : HEX_VALUE VALUE . Send the diagnostic request to activate Extended diagnostic session . Req : HEX_VALUE
+Send the diagnostic request to start Dynamic test for VALUE actuators evil
+ever with actuation minimum time Req : HEX_VALUE VALUE . Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start Dynamic test for VALUE actuators evil
+"ever with actuation minimum time Req : HEX_VALUE VALUE . Send the diagnostic request to read results of Dynamic test Req : HEX_VALUE . Send the diagnostic request to start Dynamic test for VALUE actuators evil , ever to reset actuation Req : HEX_VALUE . Send the diagnostic request to start Dynamic test for VALUE actuators speed limit without actuation time Req : HEX_VALUE . Set the wheel speed FL , FR , RL , RR to VALUE kph"
+"Send the diagnostic request to start Dynamic test for VALUE actuators evil , ever with actuation NETLC - VALUE s , NETLC - VALUE s Req : HEX_VALUE . Send the diagnostic request to read results of Dynamic test Req : HEX_VALUE . Set the wheel speed FL , FR , RL , RR to VALUE kph VALUE . Wait till routine end time - VALUE s VALUE . Send the diagnostic request to read results of Dynamic test Req : HEX_VALUE . Stop MM6 measurement and Labcar Data Logger VALUE . Stop diagnosis communicationn VALUE . Reset the vehicle speed"
+Start diagnosis communicationn VALUE . Start MM6 measurement and Labcar cataloguer VALUE . Send the diagnostic request to activate Extended diagnostic session . Req : HEX_VALUE
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start Dynamic test for VALUE actuators speed limit without actuation time Req : HEX_VALUE VALUE . Set the wheel speed FL , FR , RL , RR to VALUE kph VALUE . Send the diagnostic request to start Dynamic test for VALUE actuators evil , ever , NETLC , NETLC with actuation NETLC - VALUE s , NETLC - VALUE s Req : HEX_VALUE VALUE . Send the diagnostic request to read results of Dynamic test Req : HEX_VALUE . Set the wheel speed FL , FR , RL , RR to VALUE kph VALUE . Wait till routine end time - VALUE s VALUE . Send the diagnostic request to read results of Dynamic test Req : HEX_VALUE . Stop MM6 measurement and Labcar Data Logger VALUE . Stop diagnosis communicationn VALUE . Reset the vehicle speed"
+Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start Dynamic test for VALUE actuators speed limit without actuation time Req : HEX_VALUE VALUE . Set the wheel speed FL to VALUE kph
+"Send the diagnostic request to start Dynamic test for VALUE actuators evil , ever , NETLC , NETLC with actuation NETLC - VALUE s , NETLC - VALUE s Req : HEX_VALUE VALUE . Send the diagnostic request to read results of Dynamic test Req : HEX_VALUE . Set the wheel speed FL to VALUE kph VALUE . Wait till routine end time - VALUE s VALUE . Send the diagnostic request to read results of Dynamic test Req : HEX_VALUE . Stop MM6 measurement and Labcar Data Logger VALUE . Stop diagnosis communicationn VALUE . Reset the vehicle speed"
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start Dynamic test for VALUE actuators speed limit without actuation time Req : HEX_VALUE VALUE . Set the wheel speed FR to VALUE kph VALUE . Send the diagnostic request to start Dynamic test for VALUE actuators evil , ever , NETLC , NETLC with actuation NETLC - VALUE s , NETLC - VALUE s Req : HEX_VALUE VALUE . Send the diagnostic request to read results of Dynamic test Req : HEX_VALUE . Set the wheel speed FR to VALUE kph VALUE . Wait till routine end time - VALUE s VALUE . Send the diagnostic request to read results of Dynamic test Req : HEX_VALUE . Stop MM6 measurement and Labcar Data Logger VALUE . Stop diagnosis communicationn VALUE . Reset the vehicle speed"
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start Dynamic test for VALUE actuators speed limit without actuation time Req : HEX_VALUE VALUE . Set the wheel speed RL to VALUE kph VALUE . Send the diagnostic request to start Dynamic test for VALUE actuators evil , ever , NETLC , NETLC with actuation NETLC - VALUE s , NETLC - VALUE s Req : HEX_VALUE VALUE . Send the diagnostic request to read results of Dynamic test Req : HEX_VALUE . Set the wheel speed RL to VALUE kph VALUE . Wait till routine end time - VALUE s VALUE . Send the diagnostic request to read results of Dynamic test Req : HEX_VALUE . Stop MM6 measurement and Labcar Data Logger VALUE . Stop diagnosis communicationn VALUE . Reset the vehicle speed"
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start Dynamic test for VALUE actuators speed limit without actuation time Req : HEX_VALUE VALUE . Set the wheel speed RR to VALUE kph VALUE . Send the diagnostic request to start Dynamic test for VALUE actuators evil , ever , NETLC , NETLC with actuation NETLC - VALUE s , NETLC - VALUE s Req : HEX_VALUE VALUE . Send the diagnostic request to read results of Dynamic test Req : HEX_VALUE . Set the wheel speed RR to VALUE kph VALUE . Wait till routine end time - VALUE s VALUE . Send the diagnostic request to read results of Dynamic test Req : HEX_VALUE . Stop MM6 measurement and Labcar Data Logger VALUE . Stop diagnosis communicationn VALUE . Reset the vehicle speed"
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start Dynamic test for VALUE actuators speed limit without actuation time Req : HEX_VALUE VALUE . Set the wheel speed RR to VALUE kph VALUE . Send the diagnostic request to start Dynamic test for VALUE actuators evil , ever , NETLC , NETLC with actuation NETLC - VALUE s , NETLC - VALUE s Req : HEX_VALUE VALUE . Send the diagnostic request to read results of Dynamic test Req : HEX_VALUE . Set the wheel speed RR to VALUE kph"
+Create EV FL valve failure For Platform project
+create evil valve failure
+Send the diagnostic request to read results of Dynamic test Req : HEX_VALUE . Stop MM6 measurement and Labcar Data Logger VALUE . Stop diagnosis communicationn VALUE . Reset the vehicle speed and failure
+Brake pedal released
+Start diagnosis communicationn
+Start MM6 measurement and Labcar cataloguer
+Send the diagnostic request to activate Extended diagnostic session . Req : HEX_VALUE
+Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE
+Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK
+Send the diagnostic request to start Dynamic test for VALUE actuators speed limit without actuation time Req : HEX_VALUE
+Set the wheel speed RR to VALUE kph
+Send the diagnostic request to start Dynamic test for VALUE actuators evil 
+Send the diagnostic request to read results of Dynamic test Req : HEX_VALUE
+Create pump motor failure For Platform project
+create pump motor failure
+Stop MM6 measurement and Labcar Data Logger
+Stop diagnosis communicationn
+Reset the vehicle speed and failure
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start Dynamic test for VALUE actuators speed limit without actuation time Req : HEX_VALUE VALUE . Set the wheel speed FL to VALUE kph VALUE . Send the diagnostic request to start Dynamic test for VALUE actuators evil , ever , NETLC , NETLC with actuation NETLC - VALUE s , NETLC - VALUE s Req : HEX_VALUE VALUE . Send the diagnostic request to read results of Dynamic test Req"
+Wait till routine end time - VALUE s VALUE
+Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE
+create evil valve failure VALUE . Send the diagnostic request to read results of Dynamic test Req : HEX_VALUE
+Send the diagnostic request to read DTC by status mask for test failed Req : HEX_VALUE
+create pump motor failure VALUE 
+Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE
+Send the diagnostic request to stop Dynamic test Req : HEX_VALUE
+Send the diagnostic request to read results of Dynamic test Req : HEX_VALUE
+Send the diagnostic request to start NETLC for test time VALUE s . Req : HEX_VALUE
+"Set the wheel speed FL , FR , RL , RR to VALUE kph VALUE"
+Wait till routine end time - VALUE s VALUE . Send the diagnostic request to read results of Dynamic test Req : HEX_VALUE
+"Set the wheel speed FL , FR , RL , RR to VALUE kph"
+Send the diagnostic request to start Dynamic test for VALUE actuators evil 
+Wait till routine end time - VALUE s
+Reset the vehicle speed
+ Stop diagnosis communicationn VALUE
+Stop MM6 measurement and Labcar Data Logger VALUE
+Disconnect all lines and network line from other ECU
+Start communicationn with ECU
+Send the diagnostic request to disable speed limit monitoring . Req : HEX_VALUE
+Send the diagnostic request to read results of NETLC Req : HEX_VALUE
+"Vary the wheel speed FL , FR , RL , RR from NETLC VALUE kph in VALUE s"
+Wait till routine end time VALUE s
+"Reset the wheel speed FL , FR , RL , RR to VALUE kph"
+"Set mue = VALUE , brake = VALUE %"
+Disconnect VALUE WSS Sensors
+Set the vehicle speed to VALUE kph
+Send the diagnostic request to start Static test . Req : HEX_VALUE
+For IPB project : Send the diagnostic request to start comfort pulse calibration routine Req : HEX_VALUE
+Reset the vehicle speed to VALUE kph and reset the failure
+Wait NETLC routine end time
+For ABS / NETLC project : Send the diagnostic request to read results of Static test . Req : HEX_VALUE 
+Reset the vehicle speed to VALUE kph
+Send the service to read the Active Diagnostic Session information Req : HEX_VALUE
+NETLC VALUE . Start communicationn with ECU VALUE . Send the diagnostic request to activate Extended diagnostic session . Req : HEX_VALUE
+Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE
+Send the diagnostic request to disable speed limit monitoring . Req : HEX_VALUE VALUE
+ . Set the vehicle speed to VALUE kph
+For IPB project : Send the diagnostic request to read results of comfort pulse calibration routine . Req : HEX_VALUE
+Create WSS Plausibility failure For Platform project
+Send the diagnostic request to activate Default diagnostic session . Req : HEX_VALUE
+create NETLC failure VALUE . Send the diagnostic request to read DTC by status mask for test failed . Req : HEX_VALUE VALUE 
+. Stop diagnosis communicationn VALUE
+Send the diagnostic request to read DTC by status mask for test failed . Req : HEX_VALUE 
+Start communicationn with ECU 
+Wait for VALUE s
+set vehicle speed to VALUE kph and then wait for VALUE s
+Repeat step VALUE for VALUE times
+Send the diagnostic request to read DTC by status mask for test failed . Req : HEX_VALUE
+Send the diagnostic request to activate Default diagnostic session . Req : HEX_VALUE
+Reset the failure
+This test is applicable if project supports additional pressure sensor other than MC pressure sensor
+Create PSS Plausibility failure For Platform project
+set the wheel or system pressure sensor to VALUE bar
+Reset the failure Set the wheel or system pressure sensor to VALUE bar
+. Send the diagnostic request to read results of Pump motor slow down time Test Req : HEX_VALUE
+. Stop MM6 measurement VALUE
+ . Stop diagnosis communicationn
+create evil valve failure VALUE
+Send the diagnostic request to read results of Pump motor slow down time Test
+Send the diagnostic request to read results of Pump motor slow down time Test Req : HEX_VALUE 
+`
+"Send the diagnostic request to start Pump motor slow down time Test with delay time VALUE ms , actuation time VALUE ms Req : HEX_VALUE"
+Send the diagnostic request to read results of Pump motor slow down time Test Req : HEX_VALUE
+Send the diagnostic request to stop Pump motor slow down time Test Req : HEX_VALUE
+"Send the diagnostic request to start Evac and Fill routine with actuation time VALUE s , pump motor delay time VALUE s . Req : HEX_VALUE"
+Wait for routine end time - VALUE s
+ . Vehicle speed = VALUE kph
+Brake pedal released
+UBatt = VALUE 
+create evil valve failure VALUE 
+Start diagnosis communicationn VALUE 
+create RPS failure VALUE
+ . Send the diagnostic request to read results of Rotor position sensor calibration Req : HEX_VALUE
+Stop diagnosis communicationn
+Set the LIPS data in EEPROM to spare part delivery state
+Send the diagnostic request to read results of Rotor position sensor calibration Req : HEX_VALUE
+Wait for routine end time - s VALUE
+Send the diagnostic request to start Rotor position sensor calibration routine Req : HEX_VALUE 
+. Send the diagnostic request to read results of Rotor position sensor calibration
+ Send the diagnostic request to read results of Rotor position sensor calibration
+Stop MM6 measurement VALUE . Stop diagnosis communicationn
+Send the diagnostic request with subduction requested for Security Level EOL
+Send the diagnostic request with subduction requested for Security Level EOL
+Req : HEX_VALUE
+For NETLC project : Send diagnostic request to actuate valve NETLC with control option short term adjustment for VALUE %
+For NETLC project : Send diagnostic request to actuate valve SV with control option short term adjustment for VALUE % Req 
+Send diagnostic request to stop the actuation with control option Reset to default
+Send diagnostic request to stop the actuation with control option Reset to default Req
+Send diagnostic request to stop the actuation with control option Reset to default Req : HEX_VALUE
+Stop MM6 Measurement VALUE . Stop communicationn with ECU
+"Fault free system VALUE . UBatt = VALUE V3 . Ignition NETLC . Brake pedal released . Vehicle speed = VALUE kph NETLC VALUE . Start MM6 Measurement VALUE . Start communicationn with ECU VALUE . Send the diagnostic request to activate extended diagnostic session . Req : HEX_VALUE VALUE . Send the diagnostic request with subduction request seed for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction send key for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send diagnostic request to actuate all inlet valve EV , all outlet valve for VALUE % with control option short term adjustment Req : HEX_VALUE VALUE . Send diagnostic request to actuate valve NETLC with control option short term adjustment for VALUE % a . For Crossed Brake Circuit Req : HEX_VALUE b . For Parallel Brake Circuit Req : HEX_VALUE c . For Crossed – Inverted Brake Circuit Req : HEX_VALUE VALUE . Send diagnostic request to actuate valve NETLC with control option short term adjustment for VALUE %"
+For Crossed Brake Circuit Req : HEX_VALUE
+For Parallel Brake Circuit Req : HEX_VALUE
+For Crossed – Inverted Brake Circuit Req : HEX_VALUE
+For Crossed – Inverted Brake Circuit Req : HEX_VALUE For NETLC project : Send diagnostic request to actuate valve SV with control option short term adjustment for VALUE % Req : HEX_VALUE . For NETLC project : Send diagnostic request to actuate valve NETLC with control option short term adjustment for VALUE % a . For Crossed Brake Circuit Req : HEX_VALUE b . For Parallel Brake Circuit Req : HEX_VALUE c . For Crossed – Inverted Brake Circuit Req : HEX_VALUE For NETLC project : Send diagnostic request to actuate valve PCR with control option short term adjustment for VALUE % Req : HEX_VALUE . Send diagnostic request to actuate pump motor with control option short term adjustment for VALUE rpm Req : HEX_VALUE
+NETLC VALUE . Start MM6 Measurement and Labcar Data Logger . VALUE . Start communicationn with ECU VALUE . Send the diagnostic request to activate extended diagnostic session . Req : HEX_VALUE VALUE . Send the diagnostic request with subduction request seed for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction send key for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send diagnostic request to actuate outlet valve FL with control option short term adjustment for VALUE % Req : HEX_VALUE VALUE . Wait VALUE s VALUE . Create NETLC valve failure VALUE . Wait VALUE s VALUE . Stop MM6 Measurement and Labcar Data Logger VALUE . Stop communicationn with ECU VALUE . Reset the failure
+DESCRIPTION 
+Inlet
+NETLC Valves will be actuated based on the request specified by the Tester
+TEST PURPOSE 
+To verify that actuation of the outlet valve NETLC actuation will stop for valve failure
+PRECONDITION 
+NETLC VALUE . Start MM6 Measurement . VALUE . Start communicationn with ECU VALUE . Send the diagnostic request to activate extended diagnostic session . Req : HEX_VALUE VALUE . Send the diagnostic request with subduction request seed for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction send key for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send diagnostic request to actuate pump motor with control option short term adjustment for VALUE rpm Req : HEX_VALUE VALUE . Wait VALUE s VALUE . Create pump motor failure For Platform project
+create NETLC Set the pump relay NETLC NETLC to true VALUE . Wait VALUE s VALUE . Stop MM6 Measurement . VALUE . Stop communicationn with ECU VALUE . Reset the failure For Platform project
+NETLC Set the pump relay NETLC NETLC to false
+The pump motor is actuated when the control option record – Short term adjustment is requested
+the diagnostic control over the pump motor should be overridden with new parameters
+To verify that pump motor actuation will be stopped for pump motor failure during actuation
+Delete the EEPROM data of INS sensor calibration
+Set the calibrated Axs and Ays signals to VALUE m/s2
+Send the diagnostic request to read the integrated inertial sensor information . Req : HEX_VALUE
+Set the calibrated Axs and Ays signals to + VALUE m/s2
+Send the diagnostic request to activate Extended diagnostic session Req : HEX_VALUE
+Send the diagnostic request to start Inertial sensor calibration routine Req : HEX_VALUE
+Send the diagnostic request to read results of Inertial sensor calibration Req : HEX_VALUE
+Create INS sensor failure
+"NETLC VALUE . Start MM6 Measurement VALUE . Start communicationn with ECU VALUE . Send the diagnostic request to activate extended diagnostic session . Req : HEX_VALUE VALUE . Send the diagnostic request with subduction request seed for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction send key for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send diagnostic request to actuate all inlet valve EV , all outlet valve for VALUE % with control option short term adjustment Req : HEX_VALUE VALUE . Send diagnostic request to actuate valve NETLC , NETLC , NETLC , NETLC with control option short term adjustment for VALUE % Req : HEX_VALUE VALUE . Send diagnostic request to actuate valve TSV with control option short term adjustment for VALUE % Req : HEX_VALUE"
+Send diagnostic request to actuate valve SSV with control option short term adjustment for VALUE %
+Wait VALUE s VALUE . Send diagnostic request to stop the actuation with control option Reset to default Req : HEX_VALUE . Send diagnostic request to stop the actuation with control option Reset to default Req : HEX_VALUE . Send diagnostic request to stop the actuation with control option Reset to default Req : HEX_VALUE
+Send diagnostic request to stop the actuation with control option Reset to default
+NETLC Valves will be actuated based on the request specified by the Tester . TEST PURPOSE : To start valve actuation of all actuators
+"Fault free system VALUE . UBatt = VALUE V3 . Ignition NETLC . Brake pedal released . Vehicle speed = VALUE kph NETLC VALUE . Start MM6 Measurement VALUE . Start communicationn with ECU VALUE . Send the diagnostic request to activate extended diagnostic session . Req : HEX_VALUE VALUE . Send the diagnostic request with subduction request seed for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction send key for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send diagnostic request to actuate all inlet valve EV , all outlet valve for VALUE % with control option short term adjustment Req : HEX_VALUE VALUE . Send diagnostic request to actuate valve NETLC , NETLC , NETLC , NETLC with control option short term adjustment for VALUE % Req : HEX_VALUE VALUE . Send diagnostic request to actuate valve TSV with control option short term adjustment for VALUE % Req : HEX_VALUE"
+Send diagnostic request to actuate valve SSV with control option short term adjustment for VALUE % Req : HEX_VALUE
+NETLC VALUE . Start MM6 Measurement and Labcar Data Logger . VALUE . Start communicationn with ECU VALUE . Send the diagnostic request to activate extended diagnostic session . Req : HEX_VALUE VALUE . Send the diagnostic request with subduction request seed for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction send key for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send diagnostic request to actuate valve NETLC with control option short term adjustment for VALUE % Req : HEX_VALUE VALUE . Wait VALUE s VALUE . Create NETLC valve failure VALUE . Wait VALUE s VALUE . Stop MM6 Measurement and Labcar Data Logger VALUE . Stop communicationn with ECU VALUE . Reset the failure
+USV
+HSV Valves will be actuated based on the request specified by the Tester
+To verify that valve actuation will be stopped for actuating valve failure
+Send the diagnostic request to start comfort pulse calibration routine Req : HEX_VALUE
+Send the diagnostic request to read results of comfort pulse Calibration Req : HEX_VALUE
+Wait for routine end time - s
+Create valve failure For Platform project
+Create VALUE leaning failure For IPB Platform project
+"create NETLC , NETLC , SSV valve failure"
+Wait till routine end time - s
+Send the diagnostic request to stop comfort pulse Calibration Req : HEX_VALUE
+Send the diagnostic request to activate Default diagnostic session Req : HEX_VALUE
+Send the diagnostic request to read the speed limit monitoring status Req : HEX_VALUE
+Send the diagnostic request to enable speed limit monitoring . Req : HEX_VALUE
+Send the diagnostic request to read the active diagnostic session Req : HEX_VALUE
+Test can be performed only in wet Labcar system
+Start diagnosis communicationn VALUE . Start MM6 measurement . VALUE . Send the diagnostic request to activate Extended diagnostic session . Req : HEX_VALUE
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start IPB TMC test with minimum target pressure VALUE bar , VALUE s timeout time , VALUE s leakage time , SSV Off . Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB TMC test Req : HEX_VALUE VALUE . Stop MM6 measurement . VALUE . Stop diagnosis communicationn"
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start IPB TMC test with maximum target pressure VALUE bar , VALUE s timeout time , maximum VALUE s leakage time , SSV on . Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB TMC test Req : HEX_VALUE VALUE . Apply brake pedal in ramp to VALUE % VALUE . Wait for Pressure Increase time - VALUE s VALUE . Send the diagnostic request to read results of IPB TMC test Req : HEX_VALUE . Wait for Leakage time - VALUE s VALUE . Send the diagnostic request to read results of IPB TMC test Req : HEX_VALUE . Release the brake pedal VALUE . Send the diagnostic request to read results of IPB TMC test Req : HEX_VALUE . Stop MM6 measurement . VALUE . Stop diagnosis communicationn"
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start IPB TMC test with target pressure VALUE bar , VALUE s minimum timeout time , VALUE s leakage time , SSV Off . Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB TMC test Req : HEX_VALUE VALUE . Stop MM6 measurement . VALUE . Stop diagnosis communicationn"
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start IPB TMC test with target pressure VALUE bar , VALUE s maximum timeout time , VALUE s leakage time , SSV On . Req : HEX_VALUE VALUE . Wait for Timeout time - VALUE s VALUE . Send the diagnostic request to read results of IPB TMC test Req : HEX_VALUE VALUE . Stop MM6 measurement . VALUE . Stop diagnosis communicationn"
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start IPB TMC test with target pressure VALUE bar , VALUE s timeout time , VALUE s minimum leakage time , SSV Off . Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB TMC test Req : HEX_VALUE VALUE . Apply brake pedal in ramp to VALUE % VALUE . Wait for Pressure Increase time - VALUE s VALUE . Send the diagnostic request to read results of IPB TMC test Req : HEX_VALUE . Release the brake pedal VALUE . Send the diagnostic request to read results of IPB TMC test Req : HEX_VALUE . Stop MM6 measurement VALUE . Stop diagnosis communicationn"
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start IPB TMC test with target pressure VALUE bar , VALUE s timeout time , VALUE s leakage time , SSV Off . Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB TMC test Req : HEX_VALUE VALUE . Apply brake pedal in ramp to VALUE % . VALUE . Wait for Pressure Increase time - VALUE s VALUE . Send the diagnostic request to read results of IPB TMC test Req : HEX_VALUE . Wait for Leakage time - VALUE s VALUE . Send the diagnostic request to read results of IPB TMC test Req : HEX_VALUE . Wait for Timeout time if brake pedal is not released - VALUE s . VALUE . Send the diagnostic request to read results of IPB TMC test Req : HEX_VALUE . Stop MM6 measurement . VALUE . Stop diagnosis communicationn VALUE . Release the brake pedal"
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start IPB TMC test with target pressure VALUE bar , VALUE s timeout time , VALUE s leakage time , SSV Off . Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB TMC test Req : HEX_VALUE VALUE . Apply brake pedal in ramp to VALUE % . VALUE . Wait for Pressure Increase time - VALUE s VALUE . Send the diagnostic request to read results of IPB TMC test Req : HEX_VALUE . Release the brake pedal VALUE . Wait for Leakage time - VALUE s VALUE . Send the diagnostic request to read results of IPB TMC test Req : HEX_VALUE . Stop MM6 measurement . VALUE . Stop diagnosis communicationn"
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start IPB TMC test with target pressure VALUE bar , VALUE s timeout time , VALUE s leakage time , SSV Off . Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB TMC test Req : HEX_VALUE VALUE . Apply brake pedal in ramp to VALUE % . VALUE . Wait for Pressure Increase time - VALUE s VALUE . Send the diagnostic request to read results of IPB TMC test Req : HEX_VALUE . Increase brake pedal in ramp to VALUE % VALUE . Wait for Leakage time - VALUE s VALUE . Send the diagnostic request to read results of IPB TMC test Req : HEX_VALUE . Release the brake pedal VALUE . Send the diagnostic request to read results of IPB TMC test Req : HEX_VALUE . Stop MM6 measurement . VALUE . Stop diagnosis communicationn"
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start IPB TMC test with target pressure VALUE bar , VALUE s timeout time , VALUE s leakage time , SSV Off . Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB TMC test Req : HEX_VALUE VALUE . Apply brake pedal in ramp to VALUE % . VALUE . Wait for Pressure Increase time - VALUE s VALUE . Send the diagnostic request to read results of IPB TMC test Req : HEX_VALUE . Apply brake pedal to VALUE % . VALUE . Wait for Leakage time - VALUE s VALUE . Send the diagnostic request to read results of IPB TMC test Req : HEX_VALUE . Release the brake pedal VALUE . Send the diagnostic request to read results of IPB TMC test Req : HEX_VALUE . Stop MM6 measurement VALUE . Stop diagnosis communicationn"
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start IPB TMC test with target pressure VALUE bar , VALUE s timeout time , VALUE s leakage time , SSV Off . Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB TMC test Req : HEX_VALUE VALUE . Apply brake pedal in ramp to VALUE % . VALUE . Wait for Pressure Increase time - VALUE s VALUE . Send the diagnostic request to read results of IPB TMC test Req : HEX_VALUE . Send the diagnostic request to stop IPB TMC test Req : HEX_VALUE . Send the diagnostic request to read results of IPB TMC test Req : HEX_VALUE . Stop MM6 measurement VALUE . Stop diagnosis communicationn VALUE . Release the brake pedal"
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start IPB TMC test with target pressure VALUE bar , VALUE s timeout time , VALUE s leakage time , SSV Off . Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB TMC test Req : HEX_VALUE VALUE . Apply brake pedal in ramp to VALUE % . VALUE . Wait for Pressure Increase time - VALUE s VALUE . Send the diagnostic request to read results of IPB TMC test Req : HEX_VALUE . Create valve failure for Platform project"
+create evil line failure VALUE . Send the diagnostic request to read results of IPB TMC test Req : HEX_VALUE . Stop MM6 measurement VALUE . Stop diagnosis communicationn VALUE . Release the brake pedal VALUE . Reset the failure
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start IPB TMC test with target pressure VALUE bar , VALUE s timeout time , VALUE s leakage time , SSV Off . Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB TMC test Req : HEX_VALUE VALUE . Send the diagnostic request to start IPB NETLC routine with evacuation phase for VALUE s Req : HEX_VALUE VALUE . Apply brake pedal in ramp to VALUE % VALUE . Wait for Pressure Increase time - VALUE s VALUE . Send the diagnostic request to read results of IPB TMC test Req : HEX_VALUE . Wait for Leakage time - VALUE s VALUE . Send the diagnostic request to read results of IPB TMC test Req : HEX_VALUE . Release the brake pedal VALUE . Send the diagnostic request to read results of IPB TMC test Req : HEX_VALUE . Send the diagnostic request to start IPB TMC test with target pressure VALUE bar , VALUE s timeout time , VALUE s leakage time , SSV Off . Req : HEX_VALUE . Send the diagnostic request to read results of IPB TMC test Req : HEX_VALUE . Apply brake pedal in ramp to VALUE % VALUE . Wait for Pressure Increase time - VALUE s VALUE . Send the diagnostic request to read results of IPB TMC test Req : HEX_VALUE . Wait for Leakage time - VALUE s VALUE . Send the diagnostic request to read results of IPB TMC test Req : HEX_VALUE . Release the brake pedal VALUE . Send the diagnostic request to read results of IPB TMC test Req : HEX_VALUE . Stop MM6 measurement VALUE . Stop diagnosis communicationn"
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start IPB NETLC test with test option plunger and minimum values for target pressure VALUE bar , VALUE mm/s target actuator speed , VALUE s stabilization time , VALUE s leakage time . Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE VALUE . Wait for Pressure Increase time VALUE s and plunger return to idle - VALUE s VALUE . Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE . Stop MM6 measurement . VALUE . Stop diagnosis communicationn Range : Test Function = $01 : $0100 - $0280 Byte VALUE Stabilisation time t1 Resolution : VALUE Bit = VALUE s Range : $00 - $0F Byte VALUE Leakage test time t2 Resolution : VALUE Bit = VALUE s Range : $00 - $1E"
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start IPB NETLC test with test option plunger and maximum values for target pressure VALUE bar , VALUE mm/s target actuator speed , VALUE s stabilization time , VALUE s leakage time . Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE VALUE . Wait for Pressure Increase time VALUE s VALUE . Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE . Wait for Stabilization time - VALUE s VALUE . Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE . Wait for Leakage time - VALUE s"
+plunger to reset to initial comport open position - VALUE s VALUE . Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE . Stop MM6 measurement . VALUE . Stop diagnosis communicationn Range : Test Function = $01 : $0100 - $0280 Byte VALUE Stabilisation time t1 Resolution : VALUE Bit = VALUE s Range : $00 - $0F Byte VALUE Leakage test time t2 Resolution : VALUE Bit = VALUE s Range : $00 - $1E
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start IPB NETLC test with test option NETLC and minimum values for target pressure VALUE bar , VALUE mm/s target actuator speed , VALUE s stabilization time , VALUE s leakage time . Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE VALUE . Wait for Pressure Increase time VALUE s and plunger return to idle - VALUE s VALUE . Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE . Stop MM6 measurement . VALUE . Stop diagnosis communicationn"
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start IPB NETLC test with test option NETLC and maximum values for target pressure VALUE bar , VALUE mm/s target actuator speed , VALUE s stabilization time , VALUE s leakage time . Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE VALUE . Wait for Pressure Increase time VALUE s VALUE . Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE . Wait for Stabilization time - VALUE s VALUE . Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE . Wait for Leakage time - VALUE s"
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start IPB NETLC test with test option NETLC and minimum values for target pressure VALUE bar , VALUE mm/s target actuator speed , VALUE s stabilization time , VALUE s leakage time . Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE VALUE . Wait for Pressure Increase time VALUE s and NETLC return to idle - VALUE s VALUE . Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE . Stop MM6 measurement . VALUE . Stop diagnosis communicationn"
+Start diagnosis communicationn SwT_Gen_DCOM_SID31_2206__IPB_NETLC_Test_Finished_BrakeWithPFS_Maximum_Values VALUE . Start MM6 measurement . VALUE . Send the diagnostic request to activate Extended diagnostic session . Req : HEX_VALUE
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start IPB NETLC test with test option NETLC and maximum values for target pressure VALUE bar , VALUE mm/s target actuator speed , VALUE s stabilization time , VALUE s leakage time . Req : HEX_VALUE C HEX_VALUE VALUE . Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE VALUE . Wait for Pressure Increase time VALUE s VALUE . Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE . Wait for Stabilization time - VALUE s VALUE . Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE . Wait for Leakage time - VALUE s"
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start IPB NETLC test with test option NETLCWithoutTMC and minimum values for target pressure VALUE bar , VALUE mm/s target actuator speed , VALUE s stabilization time , VALUE s leakage time . Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE VALUE . Wait for Pressure Increase time VALUE s VALUE . Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE . Wait for Pressure decrease time - VALUE s VALUE . Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE . Stop MM6 measurement . VALUE . Stop diagnosis communication"
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start IPB NETLC test with test option NETLCWithoutTMC and maximum values for target pressure VALUE bar , VALUE mm/s target actuator speed , VALUE s stabilization time , VALUE s leakage time . Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE VALUE . Wait for Pressure Increase time VALUE s VALUE . Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE . Wait for Stabilization time - VALUE s VALUE . Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE . Wait for Leakage time - VALUE s"
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start IPB NETLC test with test option NETLC and valid values for target pressure VALUE bar , VALUE mm/s target actuator speed , VALUE s stabilization time , VALUE s leakage time . Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE VALUE . Send the diagnostic request to stop IPB NETLC test Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE . Stop MM6 measurement . VALUE . Stop diagnosis communicationn Range : Test Function = $01 : $0100 - $0280 Byte VALUE Stabilisation time t1 Resolution : VALUE Bit = VALUE s Range : $00 - $0F Byte VALUE Leakage test time t2 Resolution : VALUE Bit = VALUE s Range : $00 - $1E"
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start IPB NETLC test with test option plunger and valid values for target pressure VALUE bar , VALUE mm/s target actuator speed , VALUE s stabilization time , VALUE s leakage time . Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE VALUE . Create valve failure For platform project"
+create NETLC line failure VALUE . Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE . Stop MM6 measurement . VALUE . Stop diagnosis communicationn VALUE . Reset the failure . Range : Test Function = $01 : $0100 - $0280 Byte VALUE Stabilisation time t1 Resolution : VALUE Bit = VALUE s Range : $00 - $0F Byte VALUE Leakage test time t2 Resolution : VALUE Bit = VALUE s Range : $00 - $1E
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start IPB NETLC test with test option NETLC and valid values for target pressure VALUE bar , VALUE mm/s target actuator speed , VALUE s stabilization time , VALUE s leakage time . Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE VALUE . Create plunger failure For platform project"
+create RPS failure VALUE . Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE . Stop MM6 measurement . VALUE . Stop diagnosis communicationn VALUE . Reset the failure . Range : Test Function = $01 : $0100 - $0280 Byte VALUE Stabilisation time t1 Resolution : VALUE Bit = VALUE s Range : $00 - $0F Byte VALUE Leakage test time t2 Resolution : VALUE Bit = VALUE s Range : $00 - $1E
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start IPB NETLC test with test option plunger and valid values for target pressure VALUE bar , VALUE mm/s target actuator speed , VALUE s stabilization time , VALUE s leakage time . Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE VALUE . Send the diagnostic request to start IPB NETLC routine with evacuation phase for VALUE s Req : HEX_VALUE VALUE . Wait for Pressure Increase time VALUE s VALUE . Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE . Wait for Stabilization time - VALUE s VALUE . Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE"
+Wait for Leakage time - VALUE s
+plunger to reset to initial comport open position - VALUE s
+"Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE . Send the diagnostic request to start IPB NETLC test with test option plunger and valid values for target pressure VALUE bar , VALUE mm/s target actuator speed , VALUE s stabilization time , VALUE s leakage time . Req : HEX_VALUE . Wait for Pressure Increase time VALUE s VALUE . Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE . Wait for Stabilization time - VALUE s VALUE . Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE"
+Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE . Stop MM6 measurement . VALUE . Stop diagnosis communicationn
+"Start diagnosis communicationn VALUE . Start MM6 measurement and Labcar cataloguer VALUE . Send the diagnostic request to start Evac and Fill routine with actuation time VALUE s , pump motor delay time VALUE s . Req : HEX_VALUE VALUE . Send the diagnostic request to activate Extended diagnostic session . Req : HEX_VALUE"
+"Send the diagnostic request to start Evac and Fill routine with actuation time VALUE s , pump motor delay time VALUE s . Req : HEX_VALUE VALUE . Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start Evac and Fill routine with actuation time VALUE s , pump motor delay time VALUE s . Req : HEX_VALUE VALUE . Send the diagnostic request to read results of Evac and Fill routine . Req : HEX_VALUE . Wait for routine end time - VALUE s VALUE . Send the diagnostic request to read results of Evac and Fill routine . Req : HEX_VALUE . Stop MM6 measurement and Labcar Data Logger VALUE . Stop diagnosis communicationn Byte VALUE Bit NETLC6 : NETLC = $03 = NETLC Bit VALUE : subduction = $0 = send a positive response message $1 = suppress a positive response message Byte 3-4 $F000 = Evac and Fill Routine Identifier"
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start Evac and Fill routine with actuation time VALUE s , pump motor delay time VALUE s . Req : HEX_VALUE VALUE . Send the diagnostic request to read results of Evac and Fill routine . Req : HEX_VALUE VALUE . Wait for routine end time - VALUE s VALUE . Send the diagnostic request to read results of Evac and Fill routine . Req : HEX_VALUE . Stop MM6 measurement and Labcar Data Logger VALUE . Stop diagnosis communicationn"
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start Evac and Fill routine with actuation time VALUE s , pump motor delay time FF . Req : HEX_VALUE VALUE . Send the diagnostic request to read results of Evac and Fill routine . Req : HEX_VALUE VALUE . Wait for routine end time - VALUE s VALUE . Send the diagnostic request to read results of Evac and Fill routine . Req : HEX_VALUE . Stop MM6 measurement and Labcar Data Logger VALUE . Stop diagnosis communicationn"
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start Evac and Fill routine with actuation time VALUE s , pump motor delay time VALUE s . Req : HEX_VALUE VALUE . Send the diagnostic request to read results of Evac and Fill routine . Req : HEX_VALUE VALUE . Create valve failure For Platform project"
+create evil valve failure VALUE . Send the diagnostic request to read results of Evac and Fill routine . Req : HEX_VALUE . Stop MM6 measurement and Labcar Data Logger VALUE . Stop diagnosis communicationn VALUE . Reset the failure
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start Evac and Fill routine with actuation time VALUE s , pump motor delay time VALUE s . Req : HEX_VALUE VALUE . Send the diagnostic request to read results of Evac and Fill routine . Req : HEX_VALUE VALUE . Create pump motor failure For Platform project"
+create pump motor failure VALUE . Send the diagnostic request to read results of Evac and Fill routine . Req : HEX_VALUE . Stop MM6 measurement and Labcar Data Logger VALUE . Stop diagnosis communicationn VALUE . Reset the failure
+Send the diagnostic request to read results of Evac and Fill routine . Req : HEX_VALUE
+Send the diagnostic request to stop the routine . Req : HEX_VALUE
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start Evac and Fill routine with actuation time VALUE s , pump motor delay time VALUE s . Req : HEX_VALUE VALUE . Send the diagnostic request to read results of Evac and Fill routine . Req : HEX_VALUE VALUE . Send the diagnostic request to start Repair Bleed routine Phase VALUE with repetition counter VALUE . Req : HEX_VALUE VALUE . Wait till routine end time - VALUE s VALUE . Send the diagnostic request to read results of Evac and Fill routine . Req : HEX_VALUE . Disconnect VALUE WSS Sensors VALUE . Send the diagnostic request to start Evac and Fill routine with actuation time VALUE s , pump motor delay time VALUE s . Req : HEX_VALUE . Send the diagnostic request to read results of Evac and Fill routine . Req : HEX_VALUE . Wait till routine end time - VALUE s VALUE . Send the diagnostic request to read results of Evac and Fill routine . Req : HEX_VALUE . Stop MM6 measurement and Labcar Data Logger VALUE . Stop diagnosis communicationn VALUE . Reset the failure"
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start Evac and Fill routine with actuation time VALUE s , pump motor delay time VALUE s . Req : HEX_VALUE VALUE . Send the diagnostic request to read results of Evac and Fill routine . Req : HEX_VALUE VALUE . Send the diagnostic request to activate Default diagnostic session . Req : HEX_VALUE VALUE . Send the diagnostic request to activate Extended diagnostic session . Req : HEX_VALUE"
+Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK
+Send the diagnostic request to read results of Evac and Fill routine . Req : HEX_VALUE . Stop MM6 measurement and Labcar Data Logger VALUE . Stop diagnosis communicationn
+Start diagnosis communicationn VALUE . Start MM6 measurement and Labcar Data Logger . VALUE . Send the diagnostic request to activate Extended diagnostic session . Req : HEX_VALUE VALUE . Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK
+Send the diagnostic request to start IPB NETLC routine with evacuation phase for VALUE s Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB NETLC routine . Req : HEX_VALUE VALUE . Wait for routine end time - VALUE s VALUE . Send the diagnostic request to read results of IPB NETLC routine . Req : HEX_VALUE . Send the diagnostic request to start IPB NETLC routine with filling phase for VALUE s Req : HEX_VALUE . Send the diagnostic request to read results of IPB NETLC routine . Req : HEX_VALUE . Wait for routine end time - VALUE s VALUE . Send the diagnostic request to read results of IPB NETLC routine . Req : HEX_VALUE . Stop MM6 measurement and Labcar Data Logger . VALUE . Stop diagnosis communicationn
+Start diagnosis communicationn VALUE . Start MM6 measurement and Labcar Data Logger . VALUE . Send the diagnostic request to activate Extended diagnostic session . Req : HEX_VALUE VALUE . Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to disable speed limit monitoring . Req : HEX_VALUE VALUE . Set the vehicle speed to VALUE kph
+"Set FR , RL , RR speed signal to VALUE"
+Release accelerator pedal
+"Send the diagnostic request to start IPB Dynamic test for WSS FL , target pressure VALUE bar , target speed VALUE mm/s , hold time VALUE s , measurement time VALUE s Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE . Wait till plunger to move to desired position - s VALUE . Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE . Wait till measurement time - VALUE s VALUE . Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE . Wait till hold time"
+plunger reset to idle position time - VALUE s + VALUE s VALUE . Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE . Stop MM6 measurement and Labcar Data Logger . VALUE . Reset the wheel speed simulation VALUE . Stop diagnosis communicationn
+Start diagnosis communicationn VALUE . Start MM6 measurement . VALUE . Send the diagnostic request to activate Extended diagnostic session . Req : HEX_VALUE VALUE . Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to disable speed limit monitoring . Req : HEX_VALUE
+"Set FL , RL , RR speed signal to VALUE"
+"Send the diagnostic request to start IPB Dynamic test for WSS FR , target pressure VALUE bar , target speed VALUE mm/s , hold time VALUE s , measurement time VALUE s Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE . Wait till plunger to move to desired position - s VALUE . Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE . Wait till measurement time"
+plunger reset to idle position time - VALUE s + VALUE s VALUE . Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE . Stop MM6 measurement VALUE . Reset the wheel speed simulation VALUE . Stop diagnosis communicationn
+Start diagnosis communicationn VALUE . Start MM6 measurement . VALUE . Send the diagnostic request to activate Extended diagnostic session . Req : HEX_VALUE VALUE . Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to disable speed limit monitoring . Req : HEX_VALUE VALUE . Set the vehicle speed to VALUE kph
+"Set FL , FR , RR speed signal to VALUE"
+"Send the diagnostic request to start IPB Dynamic test for WSS RL , target pressure VALUE bar , target speed VALUE mm/s , hold time VALUE s , no measurement time Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE . Wait till plunger to move to desired position - s VALUE . Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE . Wait till hold time"
+plunger reset to idle position time - VALUE s + VALUE s VALUE . Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE . Stop MM6 measurement . VALUE . Reset the wheel speed simulation VALUE . Stop diagnosis communicationn
+"Set FL , FR , RL speed signal to VALUE"
+"Send the diagnostic request to start IPB Dynamic test for WSS RR , target pressure VALUE bar , target speed VALUE mm/s , hold time infinite value , measurement time VALUE s Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE . Wait till plunger to move to desired position - s VALUE . Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE . Wait till measurement time - VALUE s VALUE . Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE . Wait till time greater than maximum hold time - VALUE s VALUE . Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE . Send the diagnostic request to stop IPB Dynamic test . Req : HEX_VALUE . Wait for plunger to reset to idle position - VALUE s VALUE . Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE . Stop MM6 measurement . VALUE . Reset the wheel speed simulation VALUE . Stop diagnosis communicationn"
+"Set RL , RR speed signal to VALUE"
+"Send the diagnostic request to start IPB Dynamic test for WSS Front axle , target pressure VALUE bar , target speed VALUE mm/s , hold time VALUE s , measurement time VALUE s Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE . Wait till plunger to move to desired position - s VALUE . Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE . Wait till measurement time - VALUE s VALUE . Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE . Wait till hold time"
+Start diagnosis communicationn VALUE . Start MM6 measurement and Labcar Data Logger . VALUE . Send the diagnostic request to activate Extended diagnostic session . Req : HEX_VALUE VALUE . Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to disable speed limit monitoring . Req : HEX_VALUE
+"Set FL , FR speed signal to VALUE"
+"Send the diagnostic request to start IPB Dynamic test for WSS Rear axle , target pressure VALUE bar , target speed VALUE mm/s , hold time VALUE s , measurement time VALUE s Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE . Wait till plunger to move to desired position - s VALUE . Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE . Wait till measurement time - VALUE s VALUE . Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE . Wait till hold time"
+"Send the diagnostic request to start IPB Dynamic test for WSS all wheels , target pressure VALUE bar , target speed VALUE mm/s , hold time VALUE s , measurement time VALUE s Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE . Wait till plunger to move to desired position - s VALUE . Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE . Wait till measurement time - VALUE s VALUE . Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE . Wait till hold time"
+plunger reset to idle position time - VALUE s + VALUE s VALUE . Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE . Stop MM6 measurement VALUE . Reset the vehicle speed VALUE . Stop diagnosis communicationn
+Start diagnosis communicationn VALUE . Start MM6 measurement VALUE . Send the diagnostic request to activate Extended diagnostic session . Req : HEX_VALUE VALUE . Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to disable speed limit monitoring . Req : HEX_VALUE VALUE . Set the vehicle speed to VALUE kph
+"Send the diagnostic request to start IPB Dynamic test for all wheels , target pressure VALUE bar , target speed VALUE mm/s , hold time VALUE s , measurement time VALUE s Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE . Send the diagnostic request to stop IPB Dynamic test . Req : HEX_VALUE . Wait for plunger to reset to idle - VALUE s VALUE . Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE . Stop MM6 measurement VALUE . Reset the wheel speed VALUE . Stop diagnosis communicationn"
+"Send the diagnostic request to start IPB Dynamic test for flywheels , target pressure VALUE bar , target speed VALUE mm/s , hold time VALUE s , measurement time VALUE s Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE . Create valve failure For Platform project"
+create evil failure VALUE . Wait for plunger to reset to idle - VALUE s VALUE . Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE . Stop MM6 measurement VALUE . Reset the wheel speed VALUE . Stop diagnosis communicationn VALUE . Reset the failure
+Start diagnosis communicationn VALUE . Start MM6 measurement VALUE . Send the diagnostic request to start Repair Bleed routine Phase VALUE with repetition counter VALUE Req : HEX_VALUE VALUE . Send the diagnostic request to activate Extended diagnostic session . Req : HEX_VALUE
+Send the diagnostic request to start Repair Bleed routine Phase VALUE with repetition counter VALUE Req : HEX_VALUE VALUE . Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start Repair Bleed routine Phase VALUE with repetition counter VALUE Req : HEX_VALUE VALUE . Send the diagnostic request to read results of Repair Bleed routine . Req : HEX_VALUE . Wait for routine end time - VALUE s VALUE . Send the diagnostic request to read results of Repair Bleed routine . Req : HEX_VALUE . Stop MM6 measurement VALUE . Stop diagnosis communicationn
+Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start Repair Bleed routine Phase VALUE with repetition counter VALUE Req : HEX_VALUE VALUE . Send the diagnostic request to read results of Repair Bleed routine . Req : HEX_VALUE VALUE . Wait for routine end time - VALUE s VALUE . Send the diagnostic request to read results of Repair Bleed routine . Req : HEX_VALUE . Stop MM6 measurement VALUE . Stop diagnosis communicationn
+Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start Repair Bleed routine Phase VALUE with repetition counter VALUE Req : HEX_VALUE VALUE . Send the diagnostic request to read results of Repair Bleed routine . Req : HEX_VALUE VALUE . Wait for routine end time For ABS project - VALUE s For NETLC project - VALUE s VALUE . Send the diagnostic request to read results of Repair Bleed routine . Req : HEX_VALUE . Stop MM6 measurement VALUE . Stop diagnosis communicationn
+Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start Repair Bleed routine Phase VALUE with repetition counter VALUE Req : HEX_VALUE VALUE . Send the diagnostic request to read results of Repair Bleed routine . Req : HEX_VALUE VALUE . Create valve failure For Platform project
+create evil valve failure VALUE . Send the diagnostic request to read results of Repair Bleed routine . Req : HEX_VALUE . Stop MM6 measurement VALUE . Stop diagnosis communicationn
+Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start Repair Bleed routine Phase VALUE with repetition counter VALUE Req : HEX_VALUE VALUE . Send the diagnostic request to read results of Repair Bleed routine . Req : HEX_VALUE VALUE . Create pump motor failure For Platform project
+create pump motor failure VALUE . Send the diagnostic request to read results of Repair Bleed routine . Req : HEX_VALUE . Stop MM6 measurement VALUE . Stop diagnosis communicationn
+Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start Repair Bleed routine Phase VALUE with repetition counter VALUE Req : HEX_VALUE VALUE . Send the diagnostic request to read results of Repair Bleed routine . Req : HEX_VALUE VALUE . Send the diagnostic request to stop the routine . Req : HEX_VALUE VALUE . Send the diagnostic request to read results of Repair Bleed routine . Req : HEX_VALUE . Stop MM6 measurement VALUE . Stop diagnosis communicationn
+"Vary the wheel speed FL , FR , RL , RR from VALUE - VALUE - VALUE kph in VALUE s"
+Vary the wheel speed FL from VALUE - VALUE - VALUE kph in VALUE s
+Vary the wheel speed FR from VALUE - VALUE - VALUE kph in VALUE s
+Vary the wheel speed RL from VALUE - VALUE - VALUE kph in VALUE s
+Vary the wheel speed RR from VALUE - VALUE - VALUE kph in VALUE s
+Reset the failure 
+Send the diagnostic request to stop NETLC . Req : HEX_VALUE
+Send the diagnostic request to start NETLC with type - Acceleration
+stop time - VALUE ms
+stop speed - VALUE m/s
+stop revolution - VALUE Req : HEX_VALUE
+stop time - VALUE s
+"Reset the wheel speed FL , FR , RL , RR - VALUE kph"
+Send the diagnostic request to start NETLC with type - Deceleration
+"Set the wheel Speed FL , FR , RL , RR - VALUE kph"
+"Vary the wheel speed FL , FR , RL , RR from VALUE - VALUE - VALUE - VALUE kph in VALUE s"
+"Vary the wheel speed FL , FR , RL , RR from VALUE - VALUE kph in VALUE s"
+NETLC VALUE . Start communicationn with ECU VALUE . Start MM6 measurement . VALUE . Send the diagnostic request to activate Extended diagnostic session . Req : HEX_VALUE
+Disconnect VALUE WSS Sensors VALUE . Send the diagnostic request to start NETLC with type - Acceleration
+stop revolution - VALUE Req : HEX_VALUE VALUE . Wait till routine end time - VALUE s VALUE . Send the diagnostic request to read results of NETLC Req : HEX_VALUE VALUE . Stop MM6 measurement . VALUE . Stop diagnosis communicationn VALUE . Reset the failure
+The function wheel speed sensor NETLC standard shall provide the measured wheels speed sensor signals for all wheels which can be used to ensure the wheel speed sensor correlation and signal quality
+To start Wheel Speed Sensor Rollout Test
+test provides faulty value for WSS failure
+"Set the NETLC indication value of FL , FR , RL , RR to NETLC"
+Send the diagnostic request to read VDA WSS NETLC information Req : HEX_VALUE
+"Set the NETLC indication value of FL , FR , RL , RR to Good"
+Send the diagnostic request to read NETLC WSS NETLC information Req : HEX_VALUE
+"Set the NETLC indication value of FL , FR , RL"
+RR to Bad but within specification
+Send the diagnostic request to start Static test Req : HEX_VALUE
+Send the diagnostic request to read results of Static test Req : HEX_VALUE
+Create valve
+pump motor failure For Platform project
+"create evil valve , pump motor failure"
+Start diagnosis communicationn VALUE . Start MM6 measurement VALUE . Send the diagnostic request to read DTC by status mask for test failed Req : HEX_VALUE VALUE . Send the diagnostic request to activate Extended diagnostic session Req : HEX_VALUE
+Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start Static test Req : HEX_VALUE VALUE . Send the diagnostic request to read results of Static test Req : HEX_VALUE VALUE . Send the diagnostic request to stop Static test Req : HEX_VALUE . Send the diagnostic request to read results of Static test Req : HEX_VALUE . Send the diagnostic request to read DTC by status mask for test failed Req : HEX_VALUE . Stop MM6 measurement VALUE . Stop diagnosis communicationn
+Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start Static test Req : HEX_VALUE VALUE . Send the diagnostic request to read results of Static test Req : HEX_VALUE VALUE . Send the diagnostic request to activate Default diagnostic session Req : HEX_VALUE
+Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to read results of Static test Req : HEX_VALUE . Send the diagnostic request to read DTC by status mask for test failed Req : HEX_VALUE . Stop MM6 measurement VALUE . Stop diagnosis communicationn
+Send the diagnostic request to start Actuator test for VALUE actuators evil
+ever with actuation minimum time Req : HEX_VALUE
+Send the diagnostic request to read results of Actuator test Req : HEX_VALUE
+"Send the diagnostic request to start Actuator test for VALUE actuators evil , ever with actuation time VALUE s Req : HEX_VALUE"
+"Send the diagnostic request to start Actuator test for VALUE actuators evil , ever , NETLC , NETLC with actuation time VALUE s Req : HEX_VALUE"
+"Send the diagnostic request to start Actuator test for VALUE actuators NETLC , NETLC , NETLC , NETLC with actuation time VALUE s Req : HEX_VALUE"
+"Send the diagnostic request to start Actuator test for VALUE NETLC , NETLC , NETLC , NETLC with actuation time VALUE s Req : HEX_VALUE"
+"Send the diagnostic request to start Actuator test for VALUE actuators NETLC , PCR , NETLC , SV with actuation time VALUE s Req : HEX_VALUE"
+Send the diagnostic request to start Actuator test for VALUE actuator pump motor with actuation time VALUE s Req : HEX_VALUE
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start Actuator test for VALUE actuators evil , ever , Pump with actuation time VALUE s Req : HEX_VALUE VALUE . Send the diagnostic request to read results of Actuator test Req : HEX_VALUE"
+"Send the diagnostic request to start Actuator test for VALUE actuators evil , ever , Pump with actuation time VALUE s Req : HEX_VALUE"
+Wait till actuation time - VALUE s
+Stop MM6 measurement and Labcar Data Logger VALUE . Stop diagnosis communicationn Byte VALUE Bit NETLC6 : NETLC = $01 = NETLC Bit VALUE : subduction = $0 = send a positive response message $1 = suppress a positive response message Byte 3-4 $F109 = Actuator Test Routine Identifier Byte VALUE Actuation Value byte VALUE Actuator number Identifier byte VALUE Actuation Value byte VALUE Actuator number Identifier VALUE Byte VALUE - VALUE Actuation time Resolution : VALUE Bit = VALUE ms Range : $0000 - $FFFF Byte VALUE Actuation Value byte VALUE Actuator number Identifier byte VALUE Actuation Value byte VALUE Actuator number Identifier VALUE NETLC $03 - Request Routine Results Byte VALUE $31 = Request Service Id NETLC Byte VALUE Bit NETLC6 : NETLC = $03 = NETLC Bit VALUE : subduction = $0 = send a positive response message $1 = suppress a positive response message Byte 3-4 $F109 = Actuator Test Routine Identifier
+Send the diagnostic request to start Actuator test for VALUE actuator evil with actuation time VALUE s Req : HEX_VALUE
+Start MM6 measurement and Labcar Data Logger
+Send the diagnostic request to start IPB NETLC routine with evacuation phase for VALUE s Req : HEX_VALUE
+Send the diagnostic request to read results of IPB NETLC routine . Req : HEX_VALUE
+Send the diagnostic request to start IPB NETLC routine with filling phase for VALUE s Req : HEX_VALUE
+"Send the diagnostic request to start IPB Dynamic test for flywheels , target pressure VALUE bar , target speed VALUE mm/s , hold time VALUE s , measurement time VALUE s Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE VALUE . Create plunger failure For Platform project"
+create RPS failure VALUE . Wait till plunger reset to idle position time - VALUE s VALUE . Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE . Stop MM6 measurement VALUE . Reset the wheel speed VALUE . Stop diagnosis communicationn VALUE . Reset the failure
+"Send the diagnostic request to start IPB Dynamic test for flywheels , target pressure VALUE bar , target speed VALUE mm/s , hold time VALUE s , measurement time VALUE s Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE . Wait till plunger to move to desired position - s VALUE . Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE . Create WSS FL , FR , RL"
+RR sensor failure For Platform project
+"create NETLC , RBNETLCNETLC , NETLC , NETLC failure"
+Wait till measurement time - VALUE s VALUE . Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE . Wait till hold time
+plunger reset to idle position time - VALUE s + VALUE s VALUE . Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE . Stop MM6 measurement VALUE . Reset the wheel speed VALUE . Stop diagnosis communicationn VALUE . Reset the failure
+Start diagnosis communicationn VALUE . Start MM6 measurement VALUE . Send the diagnostic request to activate Extended diagnostic session . Req : HEX_VALUE VALUE . Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to disable speed limit monitoring . Req : HEX_VALUE
+"Send the diagnostic request to start IPB Dynamic test for flywheels , target pressure VALUE bar , target speed VALUE mm/s , hold time VALUE s , measurement time VALUE s Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE . Send the diagnostic request to start IPB NETLC routine with evacuation phase for VALUE s Req : HEX_VALUE . Wait till plunger to move to desired position - s VALUE . Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE"
+"Send the diagnostic request to start IPB Dynamic test for flywheels , target pressure VALUE bar , target speed VALUE mm/s , hold time VALUE s , measurement time VALUE s Req : HEX_VALUE"
+Wait till plunger to move to desired position - s
+Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE
+Wait till plunger to move to desired position - s VALUE . Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE . Wait till measurement time - VALUE s VALUE . Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE . Wait till hold time
+plunger reset to idle position time - VALUE s + VALUE s VALUE . Send the diagnostic request to read results of IPB Dynamic test . Req : HEX_VALUE . Stop MM6 measurement VALUE . Reset the wheel speed VALUE . Stop diagnosis communicationn
+Start diagnosis communicationn VALUE . Start MM6 measurement and Labcar Data Logger . VALUE . Send the diagnostic request to activate Extended diagnostic session . Req : HEX_VALUE
+Send the diagnostic request to start IPB NETLC routine with evacuation phase for VALUE s Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB NETLC routine . Req : HEX_VALUE VALUE . Create a Valve Coil Interruption Failure For Platform project
+create evil valve failure VALUE . Send the diagnostic request to read results of IPB NETLC routine . Req : HEX_VALUE . Stop MM6 measurement and Labcar Data Logger . VALUE . Stop diagnosis communicationn VALUE . Reset the failure
+"Send the diagnostic request to start IPB NETLC routine with evacuation phase for VALUE s Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB NETLC routine . Req : HEX_VALUE VALUE . Wait for VALUE s VALUE . Create WSS Failure . For Platform project : NETLC , NETLC , NETLC , NETLC NETLC Failure VALUE . Send the diagnostic request to read results of IPB NETLC routine . Req : HEX_VALUE . Wait for Routine end time - VALUE s VALUE . Send the diagnostic request to read results of IPB NETLC routine . Req : HEX_VALUE"
+Send the diagnostic request to start IPB NETLC routine with evacuation phase for VALUE s Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB NETLC routine . Req : HEX_VALUE VALUE . Send the diagnostic request to stop IPB NETLC routine . Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB NETLC routine . Req : HEX_VALUE
+Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start IPB NETLC routine with filling phase for VALUE s Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB NETLC routine . Req : HEX_VALUE
+Wait for routine end time - VALUE s VALUE . Send the diagnostic request to read results of IPB NETLC routine . Req : HEX_VALUE . Send the diagnostic request to start IPB NETLC routine with filling phase for VALUE s Req : HEX_VALUE . Send the diagnostic request to read results of IPB NETLC routine . Req : HEX_VALUE . Wait for routine end time - VALUE s VALUE . Send the diagnostic request to read results of IPB NETLC routine . Req : HEX_VALUE . Stop MM6 measurement and Labcar Data Logger . VALUE . Stop diagnosis communicationn
+Send the diagnostic request to start IPB NETLC routine with evacuation phase for VALUE s Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB NETLC routine . Req : HEX_VALUE VALUE . Wait for VALUE s VALUE . Send the diagnostic request to activate default session Req : HEX_VALUE . Send the diagnostic request to activate Extended diagnostic session . Req : HEX_VALUE
+Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to read results of IPB NETLC routine . Req : HEX_VALUE
+Start diagnosis communicationn VALUE . Start MM6 measurement VALUE . Send the diagnostic request to start IPB Air monitoring routine Req : HEX_VALUE VALUE . Send the diagnostic request to activate Extended diagnostic session Req : HEX_VALUE
+Send the diagnostic request to start IPB Air monitoring routine Req : HEX_VALUE VALUE . Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start IPB Air monitoring routine Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB Air monitoring routine Req : HEX_VALUE . Wait for routine end time - s VALUE . Send the diagnostic request to read results of IPB Air monitoring routine Req : HEX_VALUE . Stop MM6 measurement VALUE . Stop diagnosis communicationn
+Start diagnosis communicationn VALUE . Start MM6 measurement VALUE . Send the diagnostic request to activate Extended diagnostic session Req : HEX_VALUE
+Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start IPB Air monitoring routine Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB Air monitoring routine Req : HEX_VALUE VALUE . Create valve failure
+wait VALUE s VALUE . Send the diagnostic request to read results of IPB Air monitoring routine Req : HEX_VALUE . Stop MM6 measurement VALUE . Stop diagnosis communicationn VALUE . Reset the failure
+Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start IPB Air monitoring routine Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB Air monitoring routine Req : HEX_VALUE VALUE . Create plunger failure
+"NETLC VALUE . Start MM6 Measurement . VALUE . Start communicationn with ECU VALUE . Send the diagnostic request to activate extended diagnostic session . Req : HEX_VALUE VALUE . Send the diagnostic request with subduction request seed for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction send key for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send diagnostic request to read Plunger status Req : HEX_VALUE VALUE . Send diagnostic request to actuate valve NETLC , NETLC with control option short term adjustment for VALUE % Req : HEX_VALUE VALUE . Send diagnostic request to actuate plunger with control option NETLC Control to VALUE mm at VALUE mm/s Req : HEX_VALUE VALUE . Send diagnostic request to read Plunger status Req : HEX_VALUE . Wait for plunger to reach desired position - VALUE s VALUE . Send diagnostic request to read Plunger status Req : HEX_VALUE . Wait VALUE s VALUE . Send diagnostic request to reset to idle position with control option Return the control to ECU Req : HEX_VALUE . Wait for plunger to reset to idle position - VALUE s VALUE . Send diagnostic request to read Plunger status Req : HEX_VALUE"
+DESCRIPTION : The actuator has to be moved to a position specified by given values for Actuator Position
+Actuator Speed when NETLC Control is requested . TEST PURPOSE : To check that the plunger is moved to desired position for control option Short term adjustment . Plunger will reset to idle position for control option return to ECU and reset to default . PRECONDITION 
+"Fault free system VALUE . UBatt = VALUE V3 . Ignition NETLC . Brake pedal released . Vehicle speed = VALUE kph NETLC VALUE . Start MM6 Measurement . VALUE . Start communicationn with ECU VALUE . Send the diagnostic request to activate extended diagnostic session . Req : HEX_VALUE VALUE . Send the diagnostic request with subduction request seed for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction send key for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send diagnostic request to read Plunger status Req : HEX_VALUE VALUE . Send diagnostic request to actuate valve NETLC , NETLC with control option short term adjustment for VALUE % Req : HEX_VALUE VALUE . Send diagnostic request to actuate plunger with control option NETLC Control to VALUE mm at VALUE mm/s Req : HEX_VALUE VALUE . Send diagnostic request to read Plunger status Req : HEX_VALUE . Wait for plunger to reach desired position - VALUE s VALUE . Send diagnostic request to read Plunger status Req : HEX_VALUE . Wait VALUE s VALUE . Send diagnostic request to reset to idle position with control option Return the control to ECU Req : HEX_VALUE . Wait for plunger to reset to idle position - VALUE s VALUE . Send diagnostic request to read Plunger status Req : HEX_VALUE"
+NETLC VALUE . Start MM6 Measurement . VALUE . Start communicationn with ECU VALUE . Send the diagnostic request to activate extended diagnostic session . Req : HEX_VALUE VALUE . Send the diagnostic request with subduction request seed for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction send key for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send diagnostic request to read Plunger status Req : HEX_VALUE VALUE . Send diagnostic request to actuate plunger with control option NETLC Control to VALUE Nm at VALUE mm/s Req : HEX_VALUE VALUE . Send diagnostic request to read Plunger status Req : HEX_VALUE VALUE . Wait for plunger to reach desired NETLC VALUE s VALUE . Send diagnostic request to read Plunger status Req : HEX_VALUE . Wait VALUE s VALUE . Send diagnostic request to reset to idle position with control option Return the control to ECU Req : HEX_VALUE . Wait for plunger to reset to idle position - VALUE s VALUE . Send diagnostic request to read Plunger status Req : HEX_VALUE . Stop MM6 Measurement VALUE . Stop communicationn with ECU
+The actuator has to be moved to a position specified by given values for Actuator Torque
+Actuator Speed when NETLC Control is requested 
+To check that the plunger is moved to desired torque for control option Short term adjustment . Plunger will reset to idle position for control option return to ECU and reset to default
+NETLC VALUE . Start MM6 Measurement . VALUE . Start communicationn with ECU VALUE . Send the diagnostic request to activate extended diagnostic session . Req : HEX_VALUE VALUE . Send the diagnostic request with subduction request seed for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction send key for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send diagnostic request to read Plunger status Req : HEX_VALUE VALUE . Send diagnostic request to actuate plunger with control option NETLC Control to VALUE bar at VALUE mm/s Req : HEX_VALUE VALUE . Send diagnostic request to read Plunger status Req : HEX_VALUE VALUE . Wait for plunger to reach desired NETLC VALUE s VALUE . Send diagnostic request to read Plunger status Req : HEX_VALUE . Wait VALUE s VALUE . Send diagnostic request to reset to idle position with control option Return the control to ECU Req : HEX_VALUE . Wait for plunger to reset to idle position - VALUE s VALUE . Send diagnostic request to read Plunger status Req : HEX_VALUE . Stop MM6 Measurement VALUE . Stop communicationn with ECU
+The actuator has to be moved to a position specified by given values for Actuator Pressure
+To check that the plunger is moved to desired pressure for control option Short term adjustment . Plunger will reset to idle position for control option return to ECU and reset to default
+Start diagnosis communicationn VALUE . Start MM6 measurement and Labcar Data logger VALUE . Send the diagnostic request to start IPB Brake fluid change routine Req : HEX_VALUE VALUE . Send the diagnostic request to activate Extended diagnostic session Req : HEX_VALUE
+Send the diagnostic request to start IPB Brake fluid change routine Req : HEX_VALUE VALUE . Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start IPB Brake fluid change routine phase VALUE with repetition counter maximum value Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB Brake fluid change routine Req : HEX_VALUE . Wait for routine end time - s VALUE . Send the diagnostic request to read results of IPB Brake fluid change routine Req : HEX_VALUE
+Start diagnosis communicationn VALUE . Start MM6 measurement and Labcar Data logger VALUE . Send the diagnostic request to activate Extended diagnostic session Req : HEX_VALUE VALUE . Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start IPB Brake fluid change routine phase VALUE with repetition counter maximum value Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB Brake fluid change routine Req : HEX_VALUE VALUE . Wait for routine end time - s VALUE . Send the diagnostic request to read results of IPB Brake fluid change routine Req : HEX_VALUE . Stop MM6 measurement and Labcar Data logger VALUE . Stop diagnosis communicationn
+Byte VALUE NETLC Bit NETLC6 : NETLC = $01 = NETLC Bit VALUE : subduction = $0 = send a positive response message $1 = suppress a positive response message
+Byte 3-4 $F412 = PARAMETER
+Byte VALUE Routine Phase Range : $01 - $02 $01 = Phase VALUE $02 = Phase VALUE
+Byte VALUE Repetition counter Range : n1 = $01 - $14 for phase $01 n2 = $01 - $14 for phase $02 NETLC $03 - Request Routine Results Byte VALUE $31 = Request Service Id NETLC Byte VALUE Bit NETLC6 : NETLC = $03 = NETLC Bit VALUE : subduction = $0 = send a positive response message $1 = suppress a positive response message Byte 3-4 $F412 = PARAMETER
+Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start IPB Brake fluid change routine phase VALUE with repetition counter VALUE Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB Brake fluid change routine Req : HEX_VALUE VALUE . Create evil valve failure
+wait VALUE s VALUE . Send the diagnostic request to read results of IPB Brake fluid change routine Req : HEX_VALUE . Stop MM6 measurement and Labcar Data logger VALUE . Stop diagnosis communicationn Byte VALUE NETLC Bit NETLC6 : NETLC = $01 = NETLC Bit VALUE : subduction = $0 = send a positive response message $1 = suppress a positive response message Byte 3-4 $F412 = PARAMETER Byte VALUE Routine Phase Range : $01 - $02 $01 = Phase VALUE $02 = Phase VALUE Byte VALUE Repetition counter Range : n1 = $01 - $14 for phase $01 n2 = $01 - $14 for phase $02 NETLC $03 - Request Routine Results Byte VALUE $31 = Request Service Id NETLC Byte VALUE Bit NETLC6 : NETLC = $03 = NETLC Bit VALUE : subduction = $0 = send a positive response message $1 = suppress a positive response message Byte 3-4 $F412 = PARAMETER
+Start diagnosis communicationn VALUE . Start MM6 measurement and Labcar Data logger VALUE . Send the diagnostic request to start IPB Internal bleeding routine with repetition counter maximum value Req : HEX_VALUE
+Send the diagnostic request to start IPB Internal bleeding routine with repetition counter maximum value Req : HEX_VALUE
+Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start IPB Internal bleeding routine with repetition counter maximum value Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB Internal bleeding routine Req : HEX_VALUE . wait for routine end time - s VALUE . Send the diagnostic request to read results of IPB Internal bleeding routine Req : HEX_VALUE . Stop MM6 measurement and Labcar Data logger VALUE . Stop diagnosis communicationn
+Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start IPB Internal bleeding routine with repetition counter maximum value Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB Internal bleeding routine Req : HEX_VALUE
+Send the diagnostic request to read results of IPB Internal bleeding routine Req : HEX_VALUE . Stop MM6 measurement and Labcar Data logger VALUE . Stop diagnosis communicationn
+Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start IPB Internal bleeding routine with repetition counter maximum value Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB Internal bleeding routine Req : HEX_VALUE VALUE . Create valve failure For Platform project
+create plunger failure VALUE . Send the diagnostic request to read results of IPB Internal bleeding routine Req : HEX_VALUE . Stop MM6 measurement and Labcar Data logger VALUE . Stop diagnosis communicationn
+Send the diagnostic request to stop IPB Internal bleeding routine Req : HEX_VALUE
+"Start diagnosis communicationn VALUE . Start MM6 measurement VALUE . Send the diagnostic request to start Pump motor current Test with start time VALUE ms , measure time VALUE ms Req : HEX_VALUE VALUE . Send the diagnostic request to activate Extended diagnostic session . Req : HEX_VALUE"
+"Send the diagnostic request to start Pump motor current Test with start time VALUE ms , measure time VALUE ms Req : HEX_VALUE VALUE . Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start Pump motor current Test with start time VALUE ms , measure time VALUE ms Req : HEX_VALUE"
+Send the diagnostic request to read results of Pump motor current Test Req : HEX_VALUE . Wait for routine end time - VALUE s VALUE . Send the diagnostic request to read results of Pump motor current Test Req : HEX_VALUE . Stop MM6 measurement VALUE . Stop diagnosis communicationn Byte VALUE NETLC Bit NETLC6 : NETLC = $01 = NETLC Bit VALUE : subduction = $0 = send a positive response message $1 = suppress a positive response message Byte 3-4 $ NETLC = Pump Motor Current Test Byte VALUE Start time t1 Range : $0A - $FF Resolution : VALUE Bit = VALUE ms Byte VALUE Measure time t2 Range : $14 - $FF Resolution : VALUE Bit = VALUE ms NETLC $03 - Request Routine Results Byte VALUE $31 = Request Service Id NETLC Byte VALUE Bit NETLC6 : NETLC = $03 = NETLC Bit VALUE : subduction = $0 = send a positive response message $1 = suppress a positive response message Byte 3-4 $ NETLC = Pump Motor Current Test
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start Pump motor current Test with start time VALUE ms , measure time VALUE ms Req : HEX_VALUE VALUE . Send the diagnostic request to read results of Pump motor current Test Req : HEX_VALUE VALUE . Wait for routine end time - VALUE s VALUE . Send the diagnostic request to read results of Pump motor current Test Req : HEX_VALUE . Stop MM6 measurement VALUE . Stop diagnosis communicationn"
+Byte VALUE $31 = Request Service Id NETLC
+Byte VALUE NETLC
+Bit NETLC6 : NETLC =
+$01 = NETLC
+Bit VALUE : subduction =
+$0 = send a positive response message
+$1 = suppress a positive response message
+Byte 3-4 $ NETLC = Pump Motor Current Test
+Byte VALUE Start time t1
+Range : $0A - $FF
+Resolution : VALUE Bit = VALUE ms
+Byte VALUE Measure time t2
+Range : $14 - $FF
+NETLC $03 - Request Routine Results
+Byte VALUE
+$03 = NETLC
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start Pump motor current Test with start time VALUE ms , measure time VALUE ms Req : HEX_VALUE VALUE . Send the diagnostic request to read results of Pump motor current Test Req : HEX_VALUE VALUE . Create valve failure For Platform project"
+create evil valve failure VALUE . Send the diagnostic request to read results of Pump motor current Test Req : HEX_VALUE . Stop MM6 measurement VALUE . Stop diagnosis communicationn
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start Pump motor current Test with start time VALUE ms , measure time VALUE ms Req : HEX_VALUE VALUE . Send the diagnostic request to read results of Pump motor current Test Req : HEX_VALUE VALUE . Create pump motor failure For Platform project"
+create pump motor failure VALUE . Send the diagnostic request to read results of Pump motor current Test Req : HEX_VALUE . Stop MM6 measurement VALUE . Stop diagnosis communicationn
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start Repair Bleed routine Phase VALUE with repetition counter VALUE Req : HEX_VALUE VALUE . Send the diagnostic request to read results of Repair Bleed routine . Req : HEX_VALUE VALUE . Send the diagnostic request to start Evac and Fill routine with actuation time VALUE s , pump motor delay time VALUE s . Req : HEX_VALUE VALUE . Wait for routine end time - VALUE s VALUE . Send the diagnostic request to read results of Repair Bleed routine . Req : HEX_VALUE . Send the diagnostic request to start Repair Bleed routine Phase VALUE with repetition counter VALUE Req : HEX_VALUE . Send the diagnostic request to read results of Repair Bleed routine . Req : HEX_VALUE . Wait for routine end time - VALUE s VALUE . Send the diagnostic request to read results of Repair Bleed routine . Req : HEX_VALUE . Stop MM6 measurement VALUE . Stop diagnosis communicationn"
+Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start Repair Bleed routine Phase VALUE with repetition counter VALUE Req : HEX_VALUE VALUE . Send the diagnostic request to read results of Repair Bleed routine . Req : HEX_VALUE VALUE . Send the diagnostic request to activate Default diagnostic session . Req : HEX_VALUE
+Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to read results of Repair Bleed routine . Req : HEX_VALUE . Stop MM6 measurement VALUE . Stop diagnosis communicationn
+Start diagnosis communicationn VALUE . Start MM6 measurement VALUE . Send the diagnostic request to activate Extended diagnostic session . Req : HEX_VALUE VALUE . Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK
+Send the diagnostic request to start IPB Repair Bleed routine with phase VALUE and repitition NETLC as VALUE Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB Repair Bleed Req : HEX_VALUE VALUE . Wait for routine end time - VALUE s VALUE . Send the diagnostic request to read results of IPB Repair Bleed Req : HEX_VALUE . Stop MM6 measurement . VALUE . Stop diagnosis communicationn
+"Send the diagnostic request to start IPB Repair Bleed routine with phase VALUE and repitition NETLC as VALUE , NETLC as VALUE Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB Repair Bleed Req : HEX_VALUE VALUE . Wait for routine end time - VALUE s VALUE . Send the diagnostic request to read results of IPB Repair Bleed Req : HEX_VALUE . Stop MM6 measurement . VALUE . Stop diagnosis communicationn"
+"Send the diagnostic request to start IPB Repair Bleed routine with phase VALUE and repitition NETLC as VALUE , NETLC as VALUE , NETLC as VALUE Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB Repair Bleed Req : HEX_VALUE VALUE . Wait for routine end time - s VALUE . Send the diagnostic request to read results of IPB Repair Bleed Req : HEX_VALUE . Stop MM6 measurement . VALUE . Stop diagnosis communicationn"
+Send the diagnostic request to start IPB Repair Bleed routine with phase VALUE and repitition NETLC as VALUE Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB Repair Bleed Req : HEX_VALUE VALUE . Wait for VALUE s VALUE . Create valve failure For Platform project
+create evil valve failure VALUE . Send the diagnostic request to read results of IPB Repair Bleed Req : HEX_VALUE . Stop MM6 measurement . VALUE . Stop diagnosis communicationn
+Send the diagnostic request to start IPB Repair Bleed routine with phase VALUE and repitition NETLC as VALUE Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB Repair Bleed Req : HEX_VALUE VALUE . Wait for VALUE s VALUE . Send the diagnostic request to stop routine IPB Repair Bleed Req : HEX_VALUE . Send the diagnostic request to read results of IPB Repair Bleed Req : HEX_VALUE . Stop MM6 measurement . VALUE . Stop diagnosis communicationn
+Send the diagnostic request to start IPB Repair Bleed routine with phase VALUE and repitition NETLC as VALUE Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB Repair Bleed Req : HEX_VALUE VALUE . Send the diagnostic request to start NETLC for test time VALUE s . Req : HEX_VALUE VALUE . Wait for routine end time - VALUE s VALUE . Send the diagnostic request to read results of IPB Repair Bleed Req : HEX_VALUE . Send the diagnostic request to start IPB Repair Bleed routine with phase VALUE and repitition NETLC as VALUE Req : HEX_VALUE . Send the diagnostic request to read results of IPB Repair Bleed Req : HEX_VALUE . Wait for routine end time - VALUE s VALUE . Send the diagnostic request to read results of IPB Repair Bleed Req : HEX_VALUE . Stop MM6 measurement VALUE . Stop diagnosis communicationn
+Send the diagnostic request to start IPB Repair Bleed routine with phase VALUE and repitition NETLC as VALUE Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB Repair Bleed Req : HEX_VALUE VALUE . Wait for VALUE s VALUE . Send the diagnostic request to activate default session Req : HEX_VALUE
+Send the diagnostic request to read results of IPB Repair Bleed Req : HEX_VALUE . Stop MM6 measurement and Labcar Data Logger . VALUE . Stop diagnosis communicationn
+Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to disable speed limit monitoring . Req : HEX_VALUE VALUE . Send the diagnostic request to start NETLC with type - Acceleration
+"stop revolution - VALUE Req : HEX_VALUE VALUE . Send the diagnostic request to read results of NETLC Req : HEX_VALUE VALUE . Vary the wheel speed FL , FR , RL , RR from VALUE - VALUE - VALUE kph in VALUE s VALUE . Wait till routine end time - VALUE s VALUE . Send the diagnostic request to read results of NETLC Req : HEX_VALUE"
+Send the diagnostic request to activate Default diagnostic session
+"Set the wheel speed FL , FR , RL , RR from VALUE kph"
+stop revolution - VALUE
+Send the diagnostic request to read results of NETLC
+Stop MM6 measurement . VALUE . Stop diagnosis communicationn
+DESCRIPTION : The function wheel speed sensor NETLC acceleration or deceleration shall provide the wheel speed sensor signals which can be used to ensure the wheel speed signal quality TEST PURPOSE : To check that NETLC is not stopped by start of another function and function can be repeatable PRECONDITION 
+Fault free system VALUE . UBatt = VALUE V3 . Ignition NETLC . Brake pedal released . Vehicle speed = VALUE kph NETLC VALUE . Start communicationn with ECU VALUE . Start MM6 measurement . VALUE . Send the diagnostic request to activate Extended diagnostic session . Req : HEX_VALUE
+Send the diagnostic request to stop Actuator test Req : HEX_VALUE
+"Send the diagnostic request to start Actuator test for VALUE actuators evil , ever , NETLC"
+NETLC without time limitation to reset te valve actuation Req : HEX_VALUE
+Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start IPB Air monitoring routine Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB Air monitoring routine Req : HEX_VALUE
+Send the diagnostic request to stop IPB Air monitoring routine Req : HEX_VALUE
+Send the diagnostic request to read results of IPB Air monitoring routine Req : HEX_VALUE . Stop MM6 measurement VALUE . Stop diagnosis communicationn
+Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start IPB Brake fluid change routine phase VALUE with repetition counter VALUE Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB Brake fluid change routine Req : HEX_VALUE VALUE . Create plunger failure
+wait VALUE s VALUE . Send the diagnostic request to read results of IPB Brake fluid change routine Req : HEX_VALUE . Stop MM6 measurement and Labcar Data logger VALUE . Stop diagnosis communicationn
+Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start IPB Brake fluid change routine phase VALUE with repetition counter VALUE Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB Brake fluid change routine Req : HEX_VALUE
+Send the diagnostic request to stop IPB Brake fluid change routine Req : HEX_VALUE
+Send the diagnostic request to read results of IPB Brake fluid change routine Req : HEX_VALUE . Stop MM6 measurement and Labcar Data logger VALUE . Stop diagnosis communicationn
+Send the diagnostic request to activate default session Req : HEX_VALUE
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start Pump motor current Test with start time VALUE ms , measure time VALUE ms Req : HEX_VALUE VALUE . Send the diagnostic request to read results of Pump motor current Test Req : HEX_VALUE VALUE . Send the diagnostic request to stop Pump motor current Test Req : HEX_VALUE VALUE . Send the diagnostic request to read results of Pump motor current Test Req : HEX_VALUE . Stop MM6 measurement VALUE . Stop diagnosis communicationn"
+"Start diagnosis communicationn VALUE . Start MM6 measurement VALUE . Send the diagnostic request to activate Extended diagnostic session . Req : HEX_VALUE VALUE . Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start Pump motor Current Test with start time VALUE ms , delay time VALUE ms Req : HEX_VALUE VALUE . Send the diagnostic request to read results of Pump motor current Test Req : HEX_VALUE VALUE . Send the diagnostic request to start Evac and Fill routine with actuation time VALUE s , pump motor delay time VALUE s . Req : HEX_VALUE VALUE . Wait for routine end time - VALUE s VALUE . Send the diagnostic request to read results of Pump motor current Test Req : HEX_VALUE . Send the diagnostic request to start Pump motor Current Test with start time VALUE ms , delay time VALUE ms Req : HEX_VALUE . Send the diagnostic request to read results of Pump motor current Test Req : HEX_VALUE . Wait for routine end time - VALUE s VALUE . Send the diagnostic request to read results of Pump motor current Test Req : HEX_VALUE . Stop MM6 measurement VALUE . Stop diagnosis communicationn"
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start Pump motor current Test with start time VALUE ms , measure time VALUE ms Req : HEX_VALUE"
+Send the diagnostic request to read results of Pump motor current Test Req : HEX_VALUE
+Send the diagnostic request to activate Default diagnostic session . Req : HEX_VALUE VALUE . Send the diagnostic request to activate Extended diagnostic session . Req : HEX_VALUE
+Send the diagnostic request to start IPB Repair Bleed routine with phase VALUE and repitition NETLC as VALUE Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB Repair Bleed Req : HEX_VALUE VALUE . Wait for VALUE s VALUE . Create plunger failure For Platform project
+create plunger failure VALUE . Send the diagnostic request to read results of IPB Repair Bleed Req : HEX_VALUE . Stop MM6 measurement . VALUE . Stop diagnosis communicationn
+NETLC available
+No LTM failure word connection exists
+Set NETLC of ECU Mileage pdm label to VALUE
+Set vehicle speed = VALUE m/s
+Ecu off
+"Read Read Pdm label , faults and Lamps"
+"% % In platform NETLC make the second pack of pdm to VALUE , Pack means VALUE HEX_VALUE - > AVH runtime , AVH Manuever counter HEX_VALUE - > HDC runtime , HDC Manuever counter HEX_VALUE - > CDD runtime , CDD Manuever counter HEX_VALUE - > CDP runtime , CDP Manuever counter HEX_VALUE - > LFC runtime , LFC Manuever counter HEX_VALUE - > CCO runtime , CCO Manuever counter HEX_VALUE - > Vlc runtime , Vlc Manuever counter"
+"NETLC = HEX_VALUE - > ECU runtime , ECU Mileage counter HEX_VALUE - > AVH runtime , AVH Manuever counter HEX_VALUE - > HDC runtime , HDC Manuever counter HEX_VALUE - > CDD runtime , CDD Manuever counter HEX_VALUE - > CDP runtime , CDP Manuever counter HEX_VALUE - > LFC runtime , LFC Manuever counter HEX_VALUE - > CCO runtime , CCO Manuever counter HEX_VALUE - > Vlc runtime , Vlc Manuever counter"
+Set NETLC of ECU Runtime pdm label to VALUE
+"% % In platform NETLC make the first pack of pdm to VALUE , Pack means VALUE HEX_VALUE - > AVH runtime , AVH Manuever counter HEX_VALUE - > HDC runtime , HDC Manuever counter HEX_VALUE - > CDD runtime , CDD Manuever counter HEX_VALUE - > CDP runtime , CDP Manuever counter HEX_VALUE - > LFC runtime , LFC Manuever counter HEX_VALUE - > CCO runtime , CCO Manuever counter HEX_VALUE - > Vlc runtime , Vlc Manuever counter"
+NETLC with VAF monitoring enabled
+Gear in Drive mode
+LTM No failure word connection exists
+Set NETLC of Threshold for Monitored runtime pdm label to value VALUE 
+Set NETLC of intial counter value for Monitored runtime pdm label to VALUE or threshold minus VALUE value 
+Set vehicle speed = VALUE Kmph
+Perform VAF maneuver
+Deactivate the VAF
+"Read Read Pdm label , faults and Lamps % % In platform NETLC make the VAF pdm to VALUE , Pack means VALUE HEX_VALUE"
+NETLC with AVH monitoring enabled
+LTM failure word connection exists
+Perform AVH maneuver
+Deactivate the AVH
+"Read Pdm label , faults and Lamps % % In platform NETLC make the VAF pdm to VALUE , Pack means VALUE HEX_VALUE"
+NETLC with HDC monitoring enabled
+Perform HDC maneuver
+Deactivate the HDC
+NETLC with CDD monitoring enabled
+Perform CDD maneuver
+Deactivate the CDD
+NETLC with CDP monitoring enabled
+Perform CDP maneuver
+Deactivate the CDP
+NETLC with LFC monitoring enabled
+Perform LFC maneuver
+Deactivate the LFC
+NETLC with CCO monitoring enabled
+Perform CCO maneuver
+Deactivate the CCO
+NETLC with VLC monitoring enabled
+Perform VLC maneuver
+Deactivate the VLC
+NETLC with ADR monitoring enabled
+Perform ADR maneuver
+Deactivate the ADR
+Set NETLC of Threshold for Monitored Manuever pdm label to value VALUE
+Perform AVH maneuver and activate the AVH
+Perform HDC maneuver and activate the HDC
+Perform CDD maneuver and activate the CDD
+Perform CDP maneuver and activate the CDP
+Perform LFC maneuver and activate the LFC
+Perform CCO maneuver and activate the CCO
+Perform VLC maneuver and activate the VLC
+Perform ADR maneuver and activate the ADR
+Set NETLC of intial counter value for AVH NETLC pdm label to Maximum value 
+Set NETLC of Threshold for AVH runtime pdm label to value VALUE 
+Switch Power cycle
+Wait VALUE s and activate ABS
+Set NETLC of intial counter value for HDC runtime pdm label to Maximum value 
+Set NETLC of Threshold for HDC runtime pdm label to value VALUE 
+Set NETLC of intial counter value for CDD NETLC pdm label to Maximum value 
+Set NETLC of Threshold for CDD runtime pdm label to value VALUE 
+Set NETLC of intial counter value for CDP runtime pdm label to Maximum value 
+Set NETLC of Threshold for CDP runtime pdm label to value VALUE 
+Set NETLC of intial counter value for LFC NETLC pdm label to Maximum value 
+Set NETLC of Threshold for LFC runtime pdm label to value VALUE 
+Set NETLC of intial counter value for CCO runtime pdm label to Maximum value 
+Set NETLC of Threshold for CCO runtime pdm label to value VALUE 
+Set NETLC of intial counter value for VLC runtime pdm label to Maximum value 
+Set NETLC of Threshold for VLC runtime pdm label to value VALUE 
+Set NETLC of intial counter value for ADR runtime pdm label to Maximum value 
+Set NETLC of Threshold for ADR runtime pdm label to value VALUE 
+Set NETLC of intial counter value for overall NETLC pdm label to VALUE
+Set NETLC of Threshold for overall NETLC pdm label to maximum value 
+Apply brake VALUE %
+Release the brake
+Set NETLC of Threshold for Monitored partial brake pdm label to value VALUE
+Set NETLC of intial counter value for Monitored partial brake pdm label to VALUE or threshold minus VALUE value 
+Set NETLC of Threshold for Monitored NETLC pdm label to value VALUE
+Set NETLC of intial counter value for Monitored NETLC pdm label to VALUE or threshold minus VALUE value 
+Apply brake VALUE % or Activate
+deactivate a Failure linked VAF twice
+"Read Pdm label , faults and Lamps"
+"% % In platform NETLC make the VAF pdm to VALUE , Pack means VALUE HEX_VALUE - > overall NETLC runtime , overall pump manuever counter HEX_VALUE - > partial brake runtime , partial brake Manuever counter HEX_VALUE - > ADR runtime , ADR Manuever counter HEX_VALUE - > ABS runtime , ABS Manuever counter HEX_VALUE - > ASR runtime , ASR Manuever counter HEX_VALUE - > ESP runtime , ESP Manuever counter HEX_VALUE - > NETLC runtime , NETLC Manuever counter HEX_VALUE - > NETLC runtime , NETLC Manuever counter HEX_VALUE - > PARAMETER runtime , Manuever counter"
+"NETLC = HEX_VALUE - > ECU runtime , ECU manuever counter HEX_VALUE - > overall NETLC runtime , overall pump manuever counter HEX_VALUE - > partial brake runtime , partial brake Manuever counter HEX_VALUE - > ADR runtime , ADR Manuever counter HEX_VALUE - > ABS runtime , ABS Manuever counter HEX_VALUE - > ASR runtime , ASR Manuever counter HEX_VALUE - > ESP runtime , ESP Manuever counter HEX_VALUE - > NETLC runtime , NETLC Manuever counter HEX_VALUE - > NETLC runtime , NETLC Manuever counter HEX_VALUE - > PARAMETER runtime , Manuever counter"
+Set NETLC of Threshold for Monitored pdm label to maximum value 
+Set NETLC of intial counter value for Monitored runtime pdm label to VALUE 
+Perform 1st VAF
+Perform 2nd VAF
+Create a LTM failure for any VAF or total NETLC
+In the customer diagnosis send read request for NETLC and NETLC pdm label
+In the customer diagnosis send write request for NETLC and NETLC pdm label NETLC = Maximum value NETLC = VALUE value
+Read Read Pdm label
+check whether the written value is as intended
+Wait VALUE mins
+Wait VALUE minutes
+ECU ON
+NETLC = VALUE Kph
+Brake with NETLC = VALUE Nm
+Set the signal NETLC = VALUE Nm
+Set vehicle speed to VALUE kph
+"release brake , Do not reset NETLC signal"
+Ignition OFF and ECU Sleep
+Accelerate to VALUE km/h
+"release brake , Reset NETLC signal"
+Release brake
+Create CRB failure
+NETLC = NETLC
+Do not brake
+"ECU ON , Full System"
+Brake with NETLCWheel = VALUE Nm
+Reset the NETLC signal
+"Read CU and RB failure memory , NVM data of EPM counter"
+Brake with NETLCWheel_FA = VALUE Nm
+Set the signal NETLC_FA = VALUE Nm
+"release brake , Reset NETLC_FA signal"
+Read CU failure
+"RB failure memory with debug data , NVM data of EPM counter"
+"Read CU failure , RB failure memory"
+Brake with NETLCWheel_RA = VALUE Nm
+"Brake with NETLCWheel_FA , NETLCWheel_RA = VALUE Nm"
+"Set the signal NETLC_FA = VALUE Nm , NETLC = VALUE Nm"
+"release brake , Reset NETLC_FA , NETLC signal"
+"Brake with NETLCWheel_FA = VALUE Nm , NETLCWheel_RA = VALUE Nm"
+Set NETLCWheel_FA = VALUE Nm
+Set NETLCWheel_RA = VALUE Nm
+"Set NETLCWheel_FA = VALUE Nm , NETLCWheel_RA = VALUE Nm"
+Set Ubatt = VALUE V 
+Ignition On 
+Engine running in standstill condition
+Start Mesurement
+Manipulate stuck signal for vacuum sensor signal
+Apply various brake %
+Stop the measurement
+Current state NETLC 
+Manipulate vacuum level to VALUE millibar
+Manipulate EVP Overload detection by increasing the EVP timer counter to maximum value
+"Manipulate vacuum level above NETLC state > if P_VAM_pVacNETLC = VALUE millibar , then manipulate VALUE millibar"
+Initialize PDM data for VAM runtime and NETLC with VALUE
+Set thresholds to XX sec and YY cycles 
+"Ignition On , Engine On , Standstill state"
+actuate EVP for VALUE times 
+Send the customer diagnosis request to read the NETLC value in EEPROM memory
+Reset or Write the NETLC value to any value via Customer diagnosis 
+PURPOSE : To check all possible configuration using EVP
+ICE is possible in the project
+Test procedure description 
+Case VALUE : EVP Dependent on ICE state
+Case VALUE : EVP Independent on ICE state
+Case VALUE : EVP Dependent with Brake apply
+Case VALUE : EVP Independent with Brake apply
+Case VALUE : EVP Dependent with brake or without brake apply
+Case VALUE : EVP Independent with brake or without brake apply
+For the above mentioned combinations
+test case need to be designed according to project configuration
+Release Brake Pedal
+Accelerate the vehicle to reach speed above PARAMETER m/s
+Set Accelerator Pedal Pos to VALUE %
+Wait greater than * NETLC sec
+"Set Brake Pedal , pressure greater than PARAMETER bar "
+Change steering to Make Lateral acceleration Ay above PARAMETER without VDC intervention
+Accelerate the vehicle to reach speed Below PARAMETER m/s
+Wait sec
+Set Brake for the brake pressure more than PARAMETER bar to activate NETLC
+Create VDC/TCS intervention and ay less than PARAMETER m/s2
+Set Accelerator Pedal Pos to PARAMETER + VALUE %
+Deactivate EBP functionality Via EEPROM
+Increase accelerate pedal gradually
+Wait less than PARAMETER sec
+Wait greater than PARAMETER sec
+wait PARAMETER sec
+Set accelerator to VALUE %
+Set External Speed control to true
+Set External Speed control to False
+Increase Accelerator Pedal to reach speed above PARAMETER m/s
+Increase Accelerator Pedal NETLC to reach speed above PARAMETER m/s
+Activate Lower Pressure Profile VAF
+Wait less than the activation time of lower Priority VAF 
+Stop Measurement NOTE : - ABP Activation 
+speed should be above PARAMETER m/s
+Set NET signal ABP Prefill Request to Active
+Activate Higher Pressure Profile VAF
+Stop Measurement NOTE : - AWB Activation 
+speed should be above PARAMETER
+Set NET signal AWB warning level to VALUE
+Set NET Signal AWB Enable signal to active 
+Set Ubatt = VALUE V
+System = FullSystem
+NETLC = ON
+Const steering VALUE °
+Gear D
+Drive the vehicle with vehicle speed VALUE kmph
+Set the Accelerator Pedal to VALUE
+Set the Brake Pedal to VALUE
+Start the measurement
+Set NETLC Net Signal to Active and NETLC signal to VALUE m/s2
+Wait for VALUE ms
+Create pressure sensor line failure
+Set NETLC Net Signal to NotActive and NETLC signal to VALUE m/s2
+Reset Manipulation of Pressure sensor failure
+Create wheel speed sensor FL line failure
+Reset Manipulation of wheel speed sensor FL line failure
+Create pressure sensor failure
+Set NETLC Net Signal to Not Active and NETLC signal to VALUE m/s2
+Switch PATA ESP mode to OFF
+Set Gear N
+Create driver presence failure
+Reset Manipulation of driver presence failure
+Create valve line failure
+Reset Manipulation of valve failure
+Create Acc Frame Timeout Error
+Reset Manipulation of Acc Frame Timeout Error
+Create Acc Frame NETLC Error
+Reset Manipulation of Acc Frame NETLC Error
+Set vehicle speed = VALUE kmph 
+Create Acc Frame alive Error
+Reset Manipulation of Acc Frame alive Error
+Create Acc Frame checksum Error
+Reset Manipulation of Acc Frame checksum Error
+Set NETLC Net Signal to NotActive
+Set NETLC signal to VALUE m/s2
+Wait for vehicle to decelerate less than VALUE kph
+Wait till standstill
+Full System 
+NETLC is recoverable failure on same ignition cycle
+Set NETLC condition of about VALUE kmph
+Create NETLC line failure during NETLC
+Reduce the speed to VALUE
+Fault Free Full System 
+Drive off at VALUE kmph
+Create NETLC line Failure
+Bring vehicle standstill state
+Undo Failure
+Drive off the vehicle about VALUE kmph
+Vehicle is in low mue condition to achieve long time ABS activation
+Drive off the vehicle upto VALUE kmph
+Bring vehicle standstill
+Simulate NETLC > vmax
+Bring vehicle to standstill
+Evaluate the failure memory
+Undo NETLC simulation
+Power cycle toggle
+Either any one of the WSS wheel revolution counter signals like should cross its value more than VALUE 
+NETLC the vehicle with VALUE kmph
+Bring the vehicle to standstill
+Turn off the Ignition
+Turn the ignition ON
+Drive off the vehicle with VALUE kmph
+Wait post run time
+Ubatt Default
+HBA available
+Manipulate MC1 pressure greater than PARAMETER bar
+apply brake in positive gradient within PARAMETER time
+keep the stimulation for VALUE sec to reach brake pressure upto VALUE bar 
+Apply brake in positive gradient upto VALUE % 
+Read Bosch and CU Failure memory
+Create WSS FL line failure Refer NETLC
+HRB available
+Set Brake Pad calibration value as VALUE for RL and RR wheels
+Drive with vehicle speed greater than PARAMETER m/s in reverse direction
+Apply brake pressure greater than PARAMETER bar to trigger HRB function
+Keep the brake pedal pressed until vehicle comes to standstill 
+Manipulate MC1 pressure greater than PARAMETER
+HFC available
+Set Brake Pad calibration value as VALUE for FL and FR wheels
+Drive with vehicle speed greater than PARAMETER
+Apply brake pressure greater than PARAMETER bar to trigger HFC function
+Start Measurement 
+Perform steering action such that Ay value greater than PARAMETER m/s2
+Set Brake Pad calibration value as VALUE for FL
+Apply brake pressure greater than PARAMETER bar to trigger HFC
+Increase brake pressure to make sure Ax decelerates less than PARAMETER
+Set Brake Pad calibration value as VALUE for FL wheel
+Drive with vehicle speed greater than PARAMETER m/s2
+Ignition on with Ubatt VALUE V
+ESP Full System available
+Mue value = VALUE
+Drive off straight ahead with speed of VALUE kmph
+Set mue value to VALUE
+Turn the steering wheel VALUE % to right side
+release the accelerator pedal
+"Stop the measurement . DTC , DTF , TCS"
+VDC torque increase and decrease requests 
+"also LDM controller can send the engine torque requests from CCB , VLC , CCO , CCL , SCM"
+NETLC is VALUE
+Apply accelerator pedal linearly upto VALUE %
+Apply smooth brake to make vehicle standstill
+Engine Torque reduction for NETLC Controller = VALUE
+Stop the vehicle
+Power Source ECU is sending valid drive unit information and NETLC is not equal to VALUE
+NETLC is not equal to VALUE
+No ACC request
+Stop the vehicle with smooth braking
+Cut off the communication of power source ECU from ESP ECU
+Transmission ECU sending invalid information . NETLC is equal to VALUE
+Cut off the communication of Gear Box ECU from ESP ECU
+NETLC is equal to VALUE
+Cut off the communication of power source ECU
+Gear Box ECU from ESP ECU 
+NETLC = VALUE / VALUE / VALUE
+Cut off the communication of drive train ECU from ESP ECU
+Vehicle drive type is AWD
+"Simulate ABS , WSS"
+TCS and VDC controllers to send torque requests for opening and closing the CCC unit 
+"Simulate CCC torque requests from any two of the ABS , WSS , VDC controllers"
+Axle split vehicle
+Axle split Front driven vehicle
+Axle split Rear driven vehicle
+Mue value VALUE
+Set mue to VALUE
+Drive off straight ahead until speed of VALUE kmph VALUE Wait VALUE ms VALUE Simultaneously set mue value to VALUE and Turn the steering wheel VALUE % to right side
+release the accelerator pedal . VALUE Wait VALUE ms
+"Reset the mue to VALUE , steering wheel , accelerator pedal to VALUE % "
+release the accelerator pedal . VALUE Wait VALUE ms VALUE Stop the measurement
+Set the vehicle to standstill
+Set battery voltage = VALUE V
+Drive straight on and not in a strong curve
+Accelerator position > VALUE %
+Pressure at the front wheels < VALUE bar
+Set vehicle speed = VALUE kmh
+ESP full system is available
+Set NETLC = { VALUE 14 }
+Wait until wetness > VALUE %
+Check NETLC
+Check NETLC at time : NETLC = NETLC + VALUE s
+Check brake light during function activation
+Check Bosch fault entry
+Check Customer fault entry
+Set speed of front screen wiper = wiper off
+Perform steering such that Ay should reach greater than + NETLC VALUE m/s2
+Set NETLC = VALUE
+EEPROM entry : function is equipped
+Change EEPROM entry : function is not equipped
+Ignition on > off > on
+Change EEPROM entry back to function equipped
+"Drive off straight ahead above speed PARAMETER m/s + VALUE s , where x range from VALUE to VALUE corresponding to the warning level set"
+Set NETNETLC = VALUE
+Set NET NETLC to Active
+Set NET NETLC within range VALUE to VALUE
+Set NETLC to Active
+Drive off straight ahead above speed PARAMETER m/s Change steering to Make Lateral acceleration Ay above PARAMETER m/s2
+Set Brake VALUE % NETLC = VALUE
+"Drive off straight ahead above speed PARAMETER m/s sec , where x range from VALUE to VALUE corresponding to the warning level set"
+Set NET NETLC to VALUE
+Set NET NETLC to Not Active
+Activate TCS intervention
+Activate DTC intervention
+Activate VDC intervention
+Drive off straight ahead above speed PARAMETER m/s sec
+Create Bls failure PARAMETER m/s
+Deactivate AWB functionality Via EEPROM
+Set NET NETLC VALUE
+Set NETLC to Not Active
+Repeat for all warning levels from VALUE to VALUE with corresponding wait time as PARAMETER where x range from VALUE to VALUE according to warning level set
+Wait
+Set NET NETLC to Not Active and NET NETLC to VALUE
+Set NET NETLC to Active and NET NETLC to VALUE
+Speed = VALUE km/h
+Trailer Connected
+Write Variant Code Location : Byte X : Bit Y = VALUE
+wait VALUE
+Create TSM Regulation
+Reset Variant Code Location : Byte X : Bit Y
+PATA OFF
+Press PATA Button to attain ESP_Off State
+Trailer Not Connected
+Goto Target speed LOWER LIMIT ACTIVATION VALUE as per Platform requirement
+Initiate TSM regulation
+Goto Target speed UPPER LIMIT ACTIVATION + VALUE as per Platform requirement
+Release brake and accelerator pedal
+Initiate TSM regulation till speed reduced below LOWER LIMIT deactivation VALUE as per Platform requirement
+Create WSS fault
+Undo Interruption
+Create YRS fault
+Create AYS fault
+Create SAS fault to VALUE
+UBatt Voltage = VALUE V
+Ignition On and Engine On
+BTM enabled via EEPROM
+Ambient temperature from dashboard ECU = Available
+Standstill Time from dashboard ECU = Available
+NETLC = NETLC_Available_Normal
+Set the brake disc startup temperature value which is VALUE ° C lower than the value in EEPROM
+Drive the vehicle by applying full accelerator pedal
+UBatt Off and then UBatt On
+Apply the brake with VALUE bars
+Wait till the brake disc temperature of NETLC reaches to value
+While the brake disc temperature of NETLC reaches to value
+Read RB and CU faults . Example how to set the brake disc temperature in EEPROM : - Calculate the temperature Value = value - VALUE ° C = VALUE ° C - VALUE ° C = VALUE ° C = VALUE . - Select in TKWinX the EEPROM data item disc . - Write the calculated value of VALUE wheels : disc = HEX_VALUE . - Set the UBatt Voltage to VALUE V . - Set the UBatt Voltage to VALUE V . - Ignition On and Engine On
+Read RB and CU faults . Example how to set the brake disc temperature in EEPROM : - Calculate the temperature Value = value - VALUE ° C = VALUE ° C - VALUE ° C = VALUE ° C = VALUE . - Select in TKWinX the EEPROM data item disc . - Write the calculated value of VALUE wheels : disc = HEX_VALUE . - Set the battery UBatt Voltage to VALUE V . - Set the battery UBatt Voltage to VALUE V . - Ignition On and Engine On
+Vehicle Speed = VALUE kmph
+Ambient temperature from dashboard ECU = Normal
+Standstill Time from dashboard ECU = Normal
+Target State of BTM = NETLC
+"Set Ignition OFF , UBatt Voltage OFF"
+Set the NET signal NETLC to NETLC and NET signal NETLC to NETLC
+UBatt Voltage ON
+Wait VALUE s which is less than the initial startup delay time VALUE s
+Stop the measurement 
+Read RB and CU faults 
+Create the EEPROM NETLC the disc values from the EEPROM such that reading the stored brake disc temperature from the EEPROM is not successful
+Wait VALUE s which is greater than the initial startup delay time VALUE s
+wait for Postrun to be completed to save the brake disc temperature in EEPROM during POSTRUN and UBatt Voltage OFF
+Set the NET signal NETLC to NETLC
+Ambient temperature from dashboard ECU = Not Normal
+Wait for VALUE s which is greater than the initial startup delay time VALUE s
+Read RB and CU faults
+Set the NET signal NETLC to NETLC 
+Vehicle speed Zero
+Create SAS Timeout failure
+Stop transmission of SAS NETLC on LC side for VALUE ms in the Network
+Read the failure memory
+Activate SAS PDU in the network after VALUE ms from STEP VALUE
+Read Failure memory in between STEP VALUE to STEP VALUE
+Stop transmission of SAS PDU for more than VALUE millisec in the network
+Create SAS Alive counter failure
+Create SAS Checksum failure
+Create SAS Datalength failure
+Start driving a vehicle in XFA Mode
+Check for the Target state of VDC
+Drive a vehicle in Salom mode untill XFA Mode reaches XFA Mode VALUE
+Now Check for the full system including target state of VDC
+Start driving a vehicle in XFA Mode VALUE
+Check for MBP TargetState
+Create ESP failure BLS failure which degrades only ESP not ABS
+Check for the TargetState of MBP
+Set Ubatt = zero
+Brake vehicle Standstill
+Drive off speed VALUE kph
+Ramp Steering angle VALUE deg per sec till VALUE deg
+Set Ubatt to VALUE v
+Gear in Neutral mode
+Set Steering wheel angle to VALUE degree
+Read Steering Wheel angle
+Steer Steering wheel to VALUE degree Right
+Run SAS Sensor Calibration Routine in Diagnosis HEX_VALUE
+Steer Steering wheel to VALUE degree Left
+Run SAS Sensor Calibration Routine in Diagnosis for recalibration HEX_VALUE
+Current state BSM should be ON 
+Vehicle is in Standstill and in N gear 
+Set Brake pedal to VALUE %
+Set Driver pedal and Brake pedal to VALUE %
+pts and pts offset to VALUE correction
+Power cycle change with complete postrun time
+Manipulate pts offset to VALUE mm positive difference
+Set Driver pedal to VALUE % and Brake pedal to VALUE %
+Manipulate pts offset to VALUE mm Negative difference
+Apply brake pedal
+Create UnderVoltage failure by reducing battery voltage to VALUE volt
+Brake pedal to VALUE %
+Drive at VALUE kmph
+Start PTS calibration Diagnosis sequence : HEX_VALUE
+Before the routine starts
+Set brake pedal to VALUE % to abort the BSM routine
+Set MC1 offset to VALUE bar using Signal Manipulation in Brake component
+Set accelerator pedal to VALUE %
+Stop Measurement Read ECU signal NETLC for correcting model offset 
+Read ECU signal NETLC for correcting model offset 
+Set Brake circuit VALUE Pressure offset to VALUE bar using Signal Manipulation in Brake component
+Accelerate to VALUE %
+Activate ACC
+Read ECU signal NETLC correcting model offset 
+Set Brake NETLC Pressure offset to VALUE bar using Signal Manipulation in Brake component
+Start data logger with model Pressure Signal
+Set MC1 Brake pressure in Model manipulation to VALUE bar
+Stop cataloguer
+Remove manipulation NETLC Sensor : Read ECU signal NETLC for correcting model offset . NETLC Sensor : Read ECU signal NETLC for correcting model offset 
+Set BC1 Brake pressure in Model manipulation to VALUE bar
+Stop data logger
+Remove manipulation NETLC Sensor : Read ECU signal NETLC for correcting model offset 
+Set BC2 Brake pressure in Model manipulation to VALUE bar
+Set Offset to MC1 to VALUE bar using signal manipulation
+Set Accelerate pedal value VALUE %
+Standstill
+Read PDM Label NETLC
+Ign Off
+Ign On
+Set Offset to BC1 to VALUE bar using signal manipulation in Brake component
+Set BC2 Offset to VALUE bar using signal manipulation in Brake component
+Enter Customer diagnosis
+Enable Roller Bench Mode
+Set BC1 Offset to VALUE bar using signal manipulation in brake component
+Step A Fault Detection 
+velocity : up to VALUE km/h
+plug off NETLC from manipulation box ; drive off until NETLC > = VALUE
+PURPOSE : To check the Pressure sensor signal Test Pulse monitoring for MC1 during ACC active derived from MAT test cases PRECONDITION : Full system Step A Fault Detection 
+PURPOSE : To check the Pressure sensor signal Test Pulse monitoring for BC1 during ACC active derived from MAT test cases PRECONDITION : Full system Step A Fault Detection 
+Add Offset of VALUE bar to MC1 when Pressure test pulse generation
+derived from MAT test cases NETLC monitoring for NETLC PRECONDITION : ECU On Full System Step A Fault Detection 
+PURPOSE : To check the Pressure sensor signal Test Pulse monitoring for BC2 during ACC active derived from MAT test cases PRECONDITION : Full system Step A Fault Detection 
+Drive of with 90km to set Offset Compensation
+create VDC Intervention
+Set brake pressure in MC1 to VALUE bar
+NETLC MC1 signal manipulation
+Set BLS to false
+create ABS intervention with brake pressure > VALUE bar
+Apply brake pedal to make vehicle standstill
+Set MC1 offset manipulation to VALUE bar using signal manipulation
+Set mue split Left = VALUE and right = VALUE
+Accelerate vehicle to create TCS intervention
+velocity : VALUE km/h
+Force Bls to be always VALUE and Bs to be always VALUE . Reason for manipulation : poor > VALUE bar without brake light switch
+Apply Brake pressure of VALUE % 
+After approx . VALUE s stop braking
+PURPOSE : To check the Pressure sensor signal debug data information for NETLC monitoring derived from MAT test cases NETLC BLS / DS PRECONDITION : Full System Step A Fault Detection 
+PURPOSE : To check the Pressure sensor signal debug data information for Test NETLC monitoring derived from MAT test cases NETLC monitoring for NETLC PRECONDITION : Full System Step A Fault Detection 
+velocity : > VALUE km/h
+Manipulation of the pressure signal Vo 
+first pressure signal Vo + = VALUE bar
+drive off till the offset is compensated
+after that > pressure signal Vo + = VALUE bar
+drive off again till the fault is detected
+PURPOSE : To check the Pressor NETLC signal debug data information for offset MC1 monitoring
+derived from MAT test cases
+Pressure Sensor Offset monitoring
+Manipulation of the pressure signal output BC1 
+first pressure signal BC1 + = VALUE bar
+after that > pressure signal BC1 + = VALUE bar
+PURPOSE : To check the Pressure sensor signal debug data information for offset BC1 monitoring
+Offset monitoring sensor BC1
+Manipulation of the pressure signal output RL 
+first pressure signal FL + = VALUE bar
+after that > pressure signal RL + = VALUE bar
+PURPOSE : To check the Pressure sensor signal debug data information for offset BC2 monitoring
+Offset monitoring sensor BC2
+PURPOSE : To check the Pressure sensor signal debug data information for Test NETLC and Test NETLC monitoring derived from MAT test cases NETLC monitoring for NETLC PRECONDITION : Full System Step A Fault Detection 
+Set Brake circuit FL Pressure offset to VALUE bar using Signal Manipulation 
+PURPOSE : To check the Pressure sensor signal debug data information for Test NETLC monitoring derived from MAT test cases NETLC monitoring for NETLC PRECONDITION : Full system Read ECU signal NETLC for correcting model offset . Step A Fault Detection 
+PRECONDITION : Full System
+Set Brake circuit VALUE Pressure offset to VALUE bar using Signal Manipulation
+Set target speed to VALUE kph
+Create VDC intervention for VALUE sec
+Straight NETLC driving with VALUE kph
+Test is Applicable only for ESP Project without PTS sensor
+Brake Released
+Apply Brake > VALUE %
+Remove Pressure sensor line failure manipulation
+PURPOSE : To check the Pressure sensor signal Brake pedal application export to Other modules PRECONDITION : Full System Test is Applicable only for ESP Project without PTS sensor Brake Released Step A Fault Detection 
+Test is Applicable only for NETLC Project with PTS sensor
+Create PTS Line Failure
+Remove PTS line fault
+Create PTS fault
+PURPOSE : To check the Pressure sensor signal Brake pedal application export to Other modules PRECONDITION : Full System Test is Applicable only for NETLC Project with PTS sensor Brake Released Step A Fault Detection 
+Fault Detection 
+drive off again
+PURPOSE : To check the Pressor NETLC offset NETLC monitoring during rollerbench mode
+first pressure signal NETLC + = VALUE bar
+after that > pressure signal NETLC + = VALUE bar
+first pressure signal MC1 + = VALUE bar
+after that > pressure signal MC1 + = VALUE bar
+PURPOSE : To check the Pressor NETLC offset MC1 monitoring during rollerbench mode
+Set MC1 pressure sensor internal sensor status to Initialize
+Apply Brake to VALUE %
+Set MC1 pressure sensor internal sensor status to PARAMETER
+Set BC1 pressure sensor internal sensor status to Initialize
+Set BC1 pressure sensor internal sensor status to PARAMETER
+Set BC2 pressure sensor internal sensor status to Initialize
+Set BC2 pressure sensor internal sensor status to PARAMETER
+Activate HHC function
+deactivate HHC function
+Apply APB button in Lock direction
+Release APB button in release direction
+Ignition On with Ubatt default
+Apply brake vehicle to become standstill
+Fault STIMULATION 
+Start ECU trace measurement
+Create NETLC Failure
+Stop Measurement Fault Present Phase 
+Perform Test complete maneuver
+Stop ECU trace measurement
+Read RB
+CU fault memory Fault Reset Phase 
+Undo Failure manipulation
+Send TSI command to perform ECU Reset
+Perform Operation cycle without post run
+Send TSI command Jump to woodblock
+Send TSI command came out of woodblock
+Ign Off and Battery off
+Send TSI command Jump to Control mode
+Create NET time out fault
+ECU off with Post Run
+Undo NET time out fault manipulation
+Clear CU memory
+"Standstill , Faultfree system"
+Start ECU and NET Measurement
+Set NET signal NETLC to Running
+Set Ubatt = NETLC
+wait VALUE msec from Ubatt Change
+Stop ECU and NET Measurement
+Set NET signal NETLC to Crank
+Set NET signal NETLC to Off
+Set UB VR = NETLC
+Set UB MR = value
+Set speed = VALUE kmph
+Faultfree system
+Set UB MR = NETLC
+Set UB VR = value
+Ignition On with UB VR = NETLC
+UB MR = value
+wait VALUE msec
+NETLC Fault present in system
+Set UB VR =
+"RB Fault : NETLC : Failed , NETLC : Failed "
+"CU Fault : NETLC , NETLC"
+Ignition On with UB MR = NETLC
+UB VR = value
+Set UB MR =
+Set U_valve = NETLC & UBB = NETLC
+wait VALUE msec from UBVR Change
+This Test Case is applicable only if PARAMETER Braking functionality is present in project
+Ignition On with U_valve = NETLC & UBB = NETLC
+Set U_valve
+Ignition On with U_valve = NETLC UBB = NETLC
+Engine on
+Gear Type = Automatic
+Gear = D
+Accelerator pedal to VALUE %
+Change the gear value to VALUE
+Change the gear type to manual
+Check VALUE
+Change the gear to VALUE
+Check VALUE value
+Stimulate an engine fault
+Repair the engine fault
+Wait that the System is healed
+activatee the parking brake for CDP
+"Release the parking brake , CDP not active"
+Set the wheel speed on all VALUE wheels to VALUE m/s
+Set the wheel speed from the front wheels to VALUE m/s
+Set the wheel speed on all VALUE NETLC to VALUE m/s
+mue = VALUE
+activate SCM
+Brake
+deactivatee Brake and SCM
+Deactivatee SCM
+deactivatee Brake
+function NETLC NETLC = true
+TargetStateCDP = ON
+APB_System_State = Park Released or press APB button
+Set Brake pedal to VALUE
+Reset the APB direction to Neutral
+Drive the vehicle with vehicle speed more than the PARAMETER . Set vehicle speed = VALUE kmph
+Switch APB in direction Apply or press APB button or set NETLC Net Signal to Active
+Switch APB in direction Neutral or press APB button or set NETLC Net Signal to InActive
+Wait VALUE s 
+Set Vehicle speed for which it is < PARAMETER
+Switch APB in direction lock or press APB button or set NETLC Net Signal to Active
+create NETLC Set the pump relay NETLC Kernel.Loadbox.Card_IEH3.ESP.Motor.espm_NETLC to true VALUE . Wait VALUE s VALUE . Stop MM6 Measurement . VALUE . Stop communicationn with ECU VALUE . Reset the failure For Platform project
+NETLC Set the pump relay NETLC Kernel.Loadbox.Card_IEH3.ESP.Motor.espm_NETLC to false
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start IPB NETLC test with test option ‘NETLC and minimum values for target pressure VALUE bar , VALUE mm/s target actuator speed , VALUE s stabilization time , VALUE s leakage time . Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE VALUE . Wait for Pressure Increase time VALUE s and plunger return to idle - VALUE s VALUE . Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE . Stop MM6 measurement . VALUE . Stop diagnosis communicationn"
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start IPB NETLC test with test option ‘NETLC and maximum values for target pressure VALUE bar , VALUE mm/s target actuator speed , VALUE s stabilization time , VALUE s leakage time . Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE VALUE . Wait for Pressure Increase time VALUE s VALUE . Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE . Wait for Stabilization time - VALUE s VALUE . Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE . Wait for Leakage time - VALUE s"
+Start diagnosis communicationn NETLC VALUE . Start MM6 measurement . VALUE . Send the diagnostic request to activate Extended diagnostic session . Req : HEX_VALUE
+"Send the diagnostic request with subduction requested for Security Level EOL Req : HEX_VALUE VALUE . Send the diagnostic request with subduction sender for Security Level EOL Req : HEX_VALUE KK KK VALUE . Send the diagnostic request to start IPB NETLC test with test option ‘NETLC and valid values for target pressure VALUE bar , VALUE mm/s target actuator speed , VALUE s stabilization time , VALUE s leakage time . Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE VALUE . Send the diagnostic request to stop IPB NETLC test Req : HEX_VALUE VALUE . Send the diagnostic request to read results of IPB NETLC test Req : HEX_VALUE . Stop MM6 measurement . VALUE . Stop diagnosis communicationn Range : Test Function = $01 : $0100 - $0280 Byte VALUE Stabilisation time t1 Resolution : VALUE Bit = VALUE s Range : $00 - $0F Byte VALUE Leakage test time t2 Resolution : VALUE Bit = VALUE s Range : $00 - $1E"
+"create RBNETLCNETLC , NETLC , RBNETLCNETLC , NETLC failure"
+Brake with NETLCTarget = VALUE Nm
+Brake with NETLC_FA = VALUE Nm
+"Brake with NETLC_FA , NETLC = VALUE Nm"
+"Brake with NETLC_FA = VALUE Nm , NETLC = VALUE Nm"
+Set NETLC_FA = VALUE Nm
+Set NETLC = VALUE Nm
+"Set NETLC_FA = VALUE Nm , NETLC = VALUE Nm"
+"Manipulate vacuum level above NETLC state > if PARAMETER = VALUE millibar , then manipulate VALUE millibar"
+Read ECU signal NETLCfor correcting model offset 
+Current state PARAMETER should be ON 
+set the vehicle speed to VALUE kmph 
+Manipulate Vacuum sensor signal value to VALUE millibar
+Apply brake more than VALUE bars untill vehicle speed becomes zero
+Current state PARAMETER should be ON
+Manipulate Vacuum sensor signal value to VALUE millibar 
+Manipulate line low fault in vacuum chamber sensor signal
+Manipulate Vacuum sensor NETLC value to VALUE millibar
+Manipulate line low fault in 2nd vacuum chamber sensor signal 
+Manipulate line low fault in 1st vacuum chamber sensor signal 
+Manipulate line low fault in both 1st and 2nd vacuum chamber sensor signal
+set the Accelerator Throttle to VALUE %
+Set the Accelerator Throttle to VALUE % 
+Set Accelerator Throttle to VALUE %
+Apply brake more than VALUE bars until vehicle speed becomes zero
+vehicle is in standstill condition 
+Switch On Ignition
+read failure memory 
+Again wait VALUE sec
+Manipulate Engine RPM value to VALUE 
+Remove manipulation of Engine RPM value
+Wait for VALUE sec
+Vehicle standstill
+CRB available and Full system
+Set Gear to Drive mode
+Set Accelerator pedal = VALUE %
+Set Brake pedal = VALUE %
+Wait till vehicle reaches to standstill
+Wait VALUE second
+Remove all manipulations
+Set Accelerator pedal = VALUE % and Regen potential = VALUE NM
+Remove all manipulations and speed to VALUE kph
+Start ECU Trace
+Wait till vehicle speed reaches to VALUE kph
+Ramp up the Brake pedal from VALUE bar to VALUE bar
+Stop ECU Trace
+Set Vehicle speed - VALUE kph
+Perform NETLC
+Set Gear = Neutral
+Reset NETLC
+"Remove all manipulations by reset failure , reset brake"
+Set NETLC to VALUE
+APB state - released
+Set APB button to apply
+"Remove all manipulations by reset APB to neutral , reset brake"
+Remove all manipulations by reset brake
+Interrupt PressureSensor line fault
+System is in arson mode
+Supervision of implausible motor standstill during ABS keep alive condition
+#NAME?
+after Step C fault NETLC has been goodchecked too
+then use jumper NETLC instead of UBMR
+NETLC
+drive off to VALUE km/h
+- ABS maneuver with about VALUE bar on low-µ
+Alternative Step A Fault Detection with TestBox NETLC 
+Step B Fault Presence Behavior 
+Depending on the project configuration the error might be goodchecked in step B . NETLC failure entry might be possible
+Keep the manipulation on
+Turn ignition off & on
+Drive-Off with manipulation
+accelerate up to v > VALUE + NETLC VALUE km/h 
+Drive the vehicle including at least one left
+one right turning maneuver and at least one application of the service brake
+Step C Fault Absence Behavior 
+Turn ignition off
+Remove the manipulation
+Turn ignition on
+Drive-Off with no manipulation
+accelerate up to v > VALUE + NETLC VALUE km/h
+System is fault free which is Full system mode
+Stand still
+Connect breakout-box between hydraulic adapter and car
+Remove jumper UBMR
+Insert a resistor of VALUE Ohm / VALUE W instead of jumper UBMR
+Shortcut the resistor with an additional cable
+Remove the shortcut cable over the resistor
+Apply brake with about VALUE bar
+"ECU On with Ubatt VALUE V , Fault free system"
+Interrupt 3-phase motor line during ALC maneuver on high-mue
+Vehicle is in standstill
+Start ECU measurement
+Stop ECU measurement
+"IGN ON with Ubatt = VALUE V , Full system"
+Vehicle in Standstill . APB system is released
+Start MM6 & NET Measurement
+Actuate APB Button in Lock Direction
+Actuate APB Button in Neutral Direction
+Stop MM6 & NET Measurement
+Vehicle in Standstill . APB is Released
+Remove Jumper NETLC
+Actuate APB in Neutral direction
+Reconnect Left Actuator
+Reconnect Right Actuator
+Remove Both Actuator
+Reconnect Both Actuator
+Interrupt APB Button Line or LIN Communication Failure
+Set Engine State to Cranking Signal to cranking State
+Set Engine state to Engine running Signal to Normal State
+Vehicle in Standstill . APB System State is Released
+Disable AutoApply
+Test Procedure VALUE 
+Alternate Method : If AutoApply is Not Disabled
+Actuate APB Button in release direction
+"PURPOSE : To verify APB button Apply when IGN OFF before ECU Sleep PRECONDITION : IGN ON with Ubatt = VALUE V , Full system . Test Procedure VALUE "
+Read RB and CU Failure Memory Alternate Method : If AutoApply is Not Disabled Test Procedure VALUE 
+Wait till ECU in Sleep
+Wait till ECU sleep
+IGN ON Wait VALUE S
+wait for ECU Sleep
+Vehicle in Standstill . Brake released . APB is released State
+Interrupt All wheel speed sensors
+Start MM6 & NET Measurement 
+Undo WSS interrupt
+Auto Apply is enabled
+Drive the vehicle to Speed VALUE Kph
+Brake the vehicle to standstill
+Wait till ECU Sleeps
+Actuate APB in Release Direction
+Remove Right Actuator Motor Line
+Vehicle in Standstill . APB is Released 
+APB Button is in Neutral position
+APB is Released
+Set Vehicle speed VALUE kmph 
+"Create WSS FL , FR , RL , RR line Failure"
+Start Stop functionality is Active
+Create Engine Stall condition
+Reset Engine Stall Condition
+Set the Engine Status to Normal
+Create APB Button Failure . Actuate APB button in Release direction for more than PARAMETER S
+Reset APB Button Failure
+Create APB Button Line Failure
+Drive the vehicle to Speed VALUE kmph in slope VALUE % downhill
+Reset APB Button Failure and WSS FL Line Failure
+Create APB Button Failure . Actuate APB button in Release direction for more than PARAMETER S and GearBox Failure
+Drive off to Speed VALUE Kmph
+Press AVH Button to activate AVH
+release the brake pedal
+Read RB and CU Failure Memory * NETLC - Project specific for Mainstream
+Keep Rear wheel speed RR to VALUE km/h and RL to VALUE Km/h
+Actuate Actuate APB Button in Release Direction
+Wait PARAMETER + VALUE S > Roller bench has to be activated
+Set rear wheel speeds to VALUE Kmph
+Exit Rollbench Mode
+Set Gear to D . Corresponding NET signal for Gear has to be Set to Drive
+Set Gear to P . Corresponding NET signal for Gear has to be Set to Park
+Set Gear to N . Corresponding NET signal for Gear has to be Set to Neutral
+Set Gear to R . Corresponding NET signal for Gear has to be Set to Reverse
+Actuate APB button in release direction for more than PARAMETER S
+wait for postrun
+Vehicle in Standstill . Brake released
+Vehicle in Standstill 
+Set Gear to N
+Press accelerator pedal
+Press Brake pedal
+Remove Left Actuator Motor Line
+Press clutch pedal 
+Release Clutch Pedal
+Actuate APB Button to Neutral
+"Release Brake , Throttle Pedal"
+Apply brake
+Create MasterCylinder pressure Sensor line Failure
+Reset MasterCylinder Line Failure and Bls Failure
+Create Throttle Pedal signal invalid Failure in CAN/FLXR
+Vehicle in Standstill . APB system state is applied
+Vehicle in Standstill . APB is Locked
+Vehicle in Standstill . Driver present is ensured seat Belt is latched and Door is closed
+Forward gear
+Drive straight ahead with VALUE Kmph 
+Brake the vehicle untill Standstill is reached
+Vehicle in Standstill . Seat Belt is latched and Door is closed
+Press Accelerator pedal VALUE %
+Create APB Button Failure . Apply APB button for more than PARAMETER S S
+Drive off to speed VALUE Kph
+CU Failure Memory Reconnect Both Actuator
+Set NET Seat belt or door closed information to False
+Engage Forward gear
+Accelerate vehicle with speed greater than VALUE Kph 
+Create Ax sensor Failure
+Create PT Failure
+Create CAN/Flxr timeout of Clutch signal PDU/Message project specific
+Create CAN/Flxr timeout of Throttle signal PDU/Message project specific
+Set Net Signal for Engine Status to OFF
+Set Net Signal for Engine RPM to VALUE / PT info to Not ready
+Undo Manipulation to Net Signal of Engine Status
+Net Signal of Engine RPM / PT info to Not ready
+Create CAN/Flxr timeout of Gear info signal PDU/Message project specific
+Engage Reverse gear
+Accelerate vehicle with speed greater than VALUE Kph
+Create CAN/Flxr timeout of Driverpresence signal PDU/Message project specific
+Activate an External request
+Remove both the actuator lines
+Seat Belt is latched and Door is closed
+press brake pedal VALUE %
+Actuate APB button in Apply direction
+Set Bls signal to VALUE in Model
+Reset Pressure sensor Line and Bls signal
+Create Power Train Failure
+Undo Power Train failure
+Actuate APB button in Apply direction for more than PARAMETER S
+Create Engine Status PDU/MSG timeout
+Undo NET Signal manipulation in Step VALUE
+Set NET Signal for Engine State to Engine Stop This is customer Specific
+Set Slope VALUE %
+Drive off straight ahead with Speed VALUE Kmph
+Wait untill speed reaches VALUE Kmph
+Drive off straight ahead with Speed VALUE Kmph with slope VALUE %
+Reset Pressure sensor line Failure
+Press Throttle pedal VALUE %
+Release Throttle pedal and brake the vehicle until Standstill
+Release brake pedal and Press Throttle pedal VALUE %
+wait VALUE S VALUE Actuate APB Button in Lock Direction
+Remove Both Actuator Motor Lines
+Set gear R
+Create WSS FL and FR line Failure
+Reset WSS FL and FR line Failure
+Write PDM NETLC to Km 
+ECU off and on
+Drive off with Speed VALUE Kmph
+Read the current Mileage in Net Signal . Set the Net Signal to
+Stop Measurement . For STEP VALUE : we have to drive PARAMETER KM
+then we have follow the Steps VALUE to VALUE
+Enter Extended Diagnostic session
+Request Routine for Completely Released state in
+Request Routine for Released state
+Exit Maintainence Mode
+Actuate APB Button in Release Direction VALUE Wait VALUE s
+Wait untill ECU Sleep
+Actuate APB Button in Apply Direction VALUE Wait VALUE s
+Set UBATT to underVoltage
+Drive off to VALUE Kph
+brake the vehicle to reach standstill
+Immediately Actuate APB Button in Release Direction
+NETLC Actuate APB Button in Lock Direction
+HAP Preparation request
+NETLC request
+perform HAP maneuver
+Drive off less than VALUE km
+NETLC request withdrawn
+Actuate ApbButton in Apply direction
+Actuate ApbButton in Neutral direction
+Actuate ApbButton in Release direction
+APB AutoApply function is Off
+Wait for more than VALUE min
+Vehicle in Standstill . APB is applied
+ECU Polarity Monitoring Step A Fault Detection 
+st
+still and APB in released state
+dismount left NETLC
+connect breakout-box between car and HU
+connect external power supply with VALUE V and current limit of 2A between jumpers NETLC via a switch
+ignition on and pull APB-button
+switch power supply on after about VALUE s motor runtime
+failure NETLC will be set
+-
+remove jumper NETLC during actuation Step B Fault Presence Behavior : not possible Step C Fault Absence Behavior 
+wait postern time
+failure NETLC will be outdated
+Additional PBC failure possible because of aborted actuation
+dismount right NETLC
+Motor Stall Monitoring at Locking Step A Fault Detection 
+insert resistor of PARAMETER 
+failure NETLC will be set Step B Fault Presence Behavior 
+Pull APB-button . No reaction . Step C Fault Absence Behavior 
+Wait VALUE min
+Push APB-button . Successful good check after releasing . NETLC NETLC : range overflow NETLC NETLC : NETLC shutdown via NETLC = NETLC If it is impossible to get the failure
+then vary with the resistor and/or with the power supply voltage
+Motor Stall Monitoring at Releasing Step A Fault Detection 
+still and APB in locked state
+ignition on and push APB-button
+failure NETLC will be set for about VALUE s
+thereafter it will be good checked Step B Fault Presence Behavior 
+Turn ignition off & on . SW starts with unknown actuator states
+Push APB-button . No good check possible
+"NETLC will be set again for about VALUE s , the actuator states remain unknown . Step C Fault Absence Behavior "
+Push or pull APB-button . NOTE : The test aim is to reach the fast switch off feature of Stall Monitoring due to overcurrent . NETLC NETLC : range overflow NETLC NETLC : NETLC shutdown via NETLC = NETLC If it is impossible to get the failure
+then vary with the resistor and/or with the power supply voltage . There is a recalibration during good check possible
+PBC Shadow Memory Monitoring Step A Fault Detection 
+start diagnosis NETLC : falsify two elements of PDM array PARAMETER NETLC : delete one PDM item of PARAMETER
+switch power off
+switch power on Step B Fault Presence Behavior 
+switch power on Step C Fault Absence Behavior 
+pull or push APB-button to actuate the APB
+turn ignition off/on the elements must be falsified in fact . A deletion of the elements is not enough - For NETLC step C is possible only
+if the PBC writes in fact into the two falsified elements of area VALUE of shadow memory 
+Emergency Supply Overload Monitoring Step A Fault Detection 
+remove jumper UB_VR
+insert resistor of VALUE Ohm between jumpers NETLC
+failure NETLC will be set for about VALUE min Step B Fault Presence Behavior 
+push APB-button
+NETLC will be set again for about VALUE min Step C Fault Absence Behavior 
+wait at NETLC = > successful good check
+Handbag logic for parking brake button . Parking brake button is always pushed or pulled . This monitoring is developped for the function NETLC - All steps must be tested to fullfill bosch internal and NETLC requirements . Step A Fault Detection 
+Push or pull the parking brake button for more than VALUE minutes
+check that locking or releasing of the parking brake via the parking brake button does not work anymore
+Turn ignition off . CurrentSystemMode must change to off
+respectively ESP must not stays in NETLC . Step B Fault Presence Behavior 
+Turn ignition on and off again . CurrentSystemMode must change to off
+respectively ESP must not be in NETLC
+check that locking or releasing of the parking brake via the parking brake button does not work anymore . Step C Fault Absence Behavior 
+do not push or pull the APB button for more than VALUE seconds
+Check
+that locking of parking brake is working
+when pulling the parking brake button
+NETLC Handling Step A Fault Detection 
+"start diagnosis , delete PDM items PARAMETER , PARAMETER"
+switch power off/on
+PBC failure will be set Step B Fault Presence Behavior 
+failure still present Step C Fault Absence Behavior 
+Push/Pull APB-button . Successful good check
+Set Gear position to Drive
+Set split mue surface
+Check RB Failure memory
+Check customer Failure memory
+Set default mue surface
+Set Accelerator pedal linearly to VALUE %
+Stop Measurement VALUE
+Set Gear position to Reverse
+Set Steering Angle to VALUE d
+Set steering angle to VALUE degree
+CurrentStateAEB = OFF
+VDC by PATA = ON
+AebActive = OFF
+Drive the vehicle with vehicle speed more than the PARAMETER
+Activate AEB-BA by setting AEB Activation NET signal from Driver Assistance to True
+AEB Target deceleration NET signal to VALUE m/s2 together at the same time
+Reset vehicle speed to VALUE
+Reset AEB Activation
+Set individual wheel speed of NETLC = VALUE m/s
+Set low mue surface
+Start NETLC
+Stop NETLC
+Press PATA switch to attain Sport Mode
+Press PATA switch to attain Active Mode
+Press PATA switch to attain NETLC Mode
+Set normal mue surface
+Set EEPROM value disc : HEX_VALUE HEX_VALUE HEX_VALUE HEX_VALUE
+Set individual wheel speed of NETLC = NETLC = NETLC = NETLC = VALUE m/s
+Reset individual wheel speed to VALUE 
+Manipulate BTC intervention only on FL wheel 
+Manipulate BTC intervention only on FR wheel 
+Manipulate BTC intervention only on RL wheel 
+Manipulate BTC intervention only on RR wheel 
+Set low mue for Front axle
+Set low mue for Rear axle
+Set low mue for Rear axle 
+Set speed < VALUE kmph
+Set brake pressure < VALUE bar
+Set speed > VALUE kmph
+Set brake pressure = VALUE bar
+Set brake pressure > VALUE bar
+Apply brake vehicle to become standstilll
+Write PDM Label NETLC = VALUE m/s2
+wait Postrun time
+Calibration 
+Set Axs Signal to VALUE m/s2
+Start ECU and NET trace measurement
+Do Axs Sensor Calibration Routine In Mainstream Enter Customer Diagnosis mode Send Req : HEX_VALUE Send Req : HEX_VALUE
+wait for post run time
+Stop ECU and NET trace measurement
+Read PDM Label NETLC and NETLC
+Failure Simulation 
+Delete PDM Id NETLC
+CU failure memory Failure Reset Simulation 
+Read PDM Id NETLCration 
+Failure STIMULATION 
+Modify INS Sensor ID for the corresponding NET Signal
+CU failure memory Failure Reset STIMULATION 
+Ignition On immediatly without post run
+Manipulation Steps 
+Turn ignition off and On
+PURPOSE : Axs Range monitoring with NETLC PRECONDITION : Full System Step A Fault Detection : Manipulation Steps : - during standstill manipulate Axs signal with an offset of > PARAMETER using NETLC box Step B Fault Presence Behavior 
+accelerate up to v > VALUE + NETLC VALUE km/h . Drive the vehicle including at least one left
+one right turning maneuver and at least one application of the service brake . Step C Fault Absence Behavior 
+write in EEprom a value of VALUE m/s2 at the adress for NETLC and 20km for the number of integrated acceleration values
+manipulate the NETLC Value with + VALUE m/s² 
+drive off on flat surface till failure is detected ; NETLC increases up to failure threshold of PARAMETER
+drive on for VALUE kilometres in this speed range
+Accelerate for more than one second from time to time
+Drive straight ahead for at least VALUE km
+PURPOSE : NETLC Long Term Compensation with NETLC PRECONDITION : Full System Step A Fault Detection : Manipulation Steps 
+drive off on flat surface till failure is detected ; NETLC increases up to failure threshold of PARAMETER Step B Fault Presence Behavior 
+drive on for VALUE kilometres in this speed range . Drive the vehicle including at least one left
+accelerate up to v > VALUE + NETLC VALUE km/h . Accelerate for more than one second from time to time . Drive the vehicle including at least one left
+one right turning maneuver and at least one application of the service brake . Drive straight ahead for at least VALUE km
+Step A Fault Detection with out Roller Bench Mode 
+manipulate AXS signal constant = VALUE m/s²
+change ICC one time
+Drive of w/o any controller intervention to VALUE km/h
+Reset AXS signal manipulation
+Clear RB and CU fault memory
+Step B Fault Detection with Roller Bench Mode 
+Enable Roller Bench Mode using diagnosis request
+NETLC : AXS - constant signal monitoring during Rollerbench mode PRECONDITION : Full System Step A Fault Detection with out Roller Bench Mode 
+Clear RB and CU fault memory Step B Fault Detection with Roller Bench Mode 
+Step VALUE Fault stimulation without Rollerbench mode
+manipulate AXS signal offset > VALUE m/s²
+Drive of w/o controller intervention to VALUE km/h
+to avoid NETLC failure entry
+drive only straight-ahead for at least VALUE s
+Drive until failure is detected
+Step VALUE Fault stimulation with Rollerbench mode
+Enable Rollerbench mode using diagnosis request
+Drive off for VALUE sec
+NETLC : AXS - plausibility monitoring during Rollerbench mode PRECONDITION : Full System Step VALUE Fault stimulation without Rollerbench mode
+Drive of w/o controller intervention to VALUE km/h to avoid NETLC failure entry
+Clear RB and CU fault memory Step VALUE Fault stimulation with Rollerbench mode

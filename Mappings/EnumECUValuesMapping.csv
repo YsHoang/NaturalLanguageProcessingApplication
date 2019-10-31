@@ -1,0 +1,11 @@
+Names,Values,Units,In Project Default
+DTC_ON,ON,,NO
+TIMER_ECU_SLEEP,5000,ms,YES
+CDD_S_ON,ON,,NO
+VDC_ON,ON,,NO
+AEB_ON,OFF,,NO
+VDC_OFF,ON,,
+CDP_ON,ON,,
+FullyUsable,Available,,NO
+ACTIVE,ON,,NO
+NOTACTIVE,OFF,,NO
