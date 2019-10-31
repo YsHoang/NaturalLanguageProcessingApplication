@@ -17,6 +17,7 @@ Test Procedure:
 6. Read RB and CU memory.
 
 Output:
+
 SC_set_Ubatt
 
 SC_ignition_on
