@@ -18,13 +18,21 @@ Test Procedure:
 
 Output:
 SC_set_Ubatt
+
 SC_ignition_on
+
 SC_goto_target_speed
+
 SC_EA_trace_start
+
 SC_goto_target_speed
+
 SC_wait_ms
+
 SC_goto_target_speed
+
 SC_EA_trace_stop
+
 DCOM_read_and_eval_fcm_rb_cu
 
 
