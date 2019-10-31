@@ -5,9 +5,8 @@ from utils.func2Index import label2Index, idex_and_label
 from CollectingData import get_spec_list
 from keras.models import load_model
 import os
-#git push -f origin <branch>
 # Inputs are excel files.
-
+#HOANG NGOC Y
 maxLen = 36  # Should be load from model.
 preds = []
 test_number = 1
