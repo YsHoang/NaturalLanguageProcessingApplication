@@ -8,7 +8,6 @@ Precondition:
 1. Set Ubatt = 13.8 V
 2. Ignition ON
 3. Set Vehicle speed = 0 kph
- 
 Test Procedure:
 1. Start MM6 measurement
 2. Set Vehicle speed to 100 kph.
