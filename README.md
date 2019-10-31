@@ -1,5 +1,6 @@
 # NaturalLanguageProcessingApplication
-The system will read specification and then create scripts
+The system will read specification and then create scripts:
+
 Demos:
 
 Input:
@@ -26,4 +27,5 @@ SC_wait_ms
 SC_goto_target_speed
 SC_EA_trace_stop
 DCOM_read_and_eval_fcm_rb_cu
+
 
