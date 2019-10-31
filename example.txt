@@ -1,0 +1,29 @@
+"Purpose: 
+When a brake circuit failure is detected a NEGUS detection (negativ µ jump from high µ to µ-split) should not be possible.
+Precondition:
+1. Set battery voltage = 12V.
+2. Ignition on, fault free system.
+3. ESP full system is available.
+4. No slope.
+Test Steps:
+1. Drive straight on with vehicle speed = 30kmh.
+2. Set FR_BrakeCaliper_leak_hole_d = 1mm.
+3. Set RL_BrakeCaliper_leak_hole_d = 1mm.
+4. Set accelerator pedal = 0%.
+5. Press brake pedal = 50%.
+6. Wait 120s.
+7. Check signal FBC1.
+8. Set road surface to homogeneous high µ ( µ=1.0 ).
+9. Accelerate vehicle up to 70kmh.
+10. Apply brake pedal = 100% (ABS is getting active).
+11. Wait 2s.
+12. Set road surface to µ split. Left side 0.1 and right side = 1.0
+13. Check ABS_active.
+14. Check Bosch failure words.
+15. Set FR_BrakeCaliper_leak_hole_d = 0mm.
+16. Set RL_BrakeCaliper_leak_hole_d = 0mm.
+
+Attachments Info:
+TEST_59782_TDT.url : td://alltestcampaigns.rb_mainstream_csmosar09.fe-hpalm12.de.bosch.com/qcbin/TestPlanModule-00000000395028973?EntityType=ITest&EntityID=254851
+TEST_59782_Walkthrough_Protocol_Test_Specification_FNID0614ALC_SWT.url : https://inside-ilm.bosch.com/irj/go/nui/sid/60e618ef-9194-3510-c1a5-d85665af050b
+TEST_59782_Walkthrough_Protocol_Test_Script_FNID_0614_ALC_SwT.docx.url :"
